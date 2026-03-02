@@ -1,0 +1,38 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+Steel Diver
+1. Ever Since the Original Star Fox2. Conquering Land, Sea and Sky3. Sugiyama-san Says "No"4. F-Zero in Slow Motion5. Play on a Swivel Chair. Square Off Against Opponents.6. Depth More Than Volume
+Ever Since the Original Star FoxIwataToday, I would like to ask about Steel Diver. Could you each please introduce yourselves?SugiyamaI'm Sugiyama from the Software Development Department of the Entertainment Analysis & Development Division (EAD). I worked as the producer. ImamuraI was director. I'm Imamura, also from the Software Development Department. GilesAnd I was the main programmer. I'm Giles from Vitei Inc.1Thank you for inviting me today.
+Editor's Note: Giles was speaking in Japanese during this interview and his comments have been translated into English by Nintendo.
+IwataIt's a pleasure. You're from England. After you came to Japan, you worked in Miyamoto-san's team for a long time, before striking out on your own.GilesThat's right.
+1. Vitei Inc.: A video game developer founded in 2002. Headquarters: Kyoto. CEO: Giles Goddard.
+MiyamotoAt what age did the young Mr. Giles come to Japan?ImamuraYou were 18, right?GilesYes.MiyamotoWe've been working together ever since he was 18, so we go way back.IwataMay I start at the beginning?ImamuraThe beginning?IwataHow did you first meet "the young Mr. Giles" (laughs) when he came to Japan from England?ImamuraOh, that's what you mean by the beginning! (laughs)MiyamotoThat alone could take up this whole interview! (laughs)Everyone(laughs)IwataAbout 20 years ago, he came to Japan to help us out when Nintendo was making our first attempts at 3D with the Super Famicom system.MiyamotoYeah, he was our helper from overseas! (laughs) At that time, we had partnered with an English company that handled 3D graphics, and we had them send us some of their programmers.Editor's Note: The term "helper from overseas" (suketto gaikokujin) is a term commonly used in Japanese baseball where they refer to foreign players in the league as a form of friendship.ImamuraThere were three, including Giles.MiyamotoRight. And two of them were new employees still wet behind the ears! (laughs) How long were you at your previous company before coming to Nintendo?GilesAbout three years.MiyamotoThree years by the time you were 18, soâ¦GilesI've been working since I was about 16.MiyamotoIn England, many people choose their specialty in junior high. Then they get a job soon after they graduate. I was incredibly surprised at how well they handled their work at such a young age.IwataThat's when you made the first Star Fox.2 Does anything from that time stand out in your memory?
+2. Star Fox: A 3D shooting game released for the Super Famicom (Super NES) system in February 1993. It was the first video game to use the Super FX chip, which made possible the rendering of 3D space.
+ImamuraWhat I remember most is how impressed I was by how amazing the demo sequences programmed by Giles were! The CG back then was still undeveloped, but with his camera work it wasâ¦IwataIt looked cool.ImamuraYeah. We would just hand him some rough storyboards and say, "We want you to do something like this."IwataWith the tools we have today, designers adjust the cameras. But back then, camera work was part of the programmer's job.ImamuraThat's right.IwataIn those days, a programmer's sense for things made a difference as to the outcome.ImamuraYeah. When another designer and I saw the camera work for when you shoot through that passage into the final enemy's fortress, we were both like, "Wow! That's awesome!"MiyamotoI only became able to give instructions about how to move the camera because Giles showed me how he was doing it. I wrote out specs explaining how the Arwing (fighter jet) should face a certain way at a particular camera angle. GilesI made lots of demos for when the Arwing appeared.MiyamotoYeah, lots. (laughs) The Arwing's movement was completely different depending on whether the camera shook up and down or stayed still.ImamuraOh, that's right.MiyamotoHe's also the one who taught me juggling.IwataJuggling?MiyamotoYes. You know how a clown can juggle balls in the air? All the programmers from England could do that.IwataAll three who came to Nintendo could do it?GilesYeah. (laughs)MiyamotoThey'd be juggling and suddenly toss out a floppy disk.IwataHuh? They'd throw floppy disks?MiyamotoBecause there wasn't a network.IwataOh, back then the computers weren't linked.GilesSo we'd toss each other floppy disks for sharing files.MiyamotoThey'd snatch one out of the air and stick it in our computer. (laughs) And when they had some spare moments, they would juggle three balls. I was interested, so I had them teach me.IwataOh! (laughs) Giles, what was it like for you to come to Japan when you were 18 and start working at Nintendo?GilesI didn't know anything about Japan. I thought everyone could speak English.IwataAhhâ¦ (laughs)GilesBut hardly anyone couldâ¦IwataI bet that was hard.GilesOf course, some people could, but when I couldn't communicate with the people around me, I panicked. I didn't know what to do. The first six months were the hardest. Several times, I thought about going back to England.MiyamotoReally?Giles(hanging his head) Yeah. IwataThat's shocking to learn. (laughs)GilesBut I knew I had received a great opportunity when I was still 18.MiyamotoIf you had gone back to England, the first Star Foxâand Stunt Race FX3, which we made after thatâwouldn't have turned out the way they did. And later on, 1080Â° Snowboarding4might have never made it out into the world.ImamuraThat's right. And we might not have been able to make Steel Diver, either.MiyamotoI'm glad he didn't go back! (laughs)Everyone(laughs)
+3. Stunt Race FX: A 3D racing game released for the Super Famicom (Super NES) system in June 1994. It was the second video game to use the Super FX chip.
+4. 1080Â° Snowboarding: A snowboard action game released for the Nintendo 64 system in February 1998.
+Iwata Asks HomeNext
+interviewNintendo 3DS00
+e10Mild Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/steel-diver/0/0/
+- **Downloaded:** 2026-03-02 12:30:30
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

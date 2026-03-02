@@ -1,0 +1,46 @@
+# Wii U
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeWii U
+New Super Mario Bros. U
+1. "What Should Be New?"2. "Mottainai (What a Waste)!"3. "No Buddy Play"4. One Map5. Reading the Posts in Your Hands6. "Touch Everything!"
+"What Should Be New?"IwataToday, I would like to ask you about the New Super Mario Bros. U game. We made this game with the desire and a clear mission in mind to create a classic action Super Mario game which absolutely had to be released simultaneously with the new game console. First, please introduce yourselves, mentioning what you worked on.TakemotoI'm Takemoto from the Entertainment Analysis & Development Division (EAD). I was the director.
+IwataHow long has it been since you were appointed director?TakemotoIt was after development of the last game, New Super Mario Bros. Wii1, ended, so exactly three years.
+1. New Super Mario Bros. Wii: An action game released for the Wii console in December 2009.
+IwataSo development took three years.TakemotoYes.IwamotoI'm Iwamoto, from EAD. Before, I was involved with The Legend of Zelda: Skyward Sword2, which came out one year ago, and then I went right on to join this project as a planner.
+2. The Legend of Zelda: Skyward Sword: An action-adventure game released for the Wii console in November 2011.IwataYou were dedicated to planning this time.IwamotoYes, that's right.AsukeI'm Asuke, also from EAD. As a planner, I worked on the Challenge Mode, one of this game's key features. And for the main mode, I worked on the map screen of the story mode. I was director for both the Wii and Nintendo DS3 versions, so I served as a good counselor to Director Takemoto this time. Um, can I say I was "good"? (laughs)
+3. DS version = New Super Mario Bros. was released for the Nintendo DS system in May 2006.
+TakemotoSure! (laughs)AsukeJust like that, I consulted with Takemoto-san and lent all kinds of support.IwataYou know how hard it is to be a director, so you wanted to lend a hand.AsukeRight.TakemotoAt the time, Asuke-san was the only director who had worked on the "New" Mario games so he was a big help.AsukeI passed on knowledge about all the good parts of the old Super Mario games to Takemoto-san, and as he preserved them, I advised him to expand upon new elements.IwataThere are so many things that must be carried on in the classic 2D Super Mario action games that need to be taught. But on the other hand, if there isn't any freshness to it, they'll get humdrum.AsukeYeah.IwataNew Super Mario Bros. 24 for the Nintendo 3DS system came out right before this game, so if we just did the usual, the players wouldn't be satisfied.
+4. New Super Mario Bros. 2: An action game released for the Nintendo 3DS system in August 2012.
+AsukeRight.IwataThe development hurdles were set highâand I suppose you anguished over them more than anyone, Takemoto-san. What was on your mind as you began development and thought, "What should be new?"TakemotoWe began this time by using materials from the Wii game to make the courses.IwataYou started making it when development equipment didn't exist for the Wii U console.TakemotoRight. Even though we are making a new Super Mario game, the basic gameplay won't change, so we started by making the courses, but the whole time we thought, "How can we add new gameplay?"
+Then, as we were doing that, the Wii U GamePad came up. I explored some ideas and then consulted (Takashi) Tezuka-san5 and (Hiroyuki) Kimura-san.6
+5. Takashi Tezuka: General Manager, Software Development Department, Entertainment Analysis & Development Division. He has been involved in the development of many series such as Super Mario, Yoshi and Animal Crossing. He has appeared in sessions of "Iwata Asks" over the  original Super Mario developers for the 25th anniversary of Super Mario, the history of handheld Legend of Zelda games for  The Legend of Zelda: Spirit Tracks,  New Super Mario Bros. Wii (Volume 2), and  the producers of Super Mario 3D Land, as well as in the special edition sessions of "Iwata Asks" for E3 2012 covering New Super Mario Bros. U and New Super Mario Bros. 2.
+6. Hiroyuki Kimura: Software Development Department, Entertainment Analysis & Development Division. He has been involved in the development of such games as the Super Mario Advance series, New Super Mario Bros. and New Super Mario Bros. Wii. Previously, he appeared in the session of "Iwata Asks" over  Super Mario developers for the 25th anniversary of Super Mario (Volume 1).
+IwataWhat did you talk about?TakemotoWe talked about having four players, with one more person touching the Wii U GamePad to place blocks.IwataSo the idea of drop-in play, with a friend can drop in to play with you, came up pretty early on.TakemotoYeah. But I wasn't sure we could do it. When making New Super Mario Bros. for the Nintendo DS, we had tried various types of gameplay involving touching the bottom screen, but it was underwhelming as gameplay for Super Mario.IwataYou knew from the beginning that it wouldn't be easy to accomplish.TakemotoYeah. I also had the idea that I wanted to create something that people could play without any explanation. When we released Nintendo DS, we held hands-on events for the public.IwataThat would be Touch! DS.7
+7. Touch! DS = Nintendo World Touch! DS: Hands-on events hosted by Nintendo at five locations around Japan in November 2004 before the release of the Nintendo DS system.
+TakemotoRight. At the time, I was involved in development of Yoshi Touch & Go8, so I was there to explain it. A child about 2 years old was there, but when I explained how to draw the lines, he didn't get it at all.
+8. Yoshi Touch & Go: A touch-action game released for the Nintendo DS system in March 2005.
+IwataWell, at 2 years old, it may have been a little too difficult.TakemotoNonetheless, ever since, I've been concerned with controls that you can understand right away without any explanation.IwataYou wanted to make something you could play instinctively?TakemotoYes. I wanted to make something with responses for even a child who doesn't understand language. Then I considered how we could use the touchscreen on the Wii U GamePad for a Super Mario action game. If you just used it to move Mario, touch controls would be inferior to the Wii Remote controller.IwataButton controls are better suited to Mario's actions.TakemotoRight. But touching it to have blocks appear is easy to understand, and when I tried it, I saw that it was fun. Then I decided to pack in more gameplay like that.IwataBut if you can make blocks appear wherever you want, Mario would be able to go to all sorts of places, so weren't you afraid that the difficulty would change drastically and it would fall apart game-wise?TakemotoI was worried about that. At first, making blocks appear would make the landforms completely unnecessary, but if you make it so that it requires complicated conditionsâ¦IwataIt wouldn't be instinctive at all.TakemotoExactly.IwataAnd being able to make blocks appear anywhere would help beginners, but better players might think, "This has nothing to do with me."TakemotoYeah, that was the key issue.IwataBut in the end, it seems to me that the game turned out with balance so that both beginning and skilled gamers will be satisfied. How did you accomplish that?TakemotoI had Asuke-san help me.IwataOh! Enter your "good" counselor! (laughs)Asuke(laughs)
+Iwata Asks HomeNext
+interviewNew Super Mario Bros. U00
+eComic Mischief
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Wii U
+- **URL:** https://iwataasks.nintendo.com/interviews/wiiu/nsmbu/0/0/
+- **Downloaded:** 2026-03-02 12:32:08
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

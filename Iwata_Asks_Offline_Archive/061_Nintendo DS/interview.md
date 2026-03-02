@@ -1,0 +1,36 @@
+# Nintendo DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo DS
+See All VolumesSelect the volume you would like to read:Volume 1 : HardwareVolume 2 : Internal SoftwareVolume 3 : Nintendo DSi BrowserVolume 4 : Asking IwataVolume 5 : WarioWare: Snapped!Volume 6 : Brain Age ExpressVolume 7 : Flipnote StudioVolume 8 : Yoichi Kotabe
+Volume 2 : Internal Software
+1. Presenting a New DS2. A Digital Camera You Can Play With3. Playing with Sound and Music4. Dedicated to Fun
+Presenting a New DSIwataThis time I'd like to ask some questions about the features built into Nintendo DSi. First let's have those who played general roles introduce themselves.Kuroume
+I'm Tomoaki Kuroume from the UI Design Group within the Software Development & Design Department. After working on the Wii console, I began working on the built in features of the Nintendo DSi. Compared with when I worked on Wii, I was looking at the entire development processes from a broader perspective this time. It was my job to facilitate the team's progress and coordinate uniformity in design.
+IwataMatsushima-san, you also worked on the Wii console, right?MatsushimaYes. I made what's now called the Nintendo DSi Menu.Iwata Next is Shigeru Miyamoto, whose name precedes him. (laughs) Ladies and gentlemen, I give you Shigeru Miyamoto.Miyamoto(laughs)IwataI have questions for everyone. Miyamoto-san, feel free to jump in at any time.MiyamotoSure.IwataKuroume-san, what was the first thing you thought back when you first started working on Nintendo DSi?KuroumeGiven how thoroughly the DS has assumed its place in the world, I wondered how much we should carry on the overall feel of its previous iterations, and how much we should add new elements, considering that the Nintendo DSi is a new piece of hardware. I thought about achieving that balance.
+IwataHow much does the final product differ from what you imagined at that time?KuroumeIn general appearance it doesn't differ that much at all. Again, it's got two screens and their resolution hasn't changed, so it's generally close to what I imagined. IwataBuilding upon what you first imagine is what makes the built in features. I'm guessing that you expected quite a lot could be incorporated into the console this time.KuroumeThat's right. A lot of people on the team had worked on Wii. Everyone shared a sense of joy, an understanding of the value, of making a console packed with amazing capabilities.IwataIn other words, you had all worked together on the Wii console and experienced a sense of satisfaction in providing users with satisfying built in features, so everyone was positive about working on those features again. You knew that it would be more fun for users if you really beefed it up. KuroumeSeen in that light, looking back at myself, I knew at the beginning that the more features and software we incorporated into Nintendo DSi, the more attractive it would be.IwataBut once you realize that you're the ones making it, you have to face reality. (laughs)
+KuroumeUh-huh. (laughs)IwataWhen a project kicks off, everyone starts rattling off their dream ideas.KuroumeYeah.IwataPeople throw out ideas one after the other. Like, since there's a camera, we could do video calls. If I remember correctly, I told everyone early on that we could only implement two or three of the ideas being discussed by the release date, so some needed to be weeded out.KuroumeYes, I remember. That was a big help. Still, right at the very end, we added a pretty big feature. (laughs)IwataThat's true. (laughs) Matsushima-san, what was on your mind as you got started this time? MatsushimaHow we could make it different from its predecessors. Things like graphic capabilities weren't going to change, but I wanted to convey a sense of newness to users. With regard to my own work on the menu, I needed to figure out how to convey what was new with Nintendo DSiâsuch as the camera, SD memory card slot and internal memoryâthe moment someone turns on the power.
+IwataCertainly, the external design does blend in with previous versions of the DS. It may not look that different, but its internal features are quite different. You had to represent that in a way that's easy to understand.MatsushimaRight. Here's a simple example. Photos display on the upper screen. This emphasizes the addition of the camera functions. The bottom screen shows what's stored in the internal memory, the unit's various features, and any software that's been added. I did that to express visually the large amount of software that exists within the console.IwataDid anything serve as guidance?MatsushimaMore than anything we looked to the  internal features of the Wii console. They were helpful in making the Nintendo DSi features but also gave us a hint as to what extent we should explain the internal memory to users. But when it came to features that haven't existed in game consoles before, like the cameras for example, we had to figure everything out for ourselves, so there were plenty of twists and turns along the way. Simply looking at cell phones wouldn't suffice.IwataIn some ways, you might say that the Nintendo DSi cameras and cell phone cameras are polar opposites. For example, when you take a picture on your phone and want to set it as your standby screen or background, you have to go deep into the menus. The Nintendo DSi menu is all about letting you do what you want in an instant.MatsushimaI like to think so. The photos are very approachable. For example, it's designed so that when you buy one and turn it on, you can immediately take a picture of yourself and set it as your wallpaper. Even people who aren't very good at operating digital cameras and cell phones will be able to use it right away. Also, expecting a lot of software to be downloaded into the unit, I paid a lot of attention to designing the menus to be easy to read, so users can choose what they want from the rows of displayed icons without any confusion.
+Iwata Asks HomePreviousÂ Â Next
+interviewNintendo DSi10
+eComic Mischief
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo DS
+- **URL:** https://iwataasks.nintendo.com/interviews/ds/dsi/1/0/
+- **Downloaded:** 2026-03-02 12:31:08
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

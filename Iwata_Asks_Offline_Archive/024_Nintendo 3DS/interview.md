@@ -1,0 +1,52 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+See All VolumesSelect the volume you would like to read:Volume 1 : Professor Layton and the Mask of MiracleVolume 2 : Samurai Warriors ChroniclesVolume 3 : Pro Evolution Soccer 2011 for Nintendo 3DSVolume 4 : Ridge Racer 3DVolume 5 : Super Street Fighter IV 3D EditionVolume 6 : Dead or AliveVolume 7 : Resident Evil: Mercenaries 3D / Resident Evil: RevalationsVolume 8 : Tales of the AbyssVolume 9 : Resident Evil: RevelationsVolume 10 : Tekken 3D: Prime EditionVolume 11 : THEATRHYTHM FINAL FANTASYVolume 12 : KINGDOM HEARTS 3D [Dream Drop Distance]
+Volume 7 : Resident Evil: Mercenaries 3D / Resident Evil: Revalations
+1. The Word Is "Raw"2. We Can't Let Them Beat Us!3. The Contrast Between Fear and Release4. Scared Even When You Know What Comes Next5. Fear You Can Walk Around With
+The Word Is "Raw"IwataToday, I will be talking with the producer of the Resident Evil series1âKawata-san from Capcom.2 Kawata-san, thank you for coming.
+1. Resident Evil series: The first game in this survival horror series was released in March 1996. Known as the Biohazard series in Japan.
+2. Capcom Co., Ltd.: A video game developer. Headquarters: Osaka.
+KawataWhew, I'm nervous! (laughs) Thank you for inviting me.  IwataThe pleasure is mine. (laughs) I'm looking forward to our discussion. May I start by asking what games you are making for the Nintendo 3DS system?KawataSure. Right now, we're developing Resident Evil: Revelations3 and Resident Evil: The Mercenaries 3D.4 At Capcom, we like to say we're zessan kaihatsuchu, or developing to much acclaim. (laughs)
+3. Resident Evil: Revelations: A survival horror game currently in development for the Nintendo 3DS™ system. Known as Biohazard: Revelations in Japan.
+4. Resident Evil: The Mercenaries 3D: A survival action game for the Nintendo 3DS system. Known as Biohazard: The Mercenaries 3D in Japan. Scheduled for release on June 2, 2011 in Japan and on June 28, 2011 in the US.
+IwataI imagine a lot of fans are excited to hear that there are two upcoming titles for the Resident Evil series. I've heard that you have a history of making games for home consoles. What was that like?KawataThe evolution of what video games could express was intense. I was originally a designer, so I was interested in the progress of video game graphics. And a wide variety of techniques for portraying game content appeared.
+I was originally interested in games that featured cute charactersâlike the Mega Man Legends series5âbut I also had an attachment to the horror genre. Recently, I've been involved in development for home console games such as Resident Evil 4: Wii Edition6 and the Chronicles series.7
+5. Mega Man Legends series: A series in the Mega Man franchise. Known as the Rockman Dash series and the first game was released in 1997 in Japan.
+6. Resident Evil 4: Wii Edition: A survival horror game released for the Wiiâ¢ console in May 2007. Known as Biohazard 4: Wii Edition in Japan.
+7. Resident Evil: The Umbrella Chronicles and Resident Evil: The Darkside Chronicles: Gun shooting games for use with the Wii Zapperâ¢ accessory and released for the Wii console. In Japan, they are released as Biohazard: The Umbrella Chronicles in November 2007 and Biohazard: The Darkside Chronicles January 2010, respectively.
+IwataYou were involved with the Resident Evil games that (Shinji) Mikami-san8 developed for the Nintendo GameCube console, right?
+8. Shinji Mikami: A former game designer at Capcom Co., Ltd. The creator of Resident Evil (known as Biohazard in Japan).
+KawataI was only directly involved with the first Resident Evil for Nintendo GameCube.9 I wasn't part of the immediate staff that worked on Resident Evil Zero10 and Resident Evil 4.11
+When we remade Resident Evil for the Nintendo GameCube system, I was a designer making backgrounds. (Shigeru) Miyamoto-san would come visit the development department, so I really felt like I was working with Nintendo. I wanted to achieve the utmost possible with Nintendo GameCube, so I really took the graphics to the extreme. It was challenging, but I think I was able to establish the Resident Evil style.
+IwataThe first time I saw Resident Evil, I was surprised at how much had become possible with home gaming consoles. It really stood out.
+9. Resident Evil for the Nintendo GameCube console: A survival horror game for the Nintendo GameCube™ console. This was the first Resident Evil game released for the console. Released as Biohazard in March 2002 in Japan.
+10. Resident Evil Zero: A game released for the Nintendo GameCube console. Released as Biohazard Zero in November 2002 in Japan.
+11. Resident Evil 4: A game released for the Nintendo GameCube console. Released as Biohazard 4 in January 2005 in Japan.
+KawataAt the time, our keyword was "raw." We cooked up whatever we could to make the games raw as opposed to photorealistic.IwataHow do you make a game feel raw? I guess it isn't enough to make it realistic?  KawataI think rawness starts to come out when the player's actions have some kind of result and there's a feeling of inhabiting an actual place with a certain atmosphere.IwataBack then, game characters moved on an unmoving background. I felt like with the Nintendo GameCube version you were looking to see how the gameworld would change if you moved the background a lot.KawataThat's right. In particular, the animated parts draw your eyes. As a way of making it raw, I think we did a good job of using horror elements like flickering lights and subtle movement by enemies.Iwata"Believability" and "raw" are extremely important keywords for generating fear in a game, and the Resident Evil games have always paid attention to that.IwataYeah. Resident Evil is an important title for Capcom, so I'm always under pressure. And sometimes, I share that pressure with my co-developers. (laughs)IwataHow do you do that?KawataI prod them, saying, "If you don't do any better than that, the fans will never forgive you!" (laughs)IwataOh, you have them imagine the players actually playing what they're making. That generates a positive pressure that draws out their potential.KawataRight. If, based on past experience, you just say, "This is what I'm capable of, so I'll just do that," in this day and age, people will see right through it. They won't feel like you've really done your best.
+Doing your best doesn't mean staying within your capabilities. It means going even further. You must push beyond your boundaries. And once you do that, you can aim even higher. I think that is very important.
+This time, I wanted to make Resident Evil: Revelations for the Nintendo 3DS system as if making a game for a home console rather than for a handheld. I was determined to see if I could base it on the high specs of home consoles rather than the specs of handhelds.  IwataIs that how you thought about it from the start?KawataYes. Otherwise, I didn't think we would achieve the kind of quality we consider to be part of the Resident Evil brand. It was hard, but at the moment, I feel like we've done a decent job of reaching what we first intended.IwataWhen the developers at Nintendo first saw Resident Evil: Revelations, they were surprised. You hadn't made it as if for a handheld, so it clearly looked different.KawataAt present, we're aiming even higher, so I feel like we're pressing the boundaries of the Nintendo 3DS system. In any case, the impact of glasses-free 3D alone is big. The way the character named Jill moves is incredibly captivating.IwataShe looks even more captivating in 3D?KawataYeah. I think her three-dimensional appearance adds to her attractiveness and how real she feels. On the other hand, the Resident Evil enemies are in 3D, too. They're even grosser, so you want to stay away from them more than ever! (laughs)IwataThat contrast is a part of the gameworld.KawataYes. The Resident Evil series places a lot of emphasis on the contrast between light and dark.IwataWhen it comes to light and shadow in portraying a scary world, wondering whether something will come lunging out of a wriggling shadow is thrilling.KawataSo when it comes to contrast as a keyword, the design of Resident Evil doesn't just feature light and shadow, but also beautiful characters and ugly enemies!
+Iwata Asks HomePreviousÂ Â Next
+interviewNintendo 3DS Third Party Game Developers60
+e-m
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/creators/6/0/
+- **Downloaded:** 2026-03-02 12:30:22
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

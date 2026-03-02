@@ -1,0 +1,20 @@
+{
+    "target_url": "https://www.movistararena.com.ar/Ticketera/592cc91b-9b77-4de2-bb9c-93e960efe3f2",
+    "target_sectors": ["CAMPO A", "CAMPO B", "CAMPO C", "CAMPO D"],
+    "check_interval": 300,
+    "telegram": {
+        "bot_token": "REEMPLAZAR_CON_TU_BOT_TOKEN",
+        "chat_id": "REEMPLAZAR_CON_TU_CHAT_ID"
+    },
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "TU_EMAIL@gmail.com",
+        "sender_password": "TU_APP_PASSWORD",
+        "recipient_email": "DESTINATARIO@gmail.com"
+    },
+    "webdriver": {
+        "headless": true,
+        "timeout": 20
+    }
+}

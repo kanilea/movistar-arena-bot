@@ -1,0 +1,45 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+See All VolumesSelect the volume you would like to read:Volume 1 : Professor Layton and the Mask of MiracleVolume 2 : Samurai Warriors ChroniclesVolume 3 : Pro Evolution Soccer 2011 for Nintendo 3DSVolume 4 : Ridge Racer 3DVolume 5 : Super Street Fighter IV 3D EditionVolume 6 : Dead or AliveVolume 7 : Resident Evil: Mercenaries 3D / Resident Evil: RevalationsVolume 8 : Tales of the AbyssVolume 9 : Resident Evil: RevelationsVolume 10 : Tekken 3D: Prime EditionVolume 11 : THEATRHYTHM FINAL FANTASYVolume 12 : KINGDOM HEARTS 3D [Dream Drop Distance]
+Volume 9 : Resident Evil: Revelations
+1. Return to Survival Horror2. The Second Lap of Development3. Like a TV Series4. "Bioreal"5. Fear and Immersion6. Energetic Fellows and Twice the Work
+Return to Survival HorrorIwataToday my guests are developers at Capcom1 who made the Resident Evil: Revelations game for the Nintendo 3DS system. Thank you for coming.
+1. Capcom Co., Ltd.: A video game developer. Headquarters: Osaka.
+KawataSorry for barging in in such great number! (laughs)IwataNo, not at all. The fans will enjoy it more if I talk to people in different positions since we'll be able to talk about it from different angles. I'm looking forward to our discussion.EveryoneWe are too.IwataFirst, I would like you to introduce yourselves briefly, including what you were in charge of. Kawata-san, we have met before in the "Nintendo 3DS: Third Party Game Developers" series of "Iwata Asks.", so this is our second time.KawataYes. I'm Masachika Kawata, producer of Resident Evil: Revelations. Beside me is Takenaka-san, who is with the team as my assistant producer. TakenakaI'm Tsukasa Takenaka. Nice to meet you. I have worked on the Mega Man Battle Network series2, and I was director of Mega Man Battle Network 5: Double Team DS.3 After that, I was a plan man together with Nakanishi-san for Resident Evil 5.4
+2. Mega Man Battle Network series: A series of data action RPGs. The first game, Mega Man Battle Network, was released for the Game Boy Advance system in March 2001.
+3. Mega Man Battle Network 5: Double Team DS: A data action RPG released for the Nintendo DS system in July 2005.
+4. Resident Evil 5: A survival horror game released in March 2009. The Resident Evil series is known as the Biohazard series in Japan.
+IwataAt Capcom, "planning man" is what you call in-house people in charge of planning, right?NakanishiYes. But when I think about it, why "man"? (laughs)KawataWe also say "character man" for designers. And programmers are "software man". This happens regardless of people's gender. And next to himâ¦ Is it really all right for me to just introduce everyone? (laughs)NakanishiOkay, I'll take over. (laughs) I'm Koshi Nakanishi, director of Revelations. I haven't been at Capcom that long. It's only been four years, but I came in as a planning man partway through Resident Evil 5. KawataI was chief of this project, but everyone has been in the industry for about 15 to 16 years. But Hori-san came from a different industry. Even so, he's been soldiering on for about ten years.HoriI'm Yoshizumi Hori. I was art director this time. I've mostly worked on the Resident Evil series since joining the company. Kawata-san has really put me through the wringer! (laughs) KawataI think I've been nothing but nice to you. (laughs) And down at the end is Suzuki-san in charge of sound.SuzukiI'm Kota Suzuki. This is my ninth year in the industry. Recently, I've worked a lot on the Resident Evil series. As a composer, I'm mainly in charge of music. I worked on Resident Evil 5 and Resident Evil: The Mercenaries 3D.5 This time, like before, I coordinated the overall sound.
+5. Resident Evil: The Mercenaries 3D: A survival action game released for the Nintendo 3DS system on June 2, 2011.
+IwataAll right, thank you. At Capcom, you made both Resident Evil: The Mercenaries 3D and Resident Evil: Revelations for the Nintendo 3DS system. How did the projects kick off? Who would be best to answer that? KawataI guess I'll answer! (laughs) I became involved with this project a little before the E36 of 2010. Hearing that there was going to be a hardware that can show 3D without special glasses, the first thing I thought was I wanted to make a full-on Resident Evil game rather than just port the series into a handheld system and set that as my goal.
+Another thing was that, whereas Resident Evil 47 had changed the model for the series of the numbering titles from there on out, I wanted to get back to the origins of the series by returning the direction to its horror roots. We created a team that could create a truly frightening Resident Evil.
+6. E3 (Electronic Entertainment Expo): A video game trade show usually held once a year in Los Angeles.
+7. Resident Evil 4: A survival horror game released for the Nintendo GameCube system in January 2005.
+IwataIt's that way with everything, but when a franchise continues for a long time, it takes in a massive shift along the way. The big change with Resident Evil 4 served its own purpose in a very important way, but what you did earlier in the series was closer to what would be considered truly scary, frightening horror.KawataThat's right. Many people still say that Resident Evil8 for the Nintendo GameCube system was the best game in the series. So this time, we wanted the fans to enjoy the fear element. And, of course, we talked about wanting to make use of the know-how we had cultivated up to that point to provide a great entertainment experience. We also talked about giving it a lot of volume.
+8. Resident Evil: A survival horror game released for the Nintendo GameCube system in March 2002. This game was the first game in the series for the Nintendo GameCube system.
+TakenakaThe first demo for E3 was like a concept trailer for showing how much we could do with the Nintendo 3DS system. It was like we were making a promise to the worldâ"We're going to make a game at this level!"IwataYou made a promise to the fans about quality, sort of cracking the whip over your own heads.TakenakaExactly. We set up our own hurdles. (laughs) NakanishiThen when the specs actually came into view, the atmosphere of the 3D really fit horror and the Resident Evil vibe, so after E3, we decided to head in that direction.KawataBut at that time, no one had used the Nintendo 3DS system much yet, so the stereoscopic 3D elements weren't going very well. So with learning points like that, whenever there was an opportunity for an exhibition, we put a version for test play out, had as many people as possible try it, and tried to remove anything unsatisfactory that came up.NakanishiThat was incredibly useful this time.IwataYou didn't just use the exhibitions for promotion, but interacted with those who tried it out. Machines are funny. The more you fiddle with them, you find better ways to improve their performance. When a team makes a game, they are able to make changes to everything from the visuals to game elements more the second time than the first, and more the third time than the second.KawataThat's right. We thought we could make something even better than we had set out to, and said, "Why don't we make Mercenaries?"
+Iwata Asks HomePreviousÂ Â Next
+interviewNintendo 3DS Third Party Game Developers80
+e-m
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/creators/8/0/
+- **Downloaded:** 2026-03-02 12:30:23
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

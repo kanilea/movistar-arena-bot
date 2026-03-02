@@ -1,0 +1,40 @@
+# Nintendo DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo DS
+See All VolumesSelect the volume you would like to read:Volume 1 : HardwareVolume 2 : Internal SoftwareVolume 3 : Nintendo DSi BrowserVolume 4 : Asking IwataVolume 5 : WarioWare: Snapped!Volume 6 : Brain Age ExpressVolume 7 : Flipnote StudioVolume 8 : Yoichi Kotabe
+Volume 8 : Yoichi Kotabe
+1. What My Mother Taught Me2. The Search for Greater Creativity3. An Invitation from Nintendo4. My First Project: Draw a Rug5. The Age of 3-D6. Jotting Down Sudden Ideas7. Hidden Talent All Around the World
+What My Mother Taught MeIwataToday we welcome Yoichi Kotabe. However, he hardly needs an introduction, since he is one of Japan's foremost animators.
+Because of his work as official illustrator for Mario and the way he has improved the art world of so many of Nintendo's products, I think the coming together of Nintendo and Kotabe-san was an extraordinary occurrence.
+Kotabe-san is currently retired from Nintendo and active as an individual creator, but he has come all the way to Kyoto because I wanted to talk to him again on the occasion of the release of Flipnote Studio. Thank you for joining me today.
+KotabeMy pleasure.IwataBefore we talk about how your path crossed with Nintendo's, I would like to ask about what you were doing before that. How did you first encounter animation?KotabeBefore this interview, Koizumi-san from the Tokyo office showed me Flipnote Studio. I asked him what it was for, and he said you could make flipbook animation with it. I was surprised that you could do something like that with a video game, but something else came to mind as well.
+Flipbook animation is how animation started. I first came to the world of animation through flipbook animation.
+IwataHow do you mean?KotabeMy father painted oil paintings, and as a child I liked art. I was always reading manga and copying the pictures. But it was my mother who got me directly involved in animation.IwataDid your mother also draw?KotabeShe didn't draw much, but when I was in elementary school she showed me flipbook animation. She drew a stick figure on the corners of the pages of one of my textbooks. I think the figure was exercising. When I saw how it moved, I was surprised. I tried it myself and drew some flipbook animation with stick figures. Even now I can remember how the figure would jump up to a high bar, flip around it, and then drop down. After that I was always interested in moving pictures.IwataA mother's influence can be powerful.KotabeI was the oldest of five. Ever since I was little, she would whack me with a ruler.IwataYou were raised strictly.KotabeEven so, when I went to school, I hardly did anything but doodle.IwataThat must have been your father's influence.KotabeI suppose so. I grew to like art more and more, but my studies got worse and worse.IwataYou must have had a strong inclination toward the world of art.
+KotabeThe high school I went to was originally an all-girls school, but it decided to try out letting boys in, too.IwataThose were the early days of girl's schools becoming coed.KotabeThat's right. It was the best girls' school in Tokyo, so the girls' grades were incredibly high. Which made me hate studying even more. (laughs) When I got out of high school, I wondered what I should do. My parents said I could go to a university if it was a public one. Just then, by chance, a friend who liked art told me that the entrance exams for Japanese-style painting departments consisted of nothing more than painting something in watercolor. I had never done Japanese painting-not even once-but I took the exam at the Tokyo University of the Arts, and by some quirk of fate passed. It was a world full of people who were serious about art and looked down on manga.IwataYou went to school in the late 1950s. Back then manga hadn't achieved much recognition.KotabeMy instructor at university was a well-known Japanese painter. I decided I wanted to achieve the same heights and become an artist even if it meant being poor. That's what I talked about with my friends, but when it came time to find a job, there weren't any.IwataI can imagine it would be difficult to find a job in Japanese-style painting.KotabeIt was. Out in society, there were no jobs involving drawing pictures. Then Toei Animation1 began recruiting.
+IwataDid you immediately know that was the place for you?KotabeThe first full-length animated movie that Toei made was called Panda and the Magic Serpent2. IwataYes, I've heard of it.1. Toei Doga Co., Ltd.: An animation production company incorporated in 1952 as a subsidiary of Toei Co., Ltd. In 1992, its corporate name was changed to Toei Animation Co., Ltd.
+2. Panda and the Magic Serpent: The first full-length animated film in Japan. Produced by Toei Animation, Co., Ltd., and released in 1958.KotabeI saw it as a student and was thrilled. I'd grown up watching Disney animation and had always thought that Japan's animation wasn't worth much. But when I saw Panda and the Magic Serpent, I changed my mind. I was moved to see that Japan could make something so incredible. So anyway, Toei Animation started recruiting.IwataIt was destined to be.KotabeI invited two of my classmates. I said, "If you can't find a job, let's do animation together!" They were both girls and didn't have any interest in manga. They didn't even know what animation was. But they ended up getting the job, and I didn't! (laughs)IwataI can't believe it. You really didn't get it?KotabeI was certain I would be accepted, so I had no idea what to do. I had really been excited about joining Toei Animation, so I was crushed. But Toei was on such a roll then, it wasn't long before they started recruiting again. I applied and was barely accepted.
+IwataIf you had given up, your life and the history of Japanese animation would have been completely different. How many people joined Toei Animation at the same time that you did?KotabeThe company was flowering in those days, so about 30. Norio Hikone was among them.IwataHe drew Uncle Carl. (A popular snack character in Japan)KotabeIsao Takahata was there, too.IwataTakahata-san of Studio Ghibli. That's quite a line-up.KotabeHe was in the directorial department. He was a little older than me, but joined at the same time.IwataStudio Ghibli's Hayao Miyazaki also came from Toei Animation.KotabeMiya-san is five years younger than me. He is extremely distinguished now, though. (laughs) Back when I was drawing key frames, he was in my group for a while.
+Iwata Asks HomePreviousÂ Â Next
+interviewNintendo DSi70
+eComic Mischief
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo DS
+- **URL:** https://iwataasks.nintendo.com/interviews/ds/dsi/7/0/
+- **Downloaded:** 2026-03-02 12:31:15
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

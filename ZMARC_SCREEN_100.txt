@@ -1,0 +1,37 @@
+*&---------------------------------------------------------------------*
+*& Screen 100 Layout Instructions
+*&---------------------------------------------------------------------*
+* Create Screen 100 in SE51/SE80 with the following settings:
+*
+* Screen Number: 100
+* Screen Type: Normal Screen
+*
+* Layout Elements:
+* 1. Add a Custom Container control
+*    - Name: CONTAINER
+*    - Position: (0,0)
+*    - Size: Cover entire screen area
+*
+* Flow Logic:
+*
+* PROCESS BEFORE OUTPUT.
+*   MODULE status_0100.
+*
+* PROCESS AFTER INPUT.
+*   MODULE user_command_0100.
+*
+*&---------------------------------------------------------------------*
+*& GUI Status and Title Setup (SE41)
+*&---------------------------------------------------------------------*
+*
+* GUI Status: STATUS_100
+* Function Keys:
+*   - BACK (F3)
+*   - EXIT (F15)
+*   - CANCEL (F12)
+*   - SAVE (Custom button in application toolbar)
+*
+* Title: TITLE_100
+* Text: 'Editable MARC Data'
+*
+*&---------------------------------------------------------------------*

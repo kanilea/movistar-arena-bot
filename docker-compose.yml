@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  movistar-bot:
+    build: .
+    container_name: movistar_arena_bot
+    restart: unless-stopped
+    environment:
+      - TZ=America/Argentina/Buenos_Aires
+    volumes:
+      - ./logs:/app/logs
+      - ./config.json:/app/config.json
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge

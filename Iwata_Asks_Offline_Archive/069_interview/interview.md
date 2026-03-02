@@ -1,0 +1,33 @@
+# 
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks Home
+E3 2011: Wii U
+1. Looking Beyond Wii2. The Other Screen3. Good Ideas4. New Structure5. Wii U and The Wii Remote6. New Super Mario Bros. Mii7. Deeper and Wider
+Looking Beyond WiiIwataThanks for taking your time today.MiyamotoThanks for having me.IwataYou know, Wii U has already been announced by the time people are reading this interview.MiyamotoRight.IwataI've been looking back at my calendar right before this interview, and I noticed that it's been just about three years since we started having meetings about this.MiyamotoYeah.IwataIt's just that we were talking about it not in a way of "when should we release it" as the decisive factor, but we were saying to ourselves, "now let's really start thinking about what's coming next," and we have been repeatedly holding meetings to have discussions about this ever since. And now the fruition of our efforts is finally taking shape.MiyamotoI think so too.IwataNintendo released the Wii console, and now that it has been accepted in many people's lives, what went through your mind Miyamoto-san? What are you envisioning in the road ahead?MiyamotoHmmâ¦ I guess, as a device in people's living rooms, I think I fundamentally wanted to have Wii become a more fulfilling device.IwataRight.MiyamotoAnd, I wanted it to become a tool that everyone in the household would use everyday. I made Wii Fit1 because I wanted it to be something that entire families would use. In that sense, I wanted it to be a tool in the living room that people would proactively turn the power on without putting much thought into it. If I could go further, I want people to turn the power on the Wii first before they even turn on the TV.
+1. Wii Fit™: Released in December 2007, a fitness-like game that you play standing on the Wii Balance Board™ accessory. In October 2009 Wii Fit Plus was released, which is an expanded version of Wii Fit that includes the original activities from Wii Fit plus additional content on the game disc.
+IwataSo you wanted to further pursue what you wanted to do with Wii.MiyamotoYeah. I wanted to improve on what we challenged with Wii, in how we wanted to perfect it in making it a device that rightfully belongs in the living room.IwataI see. There were piles of things that we weren't able to fully accomplish with Wii, from our perspective. And while it was natural for us in wanting to improve on those one by one, we thoroughly talked about how those issues wouldn't be solved unless a structural change had occurred.MiyamotoRight.IwataWe actually debated quite a bit until we settled on the way it is now. There was a lot of back and forth before reaching where we are now.MiyamotoRight, we did. We started from scratch many times.IwataBut because people outside the company do not have an insight into our development process, when people see this for the first time in 2011 when this is revealed, they might think, "Oh, Nintendo is going to add a tablet to their console". I think that's how people may see it.MiyamotoOh, right, right.IwataBut when we were first talking about this, tablet devices weren't very common. It's very similar with the Nintendo 3DS system, we release something after much internal debate and development, and that release timing happens to be when something like that is extremely popular. I feel like that has been our trend lately.MiyamotoYeah, it certainly has. If you hold it like this (vertically) it looks like a tablet. Hold it like this, (horizontally) and with the TV as the second screen you can use it like a Nintendo DS! (laughs) But that's not why we thought of wanting to add DS connectibility2, we didn't think about making it more like a tablet at all.
+2. DS Connectibility: Refers to the connectibility between Wii U and the Nintendo DS family of systems. In 2001, Nintendo released a Game Boy™ Advance Link Cable that enables communication between the Nintendo GameCube™ and the Game Boy Advance systems.
+IwataRight, of course, it can do those things too, but that's not where development started. It's more about the value of having a screen in your hands for a video game, and we were focusing on how you are able to do quite a few things without turning the TV on.MiyamotoRight, that's what it was about.
+Iwata Asks HomeNext
+interviewNintendo 3DS00
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** 
+- **URL:** https://iwataasks.nintendo.com/interviews/e32011/newhw/0/0/
+- **Downloaded:** 2026-03-02 12:31:18
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

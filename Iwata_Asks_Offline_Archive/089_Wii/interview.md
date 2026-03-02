@@ -1,0 +1,77 @@
+# Wii
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeWii
+See All VolumesSelect the volume you would like to read:Iwata Asks: Super Mario Galaxy 2 - Volume 1Iwata Asks: Super Mario Galaxy 2 - Volume 2Iwata Asks: Super Mario Galaxy 2 - Volume 3
+Iwata Asks: Super Mario Galaxy 2 - Volume 1
+1. Playing a 3D Game Like It's 2D2. What I Learned Talking with the Producer3. The Most Important Thing Is Resonance
+Playing a 3D Game Like It's 2DIwataMiyamoto-san, looking back at the history of the Mario series up until now, we have only released one 3D Mario per gaming platform.MiyamotoYes, that's right.IwataBut Super Mario Galaxy 2 will be the second one for the Wii console.1 Did making it feel similar to when you made
+The Legend of Zelda: Ocarina of Time	2 followed by
+The Legend of Zelda: Majora's Mask3?MiyamotoI was going to say that, but you beat me to it! (laughs)Iwata(laughs)
+1
+The second one for the Wii console: The first one was  Super Mario Galaxy, an action game released for the Wii console in November 2007.
+2
+The Legend of Zelda: Ocarina of Time: The first game in the Zelda series to appear in 3D. Released in November 1998 for the Nintendo 64 system.
+3
+The Legend of Zelda: Majora's Mask: Released for the Nintendo 64 system in April 2000, one year and five months after The Legend of Zelda: Ocarina of Time.
+MiyamotoBroadly speaking, yes. For The Legend of Zelda: Majora's Mask, we simply adopted the 3D engine from The Legend of Zelda: Ocarina of Time, because when you make a new game, it takes a whole year just to make the player-character movements.
+IwataThat's right.
+MiyamotoWe had put a lot of effort and time into building an engine that would allow players to feel comfortable controlling the player's character in the game, so we thought it would be a waste to just build the courses and then call it done. So for The Legend of Zelda: Majora's Mask, we tried packing a high concentration of elements into an extremely compact world.
+IwataSo you set a deadline.
+MiyamotoThat's right. I wanted  the game to be made in one year. I thought if I set a deadline like that we wouldn't run loose making a bunch of unnecessary new fields. (laughs) And that led to the three-day system4.IwataIs that so. (laughs)
+4
+Three-day system: Within the game, the world will end once a certain three-day period has passed, so to keep playing the player must return to morning of the first day.
+MiyamotoSo just as The Legend of Zelda: Majora's Mask built upon the foundation laid by The Legend of Zelda: Ocarina of Time, in making Super Mario Galaxy 2, we reevaluated the spherical environments of the first Super Mario Galaxy and noticed some things.
+IwataDo you mean that you had not made full use of the benefits of spherical environments?
+MiyamotoRight. 3D Mario games, started with  Super Mario 645, always  had a miniature landscape the player could move around within freely. They were structured so you gradually came to understand the landscape. Stars were placed around here and there and players could tell just by looking which ones would be easy to get and which ones would be difficult.
+5
+Super Mario 64: The first 3D action game in the Mario series. Released simultaneously with the Nintendo 64 system in June 1996.
+IwataYou can put off getting the difficult ones until you've improved a little.
+MiyamotoExactly. You went back and forth over the same course repeatedly and memorized the landscape. We made Super Mario Galaxy along those same lines, but when we looked back over it, there were lots of places where we could have added new elements to the same environments to make it more fun.
+IwataSo development of Super Mario Galaxy 2 began with using the first game's environments exactly as they were.
+IwataNot 2, but 1.5. So you wouldn't get too carried away.
+MiyamotoRight. We began with the intention of making a game labeled 1.5, but the development staff members were saying things like "It would be fun if we had more environments like this" and "Let's put in more new stuff." It was like "More, more, more!" and new environments started multiplying rapidly. The next thing I knew, more than 90% of the courses were new and I couldn't tell where we had kept anything from the previous game!
+IwataSo in the end, it became 2 rather than 1.5.
+MiyamotoThat's right.
+IwataBut that wasn't your only motivation for developing Super Mario Galaxy 2, right?
+MiyamotoRight. (laughs)
+IwataIt seems a lot of people are saying things like "Unlike 2D Mario, I get lost in 3D Mario" and "3D Mario is more difficult than 2D Mario, so I can't do it," and I had a feeling that you were determined to do something about that sometime.MiyamotoYes, but I think that we had solved a lot of the problems inherent in 3D Mario games with the first Mario Galaxy.
+You play on spheres, so if you run around them, you will always return to where you started.
+IwataSo you can't get lost.
+MiyamotoRight. And we noticed something while making Super Mario Galaxy 2. We often talk about 3D Mario games, but actually you're just playing in a world made in 3D. What's fun is the gameplay itself is often still 2D.
+MiyamotoWell, even if the field itself is 3D, there are objects in it, and Mario. When you look at it from above, it's actually flat.
+IwataOh, I see.
+So if the camera is directly above or straight to the side, you can easily play as if it's a 2D game.
+MiyamotoRight. But while 2D Mario games only have scenes viewed from the side, 3D games are a refreshing change because they're flat, but also have depth.
+IwataWas your desire to create a flat style of play stronger this time than it was before?
+IwataAnd you can eat chili pepper this time.
+IwataI see.
+IwataGravity flows in the direction of the arrow and suddenly someplace that you thought was the ceiling becomes the floor. It's a really unique course.
+MiyamotoYes. It feels like playing with a new toy. That course, too, is sometimes like playing a 2D side-scroller.
+IwataMiyamotoRight. That's why I think it's easy to play. And when it comes to spheres, there's something called a
+drill this time.
+IwataI saw a video of it. Mario holds a drill, digs into the earth, and comes out the opposite side of the planet.
+MiyamotoSince you play on spheres, we wanted to be able to pass through to the other side of them. And that's how we used the system of the previous game as a foundation for making a new game that players could comfortably enjoy.
+Iwata Asks HomeNext
+interviewSuper Mario Galaxy 200
+eMild Cartoon Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Wii
+- **URL:** https://iwataasks.nintendo.com/interviews/wii/supermariogalaxy2/0/0/
+- **Downloaded:** 2026-03-02 12:31:42
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

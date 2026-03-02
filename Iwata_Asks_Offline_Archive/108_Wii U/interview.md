@@ -1,0 +1,40 @@
+# Wii U
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeWii U
+Iwata Asks in Motion: Wii Sports Club
+1. Wanting to Play as Soon as Possible2. My Club Battles3. When Mii Characters Get Frustrated4. More Realistic Tennis5. SpotPass Game Delivery
+Wanting to Play as Soon as PossibleIwataWhen the original Wii Sports1 came out seven years ago, I would play it when I got home from work at night—and I would really get into it! (laughs) It was strange how I would sweat so much simply swinging the light Wii Remote controller, and that went on for quite a long time.
+1. Wii Sports: A sports game released simultaneously with the Wii console in December 2006. It included the games Tennis, Golf, Bowling, Baseball and Boxing.ShimamuraYou played so hard you sweat? (laughs)IwataOf course, I know you just have to lightly move the Wii Remote controller. Although briefly, I had played real tennis for a short time period so I would get serious about it, taking steps and putting my back into it. I suppose it was a good way to work off stress.
+Today, I would like to ask all about Wii Sports Club. When I think about how those days will come again, I get excited. And we're actually going to play it today, right?ShimamuraYes. Tennis and Bowling are ready to go, but we'll play Tennis, since that's easier for conveying the game's characteristics.IwataIt's my first time playing the Wii U version of Wii Sports, so I'm really looking forward to it. And we're going to take a video of ourselves, so I hope everyone who reads this will watch this "Iwata Asks in Motion."
+But now, let's go on with self-introductions.ShimamuraI'm Shimamura from the Entertainment Analysis & Development Division (EAD).
+IwataYou also worked on Wii Sports and Wii Sports Resort2, so you can't escape Wii Sports! (laughs)
+2. Wii Sports Resort: A sports game compatible with the Wii MotionPlus accessory and released in June 2009. Players can enjoy a variety of 12 sports such as Wakeboarding, Power Cruising, Swordplay and Archery in the setting of a tropical resort.ShimamuraYeah! (laughs) As you say, I have been director of the original  Wii Sports,  Wii Sports Resort and now Wii Sports Club.IwataDid you think, "Me again?!"ShimamuraNo, not at all! (laughs) I care about this game, so instead of letting someone else be director and later regret it thinking, "This isn't Wii Sports," I volunteered. I really wanted to do it myself.IwataIt has changed quite a lot compared to the way it was set up before, but I'll ask all about that later.ShimamuraAll right.MakinoI'm Makino from the Software Planning & Development Department. We asked Namco Bandai Studios3 to develop it, so I first participated as a coordinator. But in the end, I got into just about anything. I mainly worked on the network aspect of the game, but at times I made suggestions on how some features should turn out to be.
+3. Namco Bandai Studio Inc.: A video-game planning and development company founded in 2012 as a subsidiary of Namco Bandai Games Inc.IwataYou say you were a coordinator, but also wrote specs?MakinoYes...quite a bit.SuzukiI'm Suzuki in the Software Planning & Development Department. At first, I was a coordinator too, serving as contact for Namco Bandai Studio and dealing with overseas subsidiaries in localizing the overseas versions, but eventually, like Makino-san, I was doing anything I could.
+ShimamuraFrom the middle of development, Makino-san and Suzuki-san were also working as full-fledged planners. We did ask Namco Bandai Studio to develop the game this time, but staff in Nintendo's Network Development & Operations Department—the Software Planning & Development Department that these two are in—and EAD also chipped in.IwataLots of people within Nintendo helped out.ShimamuraYes, it was a collaborative effort.Makino and SuzukiThat's right.IwataWhy did they help?ShimamuraI think because it was Wii Sports. Everyone had strong feelings for the game and said "We have to go all-out with this" as they lent a hand—which I'm very thankful for. I truly feel that we were able to reach this point in part thanks to that effort.IwataThere were various key points that led to making Wii Sports Club. One was wondering what it would be like to make Wii Sports with the Wii Remote Plus4 controller.
+4. Wii Remote Plus: An enhanced version of the Wii Remote controller with a gyro sensor built in. Released October 2010. Connecting the Wii MotionPlus accessory to the Wii Remote controller results in the same functionality.ShimamuraRight. The original Wii Sports was for the original Wii Remote without a gyro sensor.IwataAnother point was how to use the Wii U GamePad. And also, whether or not we could introduce online gameplay, a feature that the players have been eager to see since the previous game.ShimamuraThat's right.IwataIn addition to that, we discussed an innovative way to sell it, and I think there were a lot of other elements. You had the original Wii Sports as a basis, but exactly what did you start with?ShimamuraAs you just mentioned, people were hoping to be able to play online. So first we decided to pour our energy into how we could make that fun.IwataI would have thought, however, that you could have easily made online games for sports like Golf and Bowling in which the players take turns. But figuring out how to handle Tennis and Boxing, for example, would take more than a little thought.ShimamuraThat's right. We went through a lot of trial and error for online matches of Tennis. Quite some time ago, you e-mailed (Katsuya) Eguchi-san5 in EAD saying you wanted to play Wii Sports as soon as possible on Wii U.
+5. Katsuya Eguchi: Software Development Department, Entertainment Analysis & Development Division. He is the producer of games like the Animal Crossing series, and Wii Sports and Wii Sports Resort. In development of the Wii U, he was general producer, as well as producer of Nintendo Land. In the past, he has appeared in sessions of "Iwata Asks" for  Super Mario developers for the Super Mario Bros. 25th Anniversary (Volume 1), the  special edition at E3 2012 over the Wii U console , and  Nintendo Land.IwataYes, that's right.ShimamuraYou said in your e-mail that Bowling and Golf absolutely must have online gameplay, and work on the other sport activities if possible.IwataYes, I wrote that. I started off as a programmer, so I think I have an idea of what is difficult and what isn't.ShimamuraBut when we thought about how we want people to have fun with Wii Sports on the new hardware, the Wii U console, there was no way, given the expectations, that we couldn't prepare online gaming. So as we began development, we set online gameplay of Tennis—the representative sport of Wii Sports—as our first goal.IwataWhen I first heard that, I responded, "Really? When will that be done?" (laughs)
+ShimamuraYou must have thought development would drag on! (laughs)IwataDid you have an idea right away about how long it would take?ShimamuraNo, not at all. (bluntly)Everyone(laughs)
+Iwata Asks HomeNext
+interviewWii Sports Club00
+e10Mild Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Wii U
+- **URL:** https://iwataasks.nintendo.com/interviews/wiiu/wii-sports-club/0/0/
+- **Downloaded:** 2026-03-02 12:32:06
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

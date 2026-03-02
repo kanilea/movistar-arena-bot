@@ -1,0 +1,45 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+See All VolumesSelect the volume you would like to read:Volume 1 : Professor Layton and the Mask of MiracleVolume 2 : Samurai Warriors ChroniclesVolume 3 : Pro Evolution Soccer 2011 for Nintendo 3DSVolume 4 : Ridge Racer 3DVolume 5 : Super Street Fighter IV 3D EditionVolume 6 : Dead or AliveVolume 7 : Resident Evil: Mercenaries 3D / Resident Evil: RevalationsVolume 8 : Tales of the AbyssVolume 9 : Resident Evil: RevelationsVolume 10 : Tekken 3D: Prime EditionVolume 11 : THEATRHYTHM FINAL FANTASYVolume 12 : KINGDOM HEARTS 3D [Dream Drop Distance]
+Volume 6 : Dead or Alive
+1. Video Games Falling from the Sky2. Coming Down Off Your High Horse3. Grabbing Your Attention in Five Seconds4. In Praise of Arguing5. Girls and Guys6. Healthy Jealousy
+Video Games Falling from the SkyIwataToday, I will be talking with Hayashi-san, leader of the development team at Tecmo Koei Games Co., Ltd.1 known as Team NINJA.2Thank you for coming today, Hayashi-san.HayashiThank you for inviting me.
+1. Tecmo Koei Games Co., Ltd.: The company formed when Koei Co., Ltd. and Tecmo, Ltd. merged in 2010. Headquarters: Yokohama City, Kanagawa Prefecture.
+2. Team NINJA: The development team affiliated with Tecmo that develops the Dead or Alive and Ninja Gaiden series.
+IwataToday, I would like to ask about the Dead or Alive Dimensions3 game and how Team NINJA makes its games.HayashiAll right.
+3. Dead or Alive Dimensions: A Nintendo 3DS™ game scheduled for release on May 19, 2011 (Japan).
+IwataWhen did you first encounter video games?HayashiWhen I was in the first grade of elementary school, I visited an older cousin of mine who had a Famicom system. It was so much fun to play that my little brother and I couldn't pry ourselves away from it. Our parents promised to buy us one, so we did eventually stop playing and leave. (laughs)  IwataYou were hooked on them the first time you played them!HayashiYeah. (laughs) Later, my parents bought us our first video game consoleâthe Famicom systemâand the Super Mario Bros. game.4
+4. Super Mario Bros.™: An action game released for the Family Computer (Famicom) system in September 1985.
+IwataWhy do you think video games had such a strong appeal to you as a boy in the first grade?HayashiI think that was a time when not just I but children all throughout Japan were suddenly obsessed with the Famicom system. In any case, everything about it was fun.IwataThat was a time when it was incredibly mysterious and fun simply to have something you control moving around inside the television.HayashiYes, that's right. My generation encountered the Famicom system in elementary school, and the Super Famicom system came out before junior high, so games were released almost as if keeping pace with us as we got older.IwataLike the gaming industry was providing new material as you grew up?HayashiYes. Back then, people said that children who played video games would grow up wrong. I've been playing games forever, and now I'm 31. I would be happy if I could serve as proof that you can turn out to be a decent adult even if you play video games! (laughs) Now I work in video games, and I don't feel like I ever hesitated along the way.IwataWhen did you decide you wanted to make video games?HayashiI thought that in elementary school. Back then, Famicom games were like something that just fell from the sky. Everyone at school did know, however, about Yuji Horii5, creator of Dragon Quest.6 We wondered what kind of person he was and realized that someone actually makes video games.
+5. Yuji Horii: Creator of the Dragon Quest series.
+6. Dragon Quest®: An RPG video game released for the Famicom system in May 1986.
+IwataYou noticed for the first time that video games are actually made by someone. The job of game designer must have sounded like a dream occupation.HayashiYeah! And programming was necessary for making video games, so I decided to study my math.IwataSo your goal of becoming a video game developer motivated you to study.HayashiThat's right. I sensed in my own childish way that if I didn't study hard, I wouldn't be able to make video games.IwataBack then, more people who wanted to make video games started with programming. I'm a good example of someone who played video games after they first appeared, then became interested in programming and ended up doing work involved with them. Today, however, the work is broken down into varying roles, so not everyone enters the field through programming.  HayashiI came to video games from programming as a subject in the sciences. I always think that knowing programming is important for making video games.IwataIt's a strong tool for thinking about games. It's extremely advantageous to be able to make decisions based on a knowledge of what a computer can and can't do and of how much effort it will take to change something. When did you start thinking about programming?HayashiWhen I was in university, a programming language called C was the mainstream, so I studied that. But when I entered Tecmo, I was a planner, not a programmer. I thought it might be hard to find a job as just a programmer, so I sold myself as a planner who also understood programming.IwataWhen did you first run across Tecmo's games?HayashiWay back when, I encountered Tecmo's game Captain Tsubasa7 for the Famicom system. Captain Tsubasa was incredibly popular when I was in elementary school. That game made such an impact that I joined the soccer club!
+7. Captain Tsubasa: Based off of a very popular soccer "manga" series, its soccer game adaptation was released for the Famicom system in 1988 in Japan.
+IwataThe game design was new. Within the constraints of the Famicom system, it really allowed you to experience soccer in that distinctive Captain Tsubasa way.HayashiThat's right. Captain Tsubasa and Ninja Ryukenden8 made quite an impression on me. Then, just when I was searching around Tokyo for work at a gaming company, fate led me to Tecmo. I feel like fate helped me find a job at a company whose games I had played in elementary school.
+8. Ninja Ryukenden: An action game released for the Famicom system in 1988 in Japan. Released as Ninja Gaiden in North America and as Shadow Warriors in Europe.
+IwataYou can sense the mysterious hand of fate in many things that happen in the world. What were you interested in that made you choose to be a planner? In addition to your admiration for Horii-san, were you attracted to the possibilities inherent in and the enjoyment of thinking about video games from a planning perspective?HayashiYes. But I didn't have any real experience making video games, so I didn't have any idea what I could do to polish my skills in game design. I whole-heartedly wanted to do that kind of work, though, so I chose to be a planner.IwataI suppose you wanted to be involved in the process of determining what kind of product to make.HayashiThat's right.
+Iwata Asks HomePreviousÂ Â Next
+interviewNintendo 3DS Third Party Game Developers50
+e-m
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/creators/5/0/
+- **Downloaded:** 2026-03-02 12:29:57
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

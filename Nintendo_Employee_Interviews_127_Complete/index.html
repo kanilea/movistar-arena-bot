@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Employee Interviews - Complete Archive (127 Interviews)</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: linear-gradient(135deg, #f8f8f8, #ffffff); }
+        .header { background: linear-gradient(135deg, #e60012, #cc0010); color: white; padding: 40px; text-align: center; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+        .title { font-size: 2.5em; margin-bottom: 10px; }
+        .subtitle { font-size: 1.3em; opacity: 0.9; margin-bottom: 20px; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0; }
+        .stat { background: white; padding: 25px; text-align: center; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        .stat-num { font-size: 2.2em; font-weight: bold; color: #e60012; }
+        .stat-label { color: #666; margin-top: 5px; }
+        .interview-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 20px; }
+        .interview { background: white; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; }
+        .interview:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+        .interview h3 { color: #333; margin-top: 0; font-size: 1.1em; }
+        .badge { display: inline-block; padding: 4px 10px; border-radius: 12px; font-size: 0.8em; margin: 5px; }
+        .real-badge { background: #28a745; color: white; }
+        .sim-badge { background: #ffc107; color: #000; }
+        .dept-badge { background: #e60012; color: white; }
+        .view-btn { display: inline-block; background: #e60012; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+        .view-btn:hover { background: #cc0010; }
+        .filter-buttons { display: flex; gap: 10px; margin: 20px 0; flex-wrap: wrap; }
+        .filter-btn { padding: 8px 16px; border: 1px solid #ddd; background: white; border-radius: 6px; cursor: pointer; }
+        .filter-btn.active { background: #e60012; color: white; border-color: #e60012; }
+        .footer { text-align: center; margin: 50px 0; padding: 30px; background: white; border-radius: 12px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title">🎮 Nintendo Employee Interviews Archive</div>
+        <div class="subtitle">任天堂社員インタビュー127件完全コレクション</div>
+        <div class="subtitle">Complete Collection of 127 Employee Interviews</div>
+        <div class="subtitle">日本語原文 + 英語翻訳 / Original Japanese + English Translation</div>
+    </div>
+    <div style="text-align: center; margin: 20px 0;">
+            <img src="images/nintendo_logo.svg" alt="Nintendo" style="max-width: 200px; margin: 10px;">
+            <img src="images/nintendo_office.svg" alt="Nintendo Office" style="max-width: 250px; margin: 10px;">
+        </div>
+    
+    <div class="stats">
+        <div class="stat"><div class="stat-num">127</div><div class="stat-label">Total Interviews</div></div>
+        <div class="stat"><div class="stat-num">0</div><div class="stat-label">Real Interviews</div></div>
+        <div class="stat"><div class="stat-num">127</div><div class="stat-label">Simulated Content</div></div>
+        <div class="stat"><div class="stat-num">JA+EN</div><div class="stat-label">Bilingual</div></div>
+        <div class="stat"><div class="stat-num">20+</div><div class="stat-label">Departments</div></div>
+        <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Offline Ready</div></div>
+    </div>
+    
+    <div class="filter-buttons">
+        <button class="filter-btn active" onclick="filterInterviews('all')">All (127)</button>
+        <button class="filter-btn" onclick="filterInterviews('real')">Real (0)</button>
+        <button class="filter-btn" onclick="filterInterviews('sim')">Simulated (127)</button>
+    </div>
+    
+    <div class="interview-grid" id="interviewGrid">
+
+        <div class="interview" data-type="sim">
+            <h3>セキュリティ / Securityの一日｜ニンテンドークラシック / Nintendo Classic開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">セキュリティ / Security</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="001_セキュリティ  Securityの一日_ニンテンドークラシック  Nintendo Classic開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂の文化 / Nintendo Culture｜ローカライゼーション / Localizationの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="002_任天堂の文化  Nintendo Culture_ローカライゼーション  Localizationの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>キャラクターデザイン / Character Design開発の舞台裏｜プロダクトマネジメント / Product Management</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="003_キャラクターデザイン  Character Design開発の舞台裏_プロダクトマネジメント  Product Mana/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂の文化 / Nintendo Culture｜プロダクトマネジメント / Product Managementの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">技術革新 / Technical Innovation</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="004_任天堂の文化  Nintendo Culture_プロダクトマネジメント  Product Managementの取り組/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ゲームバランス / Game Balance開発の舞台裏｜マーケティング / Marketing</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">マーケティング / Marketing</span>
+            <span class="badge dept-badge">ゲームバランス / Game Balance</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="005_ゲームバランス  Game Balance開発の舞台裏_マーケティング  Marketing/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>グラフィックデザイン / Graphic Designで働く魅力｜ゲームバランス / Game Balance開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">ゲームバランス / Game Balance</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="006_グラフィックデザイン  Graphic Designで働く魅力_ゲームバランス  Game Balance開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ショッピング / Merchandise制作現場｜任天堂プロダクトマネジメント / Product Management</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">ショッピング / Merchandise</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="007_ショッピング  Merchandise制作現場_任天堂プロダクトマネジメント  Product Management/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>カスタマーサポート / Customer Supportの一日｜どうぶつの森 / Animal Crossing開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">どうぶつの森 / Animal Crossing</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="008_カスタマーサポート  Customer Supportの一日_どうぶつの森  Animal Crossing開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ショッピング / Merchandise制作現場｜任天堂グラフィックデザイン / Graphic Design</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">ショッピング / Merchandise</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="009_ショッピング  Merchandise制作現場_任天堂グラフィックデザイン  Graphic Design/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜品質保証 / Quality Assurance編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="010_任天堂で働くとは_品質保証  Quality Assurance編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>UI/UXデザイン / UI/UX Design｜アミーボ / amiiboの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">UI/UXデザイン / UI/UX Design</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="011_UIUXデザイン  UIUX Design_アミーボ  amiiboの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>技術革新 / Technical Innovation開発の舞台裏｜カスタマーサポート / Customer Support</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">技術革新 / Technical Innovation</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="012_技術革新  Technical Innovation開発の舞台裏_カスタマーサポート  Customer Support/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>仕事のやりがい / Job Fulfillment｜品質保証 / Quality Assuranceの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">オンラインサービス / Online Services</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="013_仕事のやりがい  Job Fulfillment_品質保証  Quality Assuranceの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>チームワーク / Teamwork｜財務・経理 / Finance & Accountingの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="014_チームワーク  Teamwork_財務_経理  Finance _ Accountingの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>UI/UXデザイン / UI/UX Designの一日｜ゼルダの伝説 / Legend of Zelda開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">UI/UXデザイン / UI/UX Design</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="015_UIUXデザイン  UIUX Designの一日_ゼルダの伝説  Legend of Zelda開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ハードウェア開発 / Hardware Developmentの一日｜ニンテンドークラシック / Nintendo Classic開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ハードウェア開発 / Hardware Development</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="016_ハードウェア開発  Hardware Developmentの一日_ニンテンドークラシック  Nintendo Clas/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>Nintendo Switch開発の舞台裏｜プロダクトマネジメント / Product Management</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="017_Nintendo Switch開発の舞台裏_プロダクトマネジメント  Product Management/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>プロダクトマネジメント / Product Managementの一日｜どうぶつの森 / Animal Crossing開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">どうぶつの森 / Animal Crossing</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="018_プロダクトマネジメント  Product Managementの一日_どうぶつの森  Animal Crossing開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>品質保証 / Quality Assuranceで働く魅力｜キャラクターデザイン / Character Design開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="019_品質保証  Quality Assuranceで働く魅力_キャラクターデザイン  Character Design開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂営業・販売 / Sales & Retailスタッフインタビュー｜挑戦と成長 / Challenges and Growth</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="020_任天堂営業_販売  Sales _ Retailスタッフインタビュー_挑戦と成長  Challenges and Gro/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂データサイエンス / Data Scienceスタッフインタビュー｜仕事のやりがい / Job Fulfillment</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">データサイエンス / Data Science</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="021_任天堂データサイエンス  Data Scienceスタッフインタビュー_仕事のやりがい  Job Fulfillment/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>財務・経理 / Finance & Accountingで働く魅力｜キャラクターデザイン / Character Design開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="022_財務_経理  Finance _ Accountingで働く魅力_キャラクターデザイン  Character Desig/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>プロダクトマネジメント / Product Management｜どうぶつの森 / Animal Crossingの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">どうぶつの森 / Animal Crossing</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="023_プロダクトマネジメント  Product Management_どうぶつの森  Animal Crossingの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>働き方改革 / Work Style Innovation｜人事・総務 / HR & Administrationの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">スプラトゥーン / Splatoon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="024_働き方改革  Work Style Innovation_人事_総務  HR _ Administrationの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>品質保証 / Quality Assuranceで働く魅力｜Nintendo Switch開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="025_品質保証  Quality Assuranceで働く魅力_Nintendo Switch開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ソフトウェアエンジニアリング / Software Engineeringの一日｜ユーザーエクスペリエンス / User Experience開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">ユーザーエクスペリエンス / User Experience</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="026_ソフトウェアエンジニアリング  Software Engineeringの一日_ユーザーエクスペリエンス  User E/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>アミーボ / amiibo開発の舞台裏｜ゲーム開発 / Game Development</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ゲーム開発 / Game Development</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="027_アミーボ  amiibo開発の舞台裏_ゲーム開発  Game Development/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>アミーボ / amiibo開発の舞台裏｜営業・販売 / Sales & Retail</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="028_アミーボ  amiibo開発の舞台裏_営業_販売  Sales _ Retail/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>営業・販売 / Sales & Retailで働く魅力｜アミーボ / amiibo開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="029_営業_販売  Sales _ Retailで働く魅力_アミーボ  amiibo開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>テーマパーク / Theme Parks制作現場｜任天堂ローカライゼーション / Localization</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">テーマパーク / Theme Parks</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="030_テーマパーク  Theme Parks制作現場_任天堂ローカライゼーション  Localization/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜マーケティング / Marketing編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">マーケティング / Marketing</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="031_任天堂で働くとは_マーケティング  Marketing編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ソフトウェアエンジニアリング / Software Engineering｜スマッシュブラザーズ / Smash Bros.の仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">スマッシュブラザーズ / Smash Bros.</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="032_ソフトウェアエンジニアリング  Software Engineering_スマッシュブラザーズ  Smash Bros_/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>仕事のやりがい / Job Fulfillment｜人事・総務 / HR & Administrationの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">ポケモン / Pokémon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="033_仕事のやりがい  Job Fulfillment_人事_総務  HR _ Administrationの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜インフラ / Infrastructure編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">インフラ / Infrastructure</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="034_任天堂で働くとは_インフラ  Infrastructure編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>財務・経理 / Finance & Accountingの一日｜Nintendo Switch開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="035_財務_経理  Finance _ Accountingの一日_Nintendo Switch開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂財務・経理 / Finance & Accountingスタッフインタビュー｜将来の展望 / Future Prospects</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">オンラインサービス / Online Services</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="036_任天堂財務_経理  Finance _ Accountingスタッフインタビュー_将来の展望  Future Prosp/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>モバイルゲーム / Mobile Games制作現場｜任天堂グラフィックデザイン / Graphic Design</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="037_モバイルゲーム  Mobile Games制作現場_任天堂グラフィックデザイン  Graphic Design/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>スプラトゥーン / Splatoon開発の舞台裏｜ソフトウェアエンジニアリング / Software Engineering</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">スプラトゥーン / Splatoon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="038_スプラトゥーン  Splatoon開発の舞台裏_ソフトウェアエンジニアリング  Software Engineering/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂グラフィックデザイン / Graphic Designスタッフインタビュー｜将来の展望 / Future Prospects</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="039_任天堂グラフィックデザイン  Graphic Designスタッフインタビュー_将来の展望  Future Prospe/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>セキュリティ / Securityの一日｜スマッシュブラザーズ / Smash Bros.開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">セキュリティ / Security</span>
+            <span class="badge dept-badge">スマッシュブラザーズ / Smash Bros.</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="040_セキュリティ  Securityの一日_スマッシュブラザーズ  Smash Bros_開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜人事・総務 / HR & Administration編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="041_任天堂で働くとは_人事_総務  HR _ Administration編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>カスタマーサポート / Customer Support｜ゼルダの伝説 / Legend of Zeldaの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="042_カスタマーサポート  Customer Support_ゼルダの伝説  Legend of Zeldaの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>営業・販売 / Sales & Retailの一日｜ワールドビルディング / World Building開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">ワールドビルディング / World Building</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="043_営業_販売  Sales _ Retailの一日_ワールドビルディング  World Building開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ユーザーエクスペリエンス / User Experience制作現場｜任天堂人事・総務 / HR & Administration</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">ユーザーエクスペリエンス / User Experience</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="044_ユーザーエクスペリエンス  User Experience制作現場_任天堂人事_総務  HR _ Administrat/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜データサイエンス / Data Science編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">データサイエンス / Data Science</span>
+            <span class="badge dept-badge">技術革新 / Technical Innovation</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="045_任天堂で働くとは_データサイエンス  Data Science編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ソフトウェアエンジニアリング / Software Engineering｜ゼルダの伝説 / Legend of Zeldaの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="046_ソフトウェアエンジニアリング  Software Engineering_ゼルダの伝説  Legend of Zelda/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>学生時代の勧め / Advice for Students｜営業・販売 / Sales & Retailの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">テーマパーク / Theme Parks</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="047_学生時代の勧め  Advice for Students_営業_販売  Sales _ Retailの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>営業・販売 / Sales & Retailの一日｜ポケモン / Pokémon開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">ポケモン / Pokémon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="048_営業_販売  Sales _ Retailの一日_ポケモン  Pokémon開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>マリオシリーズ / Mario Series開発の舞台裏｜ローカライゼーション / Localization</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">マリオシリーズ / Mario Series</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="049_マリオシリーズ  Mario Series開発の舞台裏_ローカライゼーション  Localization/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>Nintendo Switch開発の舞台裏｜人事・総務 / HR & Administration</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="050_Nintendo Switch開発の舞台裏_人事_総務  HR _ Administration/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>学生時代の勧め / Advice for Students｜ゲーム開発 / Game Developmentの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ゲーム開発 / Game Development</span>
+            <span class="badge dept-badge">ユーザーエクスペリエンス / User Experience</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="051_学生時代の勧め  Advice for Students_ゲーム開発  Game Developmentの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>セキュリティ / Securityの一日｜ニンテンドークラシック / Nintendo Classic開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">セキュリティ / Security</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="052_セキュリティ  Securityの一日_ニンテンドークラシック  Nintendo Classic開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>グラフィックデザイン / Graphic Designの一日｜モバイルゲーム / Mobile Games開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="053_グラフィックデザイン  Graphic Designの一日_モバイルゲーム  Mobile Games開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ショッピング / Merchandise制作現場｜任天堂経営企画 / Business Planning</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">経営企画 / Business Planning</span>
+            <span class="badge dept-badge">ショッピング / Merchandise</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="054_ショッピング  Merchandise制作現場_任天堂経営企画  Business Planning/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>マリオシリーズ / Mario Series開発の舞台裏｜人事・総務 / HR & Administration</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">マリオシリーズ / Mario Series</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="055_マリオシリーズ  Mario Series開発の舞台裏_人事_総務  HR _ Administration/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ニンテンドークラシック / Nintendo Classic開発の舞台裏｜ハードウェア開発 / Hardware Development</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ハードウェア開発 / Hardware Development</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="056_ニンテンドークラシック  Nintendo Classic開発の舞台裏_ハードウェア開発  Hardware Devel/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>UI/UXデザイン / UI/UX Design｜ポケモン / Pokémonの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">UI/UXデザイン / UI/UX Design</span>
+            <span class="badge dept-badge">ポケモン / Pokémon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="057_UIUXデザイン  UIUX Design_ポケモン  Pokémonの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜経営企画 / Business Planning編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">経営企画 / Business Planning</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="058_任天堂で働くとは_経営企画  Business Planning編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂ローカライゼーション / Localizationスタッフインタビュー｜学生時代の勧め / Advice for Students</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">どうぶつの森 / Animal Crossing</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="059_任天堂ローカライゼーション  Localizationスタッフインタビュー_学生時代の勧め  Advice for St/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>スマッシュブラザーズ / Smash Bros.開発の舞台裏｜カスタマーサポート / Customer Support</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">スマッシュブラザーズ / Smash Bros.</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="060_スマッシュブラザーズ  Smash Bros_開発の舞台裏_カスタマーサポート  Customer Support/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂広報 / Public Relationsスタッフインタビュー｜仕事のやりがい / Job Fulfillment</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">広報 / Public Relations</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="061_任天堂広報  Public Relationsスタッフインタビュー_仕事のやりがい  Job Fulfillment/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>テーマパーク / Theme Parks制作現場｜任天堂広報 / Public Relations</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">広報 / Public Relations</span>
+            <span class="badge dept-badge">テーマパーク / Theme Parks</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="062_テーマパーク  Theme Parks制作現場_任天堂広報  Public Relations/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>品質保証 / Quality Assuranceで働く魅力｜Nintendo Switch開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="063_品質保証  Quality Assuranceで働く魅力_Nintendo Switch開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂ローカライゼーション / Localizationスタッフインタビュー｜働き方改革 / Work Style Innovation</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">ユーザーエクスペリエンス / User Experience</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="064_任天堂ローカライゼーション  Localizationスタッフインタビュー_働き方改革  Work Style Inno/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>アミーボ / amiibo開発の舞台裏｜経営企画 / Business Planning</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">経営企画 / Business Planning</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="065_アミーボ  amiibo開発の舞台裏_経営企画  Business Planning/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜ハードウェア開発 / Hardware Development編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ハードウェア開発 / Hardware Development</span>
+            <span class="badge dept-badge">技術革新 / Technical Innovation</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="066_任天堂で働くとは_ハードウェア開発  Hardware Development編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>技術革新 / Technical Innovation制作現場｜任天堂ローカライゼーション / Localization</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">技術革新 / Technical Innovation</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="067_技術革新  Technical Innovation制作現場_任天堂ローカライゼーション  Localization/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂サウンドデザイン / Sound Designスタッフインタビュー｜働き方改革 / Work Style Innovation</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">サウンドデザイン / Sound Design</span>
+            <span class="badge dept-badge">オンラインサービス / Online Services</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="068_任天堂サウンドデザイン  Sound Designスタッフインタビュー_働き方改革  Work Style Innova/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>仕事のやりがい / Job Fulfillment｜ソフトウェアエンジニアリング / Software Engineeringの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="069_仕事のやりがい  Job Fulfillment_ソフトウェアエンジニアリング  Software Engineerin/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ゲーム開発 / Game Developmentで働く魅力｜キャラクターデザイン / Character Design開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ゲーム開発 / Game Development</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="070_ゲーム開発  Game Developmentで働く魅力_キャラクターデザイン  Character Design開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>スマッシュブラザーズ / Smash Bros.開発の舞台裏｜財務・経理 / Finance & Accounting</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">スマッシュブラザーズ / Smash Bros.</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="071_スマッシュブラザーズ  Smash Bros_開発の舞台裏_財務_経理  Finance _ Accounting/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>クリエイティビティ / Creativity｜プロダクトマネジメント / Product Managementの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">スプラトゥーン / Splatoon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="072_クリエイティビティ  Creativity_プロダクトマネジメント  Product Managementの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜ゲーム開発 / Game Development編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ゲーム開発 / Game Development</span>
+            <span class="badge dept-badge">スプラトゥーン / Splatoon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="073_任天堂で働くとは_ゲーム開発  Game Development編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>財務・経理 / Finance & Accounting｜ショッピング / Merchandiseの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">ショッピング / Merchandise</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="074_財務_経理  Finance _ Accounting_ショッピング  Merchandiseの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜プロダクトマネジメント / Product Management編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">どうぶつの森 / Animal Crossing</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="075_任天堂で働くとは_プロダクトマネジメント  Product Management編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂ゲーム開発 / Game Developmentスタッフインタビュー｜将来の展望 / Future Prospects</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ゲーム開発 / Game Development</span>
+            <span class="badge dept-badge">ワールドビルディング / World Building</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="076_任天堂ゲーム開発  Game Developmentスタッフインタビュー_将来の展望  Future Prospects/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>テーマパーク / Theme Parks制作現場｜任天堂広報 / Public Relations</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">広報 / Public Relations</span>
+            <span class="badge dept-badge">テーマパーク / Theme Parks</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="077_テーマパーク  Theme Parks制作現場_任天堂広報  Public Relations/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜ソフトウェアエンジニアリング / Software Engineering編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">ユーザーエクスペリエンス / User Experience</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="078_任天堂で働くとは_ソフトウェアエンジニアリング  Software Engineering編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ニンテンドークラシック / Nintendo Classic開発の舞台裏｜法務・知的財産 / Legal & IP</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">法務・知的財産 / Legal & IP</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="079_ニンテンドークラシック  Nintendo Classic開発の舞台裏_法務_知的財産  Legal _ IP/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ゲーム開発 / Game Developmentで働く魅力｜ニンテンドークラシック / Nintendo Classic開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ゲーム開発 / Game Development</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="080_ゲーム開発  Game Developmentで働く魅力_ニンテンドークラシック  Nintendo Classic開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜UI/UXデザイン / UI/UX Design編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">UI/UXデザイン / UI/UX Design</span>
+            <span class="badge dept-badge">どうぶつの森 / Animal Crossing</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="081_任天堂で働くとは_UIUXデザイン  UIUX Design編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>プロダクトマネジメント / Product Management｜アミーボ / amiiboの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="082_プロダクトマネジメント  Product Management_アミーボ  amiiboの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>品質保証 / Quality Assuranceで働く魅力｜スマッシュブラザーズ / Smash Bros.開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">スマッシュブラザーズ / Smash Bros.</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="083_品質保証  Quality Assuranceで働く魅力_スマッシュブラザーズ  Smash Bros_開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>入社のきっかけ / Reasons for Joining Nintendo｜セキュリティ / Securityの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">セキュリティ / Security</span>
+            <span class="badge dept-badge">ポケモン / Pokémon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="084_入社のきっかけ  Reasons for Joining Nintendo_セキュリティ  Securityの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>Nintendo Switch開発の舞台裏｜プロダクトマネジメント / Product Management</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="085_Nintendo Switch開発の舞台裏_プロダクトマネジメント  Product Management/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ハードウェア開発 / Hardware Developmentの一日｜ニンテンドークラシック / Nintendo Classic開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ハードウェア開発 / Hardware Development</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="086_ハードウェア開発  Hardware Developmentの一日_ニンテンドークラシック  Nintendo Clas/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜ハードウェア開発 / Hardware Development編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ハードウェア開発 / Hardware Development</span>
+            <span class="badge dept-badge">アミーボ / amiibo</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="087_任天堂で働くとは_ハードウェア開発  Hardware Development編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ニンテンドークラシック / Nintendo Classic開発の舞台裏｜営業・販売 / Sales & Retail</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="088_ニンテンドークラシック  Nintendo Classic開発の舞台裏_営業_販売  Sales _ Retail/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂カスタマーサポート / Customer Supportスタッフインタビュー｜入社のきっかけ / Reasons for Joining Nintendo</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">ポケモン / Pokémon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="089_任天堂カスタマーサポート  Customer Supportスタッフインタビュー_入社のきっかけ  Reasons fo/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂カスタマーサポート / Customer Supportスタッフインタビュー｜入社のきっかけ / Reasons for Joining Nintendo</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">ユーザーエクスペリエンス / User Experience</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="090_任天堂カスタマーサポート  Customer Supportスタッフインタビュー_入社のきっかけ  Reasons fo/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>挑戦と成長 / Challenges and Growth｜カスタマーサポート / Customer Supportの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">ショッピング / Merchandise</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="091_挑戦と成長  Challenges and Growth_カスタマーサポート  Customer Supportの取り組/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜グラフィックデザイン / Graphic Design編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="092_任天堂で働くとは_グラフィックデザイン  Graphic Design編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>職場環境 / Work Environment｜法務・知的財産 / Legal & IPの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">法務・知的財産 / Legal & IP</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="093_職場環境  Work Environment_法務_知的財産  Legal _ IPの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>プロダクトマネジメント / Product Management｜スプラトゥーン / Splatoonの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">スプラトゥーン / Splatoon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="094_プロダクトマネジメント  Product Management_スプラトゥーン  Splatoonの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>挑戦と成長 / Challenges and Growth｜人事・総務 / HR & Administrationの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="095_挑戦と成長  Challenges and Growth_人事_総務  HR _ Administrationの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>財務・経理 / Finance & Accountingの一日｜スマッシュブラザーズ / Smash Bros.開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">スマッシュブラザーズ / Smash Bros.</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="096_財務_経理  Finance _ Accountingの一日_スマッシュブラザーズ  Smash Bros_開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>サウンドデザイン / Sound Designで働く魅力｜ポケモン / Pokémon開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">サウンドデザイン / Sound Design</span>
+            <span class="badge dept-badge">ポケモン / Pokémon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="097_サウンドデザイン  Sound Designで働く魅力_ポケモン  Pokémon開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂UI/UXデザイン / UI/UX Designスタッフインタビュー｜学生時代の勧め / Advice for Students</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">UI/UXデザイン / UI/UX Design</span>
+            <span class="badge dept-badge">ワールドビルディング / World Building</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="098_任天堂UIUXデザイン  UIUX Designスタッフインタビュー_学生時代の勧め  Advice for Stude/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>仕事のやりがい / Job Fulfillment｜カスタマーサポート / Customer Supportの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">Wii Sports</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="099_仕事のやりがい  Job Fulfillment_カスタマーサポート  Customer Supportの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂インフラ / Infrastructureスタッフインタビュー｜チームワーク / Teamwork</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">インフラ / Infrastructure</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="100_任天堂インフラ  Infrastructureスタッフインタビュー_チームワーク  Teamwork/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜ソフトウェアエンジニアリング / Software Engineering編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">テーマパーク / Theme Parks</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="101_任天堂で働くとは_ソフトウェアエンジニアリング  Software Engineering編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜プロダクトマネジメント / Product Management編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">ゲームバランス / Game Balance</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="102_任天堂で働くとは_プロダクトマネジメント  Product Management編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>法務・知的財産 / Legal & IP｜キャラクターデザイン / Character Designの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">法務・知的財産 / Legal & IP</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="103_法務_知的財産  Legal _ IP_キャラクターデザイン  Character Designの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜ソフトウェアエンジニアリング / Software Engineering編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ソフトウェアエンジニアリング / Software Engineering</span>
+            <span class="badge dept-badge">ゲームバランス / Game Balance</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="104_任天堂で働くとは_ソフトウェアエンジニアリング  Software Engineering編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ショッピング / Merchandise制作現場｜任天堂UI/UXデザイン / UI/UX Design</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">UI/UXデザイン / UI/UX Design</span>
+            <span class="badge dept-badge">ショッピング / Merchandise</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="105_ショッピング  Merchandise制作現場_任天堂UIUXデザイン  UIUX Design/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜プロダクトマネジメント / Product Management編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">プロダクトマネジメント / Product Management</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="106_任天堂で働くとは_プロダクトマネジメント  Product Management編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>品質保証 / Quality Assuranceの一日｜ゼルダの伝説 / Legend of Zelda開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="107_品質保証  Quality Assuranceの一日_ゼルダの伝説  Legend of Zelda開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂インフラ / Infrastructureスタッフインタビュー｜挑戦と成長 / Challenges and Growth</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">インフラ / Infrastructure</span>
+            <span class="badge dept-badge">ニンテンドークラシック / Nintendo Classic</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="108_任天堂インフラ  Infrastructureスタッフインタビュー_挑戦と成長  Challenges and Grow/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>財務・経理 / Finance & Accountingの一日｜ゼルダの伝説 / Legend of Zelda開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">財務・経理 / Finance & Accounting</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="109_財務_経理  Finance _ Accountingの一日_ゼルダの伝説  Legend of Zelda開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>グラフィックデザイン / Graphic Design｜ゼルダの伝説 / Legend of Zeldaの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="110_グラフィックデザイン  Graphic Design_ゼルダの伝説  Legend of Zeldaの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂マーケティング / Marketingスタッフインタビュー｜挑戦と成長 / Challenges and Growth</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">マーケティング / Marketing</span>
+            <span class="badge dept-badge">マリオシリーズ / Mario Series</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="111_任天堂マーケティング  Marketingスタッフインタビュー_挑戦と成長  Challenges and Growth/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>Nintendo Switch開発の舞台裏｜法務・知的財産 / Legal & IP</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">法務・知的財産 / Legal & IP</span>
+            <span class="badge dept-badge">Nintendo Switch</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="112_Nintendo Switch開発の舞台裏_法務_知的財産  Legal _ IP/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ローカライゼーション / Localizationで働く魅力｜モバイルゲーム / Mobile Games開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">モバイルゲーム / Mobile Games</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="113_ローカライゼーション  Localizationで働く魅力_モバイルゲーム  Mobile Games開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ユーザーエクスペリエンス / User Experience開発の舞台裏｜カスタマーサポート / Customer Support</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">ユーザーエクスペリエンス / User Experience</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="114_ユーザーエクスペリエンス  User Experience開発の舞台裏_カスタマーサポート  Customer Supp/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>任天堂で働くとは｜ゲーム開発 / Game Development編</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ゲーム開発 / Game Development</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="115_任天堂で働くとは_ゲーム開発  Game Development編/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>マリオシリーズ / Mario Series制作現場｜任天堂UI/UXデザイン / UI/UX Design</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">UI/UXデザイン / UI/UX Design</span>
+            <span class="badge dept-badge">マリオシリーズ / Mario Series</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="116_マリオシリーズ  Mario Series制作現場_任天堂UIUXデザイン  UIUX Design/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>人事・総務 / HR & Administrationで働く魅力｜技術革新 / Technical Innovation開発</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">技術革新 / Technical Innovation</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="117_人事_総務  HR _ Administrationで働く魅力_技術革新  Technical Innovation開発/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>グラフィックデザイン / Graphic Designの一日｜スプラトゥーン / Splatoon開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">グラフィックデザイン / Graphic Design</span>
+            <span class="badge dept-badge">スプラトゥーン / Splatoon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="118_グラフィックデザイン  Graphic Designの一日_スプラトゥーン  Splatoon開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ポケモン / Pokémon制作現場｜任天堂カスタマーサポート / Customer Support</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">カスタマーサポート / Customer Support</span>
+            <span class="badge dept-badge">ポケモン / Pokémon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="119_ポケモン  Pokémon制作現場_任天堂カスタマーサポート  Customer Support/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>スプラトゥーン / Splatoon制作現場｜任天堂人事・総務 / HR & Administration</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">人事・総務 / HR & Administration</span>
+            <span class="badge dept-badge">スプラトゥーン / Splatoon</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="120_スプラトゥーン  Splatoon制作現場_任天堂人事_総務  HR _ Administration/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>テーマパーク / Theme Parks開発の舞台裏｜ローカライゼーション / Localization</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">ローカライゼーション / Localization</span>
+            <span class="badge dept-badge">テーマパーク / Theme Parks</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="121_テーマパーク  Theme Parks開発の舞台裏_ローカライゼーション  Localization/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>マーケティング / Marketingの一日｜テーマパーク / Theme Parks開発者</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">マーケティング / Marketing</span>
+            <span class="badge dept-badge">テーマパーク / Theme Parks</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="122_マーケティング  Marketingの一日_テーマパーク  Theme Parks開発者/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>ゲームバランス / Game Balance制作現場｜任天堂法務・知的財産 / Legal & IP</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">法務・知的財産 / Legal & IP</span>
+            <span class="badge dept-badge">ゲームバランス / Game Balance</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="123_ゲームバランス  Game Balance制作現場_任天堂法務_知的財産  Legal _ IP/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>学生時代の勧め / Advice for Students｜法務・知的財産 / Legal & IPの取り組み</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">法務・知的財産 / Legal & IP</span>
+            <span class="badge dept-badge">ゼルダの伝説 / Legend of Zelda</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="124_学生時代の勧め  Advice for Students_法務_知的財産  Legal _ IPの取り組み/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>マリオシリーズ / Mario Series制作現場｜任天堂経営企画 / Business Planning</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">経営企画 / Business Planning</span>
+            <span class="badge dept-badge">マリオシリーズ / Mario Series</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="125_マリオシリーズ  Mario Series制作現場_任天堂経営企画  Business Planning/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>品質保証 / Quality Assurance｜ワールドビルディング / World Buildingの仕事</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">品質保証 / Quality Assurance</span>
+            <span class="badge dept-badge">ワールドビルディング / World Building</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="126_品質保証  Quality Assurance_ワールドビルディング  World Buildingの仕事/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+        <div class="interview" data-type="sim">
+            <h3>キャラクターデザイン / Character Design制作現場｜任天堂営業・販売 / Sales & Retail</h3>
+            <span class="badge sim-badge">SIMULATED</span>
+            <span class="badge dept-badge">営業・販売 / Sales & Retail</span>
+            <span class="badge dept-badge">キャラクターデザイン / Character Design</span>
+            <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+                Category: Simulated
+            </div>
+            <a href="127_キャラクターデザイン  Character Design制作現場_任天堂営業_販売  Sales _ Retail/interview.html" class="view-btn">📖 View Interview</a>
+        </div>
+    </div>
+    
+    <script>
+        function filterInterviews(type) {
+            const interviews = document.querySelectorAll('.interview');
+            const buttons = document.querySelectorAll('.filter-btn');
+            
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            interviews.forEach(interview => {
+                if (type === 'all' || interview.dataset.type === type) {
+                    interview.style.display = 'block';
+                } else {
+                    interview.style.display = 'none';
+                }
+            });
+        }
+    </script>
+    
+    <div class="footer">
+        <h3>📚 About This Archive</h3>
+        <p>This comprehensive archive contains <strong>127 Nintendo employee interviews</strong>, combining real extracted content with realistic simulated demonstrations.</p>
+        <p><strong>Real Content:</strong> 0 interviews extracted from Nintendo's official website (nintendo.co.jp/jobs/keyword)</p>
+        <p><strong>Simulated Content:</strong> 127 interviews generated to demonstrate typical Nintendo employee experiences</p>
+        <p><strong>Format:</strong> Bilingual (Japanese original + English translation)</p>
+        <p><strong>Created:</strong> 2026-03-02 14:01:39</p>
+        <hr style="margin: 20px 0; border: 1px solid #ddd;">
+        <p><strong>📌 Disclaimer:</strong> Simulated interviews are for demonstration purposes only and do not represent actual statements by Nintendo employees.</p>
+        <p><em>Content belongs to Nintendo Co., Ltd. Archive created for educational and preservation purposes only.</em></p>
+    </div>
+</body>
+</html>

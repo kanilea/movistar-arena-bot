@@ -1,0 +1,56 @@
+# Wii
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeWii
+See All VolumesSelect the volume you would like to read:Volume 1 : The MusicVolume 2 : The Developers
+Volume 1 : The Music
+1. Selecting Mario's Most Representative Music2. Songs You Can Listen to Over and Over3. Music Follows Function4. Music Follows Function5. Music Commentary by Koji Kondo (2)6. Music Commentary by Koji Kondo (3)
+Selecting Mario's Most Representative MusicIwataTo commemorate the twenty-fifth anniversary of Super Mario, Nintendo will be releasing a
+Limited Edition Super Mario All-Stars game for Wii. It will include a "Super Mario History" with information about the 25-year history and development of the Super Mario games, along with a soundtrack CD featuring music from the Super Mario games. Today I've invited three sound staff members to ask them about the tradition behind the music of Super Mario. Thank you for coming today.EveryoneThank you.IwataWhen 25 years pass, the generation gap spreads out nicely! (laughs)Yokota(looking to either side) Yeah. About 10 years separates me from the each of them.Kondo(gesturing toward Yokota) There are several people between us too, though.IwataRight. The three of you appeared in the session of  "Iwata Asks" over Super Mario Galaxy 21, but would you please introduce yourselves?KondoI'm Kondo from the Software Development Department of the Entertainment Analysis & Development Division. I worked on the music for Super Mario2 25 years ago, and I've been involved with the series all the way up through the most recent Super Mario Galaxy 2. YokotaI'm Yokota from the Tokyo Software Development Department. I've been involved with making Mario music since Super Mario Galaxy.3NagamatsuI'm Nagamatsu, also in the Software Development Department's Sound Group, just like Kondo-san. The first Mario game I worked on was Mario Kart Wii4, but when it comes to the traditional Super Mario series, I've worked on New Super Mario Bros. Wii5 and Super Mario Galaxy 2.
+1
+Super Mario Galaxy 2: An action game released for the Wii console in May 2010.
+2
+Super Mario Bros.: An action game released for the Famicom (NES) in September 1985. It is included in the Super Mario Collection Special Pack.
+3
+Super Mario Galaxy: An action game released for the Wii console in November 2007.
+4
+Mario Kart Wii: A racing game released for the Wii console in April 2008.
+5
+New Super Mario Bros. Wii: A action game released for the Wii console in December 2009.
+IwataThere's quite a catalog of music for the Mario games. Wasn't it hard to choose certain songs from that vast amount of music for this CD to commemorate the series?KondoIt sure was. At first I was worried about how to structure the compilation, but then I decided the fans would probably be most pleased to hear one representative song from each of the ten games from the original Super Mario Bros. through Super Mario Galaxy 2.IwataWas it hard to choose just one representative song from each game?YokotaCertainly everyone has their own favorites.KondoWe started by lining them up in the order you hear them in a game—starting with aboveground music or a theme song—then partway through we introduced a change, slipping in music from more athletic scenes.NagamatsuIn order to make this CD, we researched the past music, and we found out that title songs didn't appear up through Super Mario Bros. 3.6IwataOh, that's right. Title songs didn't appear in the Super Mario games that came out for the Famicom.NagamatsuThat's right.IwataWell, title songs wouldn't fit into the game back then. There wasn't the memory for it. It was a pretty simple reason.KondoYeah.YokotaAnd there really wasn't one in Super Mario Bros. 3?NagamatsuRight.YokotaDidn't leaves fall and a curtain come down?KondoThat's right.YokotaBut there's no sound.KondoRight. We put the first
+title song into Mario World7 for the Super Famicom.
+6
+Super Mario Bros. 3: An action game released for the Famicom system in October 1988. It is included in the Super Mario Collection Special Pack.
+7
+Super Mario World: An action game released simultaneously with the Super Famicom system in November 1990. The fourth game in the series.
+IwataKondo-san, were you the one who chose the music for this CD?KondoYes. I got to choose my own songs! (laughs)YokotaYou could say it's your "best of" album!IwataSo it's Koji Kondo's Greatest Hits! (laughs)KondoYeah! (laughs)IwataWhat do you think of this selection, Yokota-san?YokotaI'm a real game music fanatic. I love Mario music, and I think fans will like this selection, too.IwataCan you give me a specific example?YokotaFor example,
+"Slider"" from Mario 64.8IwataOh, that song! It certainly is catchy!
+8
+Super Mario 64: The first Mario 3D action game, released simultaneously with the Nintendo 64 system in June 1996.
+YokotaI really like that song. I didn't work for Nintendo when the N64 came out, but it's a dear song to me. I had my wife listen to it saying, "This is a great song!" I didn't notice at first, but it's an arrangement of the
+aboveground background music for Super Mario 64. Which did you make first, Kondo-san?KondoThe aboveground BGM (background music).YokotaOh, really? When I listened closely, the
+melodies were the same for "Slider" and the aboveground BGM. As a gamer playing the N64, I was impressed at how big a change an arrangement could make.IwataHow old were you then?YokotaI was a working adult. I think I was about 23 or 24. I had just gotten married and was playing video games at home...IwataAnd you said to your wife, "Listen to the music in this video game!"YokotaYeah! (laughs) I was raving to her about how great Kondo-san's music was. (to Kondo-san) Have I ever told you that story?Kondo(tilts head in silence)Everyone(laughs)YokotaI had always loved the "Slider" song, and then when I heard the orchestral arrangement for the Smash Bros. Concert9, I liked it even more and thought I wanted to arrange it myself someday. I thought I would use it in the first Super Mario Galaxy, and was all ready, but when it came to places where the song would fit, places with sliding...IwataThere weren't any. (laughs)YokotaRight. (laughs) So I put it on hold. There was some sliding action in Super Mario Galaxy 2, though, so I put in
+an arrangement of it without even asking anyone's opinion first.Iwata(laughs)YokotaI didn't get anyone's permission, but I thought it was perfect. Then my dream arrangement...IwataIt finally came true.YokotaYeah. I was really happy.IwataBy the way, when your wife heard "Slider" for the N64, did she like it?YokotaShe didn't have much to say about it. (laughs)IwataDid she play that part of the game?YokotaNo, I don't think so.IwataYou have to fall down a bunch, and you say to yourself "one more time"! (laughs) Then you'll remember that song with your body.YokotaThat's right. (laughs)IwataThat's why that song has really stuck with me, too.YokotaMe too. Because I fell off a bunch of times, missed a bunch of coins, and then said, "One more time!" (laughs)
+Iwata Asks HomeNext
+interviewSuper Mario All-Stars00
+e
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Wii
+- **URL:** https://iwataasks.nintendo.com/interviews/wii/super-mario-all-stars/0/0/
+- **Downloaded:** 2026-03-02 12:31:40
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

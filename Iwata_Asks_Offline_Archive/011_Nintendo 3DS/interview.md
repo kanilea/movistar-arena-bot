@@ -1,0 +1,136 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+Mario & Luigi: Dream Team
+1. Burnt Blank2. Pixel Art Craftsmen3. For Love of Hands-on Work4. Memorable Experiences5. An RPG Made by Craftsmen
+Burnt BlankIwata
+Today, I asked those who were involved with Mario & Luigi: Dream Team for the Nintendo 3DS system to join me. First, please introduce yourself and what you worked on. Go ahead, Maekawa-san.
+Maekawa
+I'm Maekawa from AlphaDream.1 and I produced this game. I was involved in management, mainly for the overall process and communicating with Otani-san, and also in getting cooperation from an outside company.
+1. AlphaDream Corporation: A video-game developer in Shibuya Ward, Tokyo. Founded: 2000. Representative works include the Mario & Luigi series. Mario & Luigi: Dream Team, the latest installment in the series, will be released for the Nintendo 3DS system on July 18, 2013.
+Iwata
+You've been involved with the series from the start, haven't you?
+Maekawa
+I was director of the first game, Mario & Luigi: Superstar Saga2, and I've been something like a producer since the second one, Mario & Luigi: Partners in Time.3
+2. Mario & Luigi: Superstar Saga: An action-RPG released for the Game Boy Advance system in November 2003. Adventure across the Beanbean Kingdom to take back the beautiful voice of Princess Peach.
+3. Mario & Luigi: Partners in Time: The second game in the series, released for the Nintendo DS system in December 2005. Mario and Luigi have an adventure in the past while cooperating with their younger selves: Baby Mario and Baby Luigi.
+Iwata
+You've been walking alongside the series for over ten years now.
+Maekawa
+Yes.
+Iwata
+Okay, Kubota-san?
+Kubota
+I'm Kubota from AlphaDream. I was in charge of direction and the script. I've been involved in the three games in the series in a row as the director since the 2nd iteration. For the first game, I worked on such areas as field configuration and the script.
+Iwata
+So you and Maekawa-san have been partners this whole time.
+Kubota
+Yes. It's been a long time! (laughs)
+Otani
+I'm Otani, who served as producer at Nintendo. I've been involved since the second game in the series, keeping an eye on the overall project together with Maekawa-san.
+Sano
+I'm Sano from Nintendo. I served as Otani-san's helper in the capacity of assistant producer. I was originally a designer, so I mainly looked at graphical elements, but I had the role of looking at the content from the viewpoint of the ease in gameplay and enjoyableness.
+Iwata
+Okay. First, I'd like to talk about the previous game. Fortunately, many people played the third game, Mario & Luigi: Bowser's Inside Story4, and the fan base suddenly expanded. Could I ask each of you to say what part of the third game you think was evaluated so highly?
+4. Mario & Luigi: Bowser's Inside Story: The third game in the series. An action-RPG released for the Nintendo DS system in February 2009. Mario and Luigi adventure inside Bowser's body.
+Otani
+We're starting with the third one? (laughs) I think the great thing about the third one was Bowser.
+Iwata
+Mario adventures inside Bowser's body, and you battle as a giant Bowser, right? How about you Maekawa-san?
+Maekawa
+Well, Bowser and, um...
+Izuno
+If I may interject, I think it was the dual-screen gameplay.
+Iwata
+Yeah. (laughs) (Toshiharu) Izuno-san5 to the rescue! Could you please introduce yourself?
+5. Toshiharu Izuno: Software Planning & Development Department, Software Planning & Development Division, Nintendo. Producer of Mario & Luigi: Dream Team. In the past, he has appeared in previous sessions of Iwata Asks about  Spirit Camera: The Cursed Memoir and Hana to Ikimono Rittai Zukan.
+Izuno
+Okay. (laughs) I'm Izuno from Nintendo. I first worked with them on Tomato Adventure6, and I've been making games with AlphaDream ever since. I've been the producer since the third game. This time I was general producer. Sales for the Mario & Luigi series had slowed with the second game, so we thought about how we could make a comeback with the third one.
+6. Tomato Adventure: An action-command RPG that was released in Japan for the Game Boy Advance system in January 2002. Developed by AlphaDream Corporation.
+Otani
+That's right. The third game was a chance to rally, and when I was thinking about how we could make it, Kubota-san suggested that we consider using Bowser. But at firstâ¦
+Iwata
+You thought, "This is a Mario & Luigi game, so why Bowser?"
+Otani
+Yes. I couldn't see how we could make the game with Bowser, but when we started thinking about gameplay with Bowser, a lot of interesting ideas came up.
+Izuno
+The idea of having a giant Bowser arose, and we played with the difference in scale between microscopic gameplay inside Bowser's body and having a giant Bowser.
+Iwata
+Having a giant Bowser created a feeling that was different from normal, and that dynamic was good.
+Kubota
+Yes. It was also good how you held the Nintendo DS system vertically in the giant Bowser battle.
+Otani
+That made an impact, so it was a good idea. Even (Shigeru) Miyamoto-san praised the idea of holding it vertically. (laughs)
+Iwata
+As a result, after the series made a comeback with the third game and everyone's expectations mounted, it came about to make a fourth one. did the pressure feel different than it did last time?
+Kubota
+Oh, yeah. To be honest, when the third one was done, I was like a white sheet of paper.
+Iwata
+You'd burnt out until you were blank. (laughs)
+Kubota
+Yes. (laughs) But we had to get moving on the next one, so I had the staff come up with all sorts of ideas. Among them was an idea that served as the prototype for the dream system. Otani-san really sunk his teeth into that one!
+Otani
+We thought of using Bowser again, but if we relied on other characters too much, it wouldn't be a Mario & Luigi game anymore, so we wanted the content of at least the fourth game to feature only Mario and Luigi. For that reason, we asked AlphaDream to think of something only using Mario and Luigi. We placed other characters off limits.
+Iwata
+No Bowser? That's a harsh condition.
+Maekawa
+From the time the development of the third game ended, it took about half a year until we had an idea.
+Otani
+The idea came up of a Dream World in which hordes of Luigis show up.
+Iwata
+Yes. This game's adventure goes back and forth between the Real World and a Dream World that appears when Luigi goes to sleep. Since it's a dream, lots of Dreamy Luigis show up in the Dream World. At first, were the Dream World and lots of Dreamy Luigis one single idea?
+Kubota
+No, they were separate ideas. First, the idea of lots of Luigis came up, and then the Dream World came up a little later.
+Otani
+First, we made a prototype in which lots of Luigis showed up. Gameplay involved heading for the goal without destroying Luigis, and the action element was strong, but we couldn't base a whole game around it. So we thought of another style of dual-screen gameplay and added to the first idea that of using the bottom screen to fool around with a sleeping Luigi in the Real World and the upper screen for bringing about changes in the Dream World.
+Maekawa
+But at first, Kubota-san was adamantly opposed to the idea of putting Luigi's face on the bottom screen.
+Kubota
+Huh?
+Maekawa
+You were totally against it, weren't you?
+Kubota
+Uhâ¦was I? (laughs)
+Iwata
+I'm shocked. (laughs)
+Kubota
+No, no! (laughs) Well, I was uneasy about whether the dream gameplay would really take off. But the series has always toyed with Luigi, so messing with his sleeping face was in keeping with the taste of the series.
+Iwata
+And it's coming out on Luigi's thirtieth anniversary yearâ¦
+Kubota
+I never could have imagined that! (laughs)
+Iwata
+What did you think when we announced the Year of Luigi?7
+7. The Year of Luigi: It has been 30 years since Luigi made his first appearance in 1983 in the arcade game Mario Bros. In an edition of Nintendo Direct released on February 14, 2013 called "Nintendo 3DS Direct Luigi Special" in Japan, Satoru Iwata appeared wearing a Luigi cap to announce 2013 as the Year of Luigi.
+Otani
+I'm sorry to say, but I was like, "This is Luigi's thirtieth anniversary?!" (laughs) But as a producer, I was happy.
+Maekawa
+We've looked over Luigi for ten years, too, so we were truly happy. Even though we treat him so horribly in the games! (laughs)
+Iwata
+Luigi has suffered poor treatment in lots of games, so at least this year we wanted to let him enjoy some acclaim via the Year of Luigi project.
+Kubota
+That's right. But this time, too, you mess around a lot with Luigi's face as he sleeps! (laughs)
+Iwata Asks HomeNext
+interviewMario & Luigi: Dream Team00
+e10Mild Cartoon Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/mario-and-luigi-dream-team/0/0/
+- **Downloaded:** 2026-03-02 12:30:06
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

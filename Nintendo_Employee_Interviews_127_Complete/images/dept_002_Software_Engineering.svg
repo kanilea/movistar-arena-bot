@@ -1,0 +1,17 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100%" height="100%" fill="#0099CC"/>
+        <circle cx="150" cy="60" r="40" fill="white"/>
+        <text x="150" y="70" font-family="Arial" font-size="24" fill="#0099CC" text-anchor="middle" font-weight="bold">
+            <tspan>テク</tspan>
+        </text>
+        <text x="150" y="100" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">
+            Software Engineering
+        </text>
+        <rect x="50" y="120" width="200" height="60" fill="rgba(255,255,255,0.2)"/>
+        <text x="150" y="145" font-family="Arial" font-size="14" fill="white" text-anchor="middle">
+            Department
+        </text>
+        <text x="150" y="165" font-family="Arial" font-size="12" fill="white" text-anchor="middle">
+            任天堂
+        </text>
+    </svg>

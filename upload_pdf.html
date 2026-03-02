@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Upload to SAP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .upload-container {
+            border: 2px dashed #ccc;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .file-input {
+            margin: 20px 0;
+        }
+        .btn {
+            background-color: #0854a0;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #073d7a;
+        }
+        .btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            display: none;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .info {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload PDF to SAP Backend</h1>
+    
+    <div class="upload-container">
+        <h3>Select PDF File</h3>
+        <input type="file" id="fileInput" accept=".pdf" class="file-input">
+        <br>
+        <button id="uploadBtn" class="btn" disabled>Upload to SAP</button>
+        
+        <div class="info" id="fileInfo"></div>
+    </div>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const fileInfo = document.getElementById('fileInfo');
+        const resultDiv = document.getElementById('result');
+
+        let base64Data = '';
+        let fileName = '';
+
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            
+            if (file) {
+                if (file.type !== 'application/pdf') {
+                    alert('Please select a PDF file');
+                    fileInput.value = '';
+                    return;
+                }
+
+                fileName = file.name;
+                const fileSize = (file.size / 1024).toFixed(2);
+                fileInfo.innerHTML = `Selected: ${fileName} (${fileSize} KB)`;
+                
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    const binaryData = event.target.result;
+                    base64Data = btoa(
+                        new Uint8Array(binaryData)
+                            .reduce((data, byte) => data + String.fromCharCode(byte), '')
+                    );
+                    
+                    uploadBtn.disabled = false;
+                    console.log('Base64 length:', base64Data.length);
+                };
+                
+                reader.readAsArrayBuffer(file);
+            }
+        });
+
+        uploadBtn.addEventListener('click', function() {
+            if (!base64Data) {
+                alert('Please select a file first');
+                return;
+            }
+
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = 'Uploading...';
+            resultDiv.style.display = 'none';
+
+            const payload = {
+                fileName: fileName,
+                fileData: base64Data,
+                fileSize: base64Data.length
+            };
+
+            fetch('/sap/opu/odata/sap/Z_PDF_UPLOAD_SRV/PDFUploadSet', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-Token': 'Fetch'
+                },
+                body: JSON.stringify(payload)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Upload failed: ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                resultDiv.className = 'result success';
+                resultDiv.innerHTML = `<strong>Success!</strong><br>File uploaded successfully to SAP.<br>Response: ${JSON.stringify(data)}`;
+                resultDiv.style.display = 'block';
+                
+                fileInput.value = '';
+                fileInfo.innerHTML = '';
+                base64Data = '';
+                uploadBtn.textContent = 'Upload to SAP';
+            })
+            .catch(error => {
+                resultDiv.className = 'result error';
+                resultDiv.innerHTML = `<strong>Error!</strong><br>${error.message}`;
+                resultDiv.style.display = 'block';
+                uploadBtn.disabled = false;
+                uploadBtn.textContent = 'Upload to SAP';
+            });
+        });
+    </script>
+</body>
+</html>

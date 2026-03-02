@@ -1,0 +1,51 @@
+# Wii U
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeWii U
+Wii U: Miiverse: The Developers
+1. A Browser Made For A Gaming Console2. Mii Characters Bring It to Life3. Empathy4. Cloud Game Diary
+A Browser Made For A Gaming ConsoleIwataFollowing the discussion in Miiverse: The Producers, this is the second discussion covering Miiverse. Thank you for coming.EveryoneThank you for having us.IwataOkay, let's start with self-introductions, including what you worked on for Miiverse. Yuzawa-san, would you start?YuzawaAll right. I'm Yuzawa from the Network Business Department. For Miiverse, I mainly worked on system design related to the server, but I also coordinated with Hatena.1
+1. Hatena Co., Ltd: An Internet company developing such services as Jinriki Kensaku Hatena and Hatena Diary. It was founded in 2001 and is based in Kyoto.
+KatoI'm Kato, also from the Network Business Department. I helped develop the necessary libraries for communicating between Miiverse and games running on the Wii U console with a developing company called Denyusha.2
+2. Denyusha Co., Ltd: A game developing company in Kyoto. Past works include developing software for the portable gaming system PokÃ©mon™ Mini, working as a development partner with Nintendo on Nintendo Zone™ and "Demae Channel" (a Wii Channel only available in Japan), and Game Notes and Swapnote™ applications on the Nintendo 3DS eShop. Established 2002.
+KurisuHello. I'm Kurisu from Hatena. I was involved as a director on the Hatena side. Pleased to meet you.IwataIt's a pleasure.MotoyamaHello. I'm Motoyama from Hatena. I mainly worked on UI3 design for Miiverse. Thanks for having me.
+3. UI (user interface): This refers to the content displayed on displays like windows, menus and other elements that help users interact with and operate a computer.
+IwataNice to meet you. Today, I would like to ask you about how it felt as Miiverse came together. First, could you tell me your first impression of Miiverse?YuzawaSure. Before I joined Nintendo, I had been involved in starting up a number of Web services, so when I heard about Miiverse, I raised my hand to volunteer to work on it.IwataYou must have been like, "Finally, something in my field!" (laughs) How about you, Kato-san?KatoI first heard about Miiverse not as staff, but when (Kiyoshi) Mizuki-san4 suddenly introduced it, saying, "We're going to do a empathy network." It hadn't been decided yet who was going to work on it, so the place was abuzz. (laughs) But when I heard that, I thought it sounded great.
+4. Kiyoshi Mizuki: Network Business Department. A producer of Miiverse. In addition to appearing in the session of  "Iwata Asks" with the producers of Miiverse for the Wii U, he has appeared in past sessions over Personal Trainer: Walking for the Nintendo DS and the  Nintendo 3DS built-in software.
+IwataWhat first caught your attention?KatoWe've had services in which customers posted material beforeâlike Flipnote Studio5 and the Check Mii Out Channel6 âbut Miiverse is a new network service in the console from the start, which I thought was great. I got approached just when I was thinking, "I want to do that!"
+5. Flipnote Studio: Software in the Nintendo DSi™ and Nintendo DSi XL™ systems for drawing and writing notes with the stylus. Multiple notes can be played to resemble flipbook-style animation. By connecting to the Internet, users can share their flipnotes with others.
+6. Check Mii Out Channel: A Wii Channel. Users may post their Mii™ characters for others to see or receive Mii characters from others. Users may also submit Mii characters to contests following certain guidelines and evaluate others' Mii characters.
+IwataYou must have been emitting a vibe that said, "Let me work on this"! (laughs) How about you Kurisu-san?KurisuWell, I heard about Miiverse from (Junya) Kondo-san.7 When I heard that you could connect to games and post screenshots and messages, I knew I wanted to do it.
+Also, having worked on the world release of Flipnote Hatena8 as an engineering director, I began working on something else immediately afterward and never got to see people from all over the world making submissions. But this time, service will start first from overseas9, so I can't wait.
+7. Junya Kondo: President and CEO, Hatena Co., Ltd. In addition to appearing in the session of  "Iwata Asks" with the producers of Miiverse for the Wii U, he appeared in the session over  Flipnote Studio for the Nintendo DSi.
+8. Flipnote Hatena: A website accessible by computer or Nintendo DSi browser. It allows users to enjoy flipnotes created by Flipnote Studio.
+9. Service will start overseas: The Wii U™ console will be released in North America on November 18, 2012, in Europe on November 30, 2012, and in Japan on December 8, 2012.
+IwataAnd you, Motoyama-san?MotoyamaUntil then, I'd been involved in design for the Hatena Bookmark10 service on PC and smartphones like the iPhone. So to be honest, when I first heard about it, I wasn't sure I was right for it since I had never designed for a gaming console. But I thought it would be valuable as a new work experience, so I came on board.
+10. Hatena Bookmark: A service that allows users to manage their favorite websites online, see what sites others are using, and search for information on the Web.
+IwataAt the very least, it seems that you each thought it looked interesting, but since it was your first time to work together in making a core service for an as-yet unreleased platform, I would imagine that your first task was figuring out how to unify your conceptions of it. Yuzawa-san and Kurisu-san, how did the two of you work that out?YuzawaWell, when you develop a regular website, usually the web browsers that the site appears on already exists, right? But this time, even the browser itself was still under development. So, for the moment, we set aside what would be possible to do and discussed what kind of functions we wanted to give to customers.IwataHow did you proceed with that?KurisuYuzawa-san and Mizuki-san thought up the basic idea, we discussed it at regular meetings, mulled it over using groupware11, and made decisions.
+11. Groupware: Software that utilizes computer networks within an organization to communicate information among users.
+IwataOne merit was that Hatena and Nintendo are located close to each other. We're both in Kyoto-city, so we can visit each other in 20 minutes.YuzawaYeah. We were sure to make use of that. And when the Wii U GamePad controller still hadn't come together, we had Motoyama-san make a mockup (model) so we could check how it would feel in your hands.MotoyamaI actually brought that today. I'm sorry it's such a shabby thing.IwataOh, it's made out of cardboard! (laughs)MotoyamaYeah. The screen has a lid and you can insert pieces of paper in the top to change the display.IwataI love how you can slide a piece of paper in! (laughs)Everyone(laughs)MotoyamaWe wouldn't know how it felt unless we could actually hold it, but since we didn't have one, the only thing to do was make one. In the middle of the night, I cut pieces of cardboard and glued them together.KurisuIt even has the grips in the back. Motoyama-san burnt the midnight oil to make this. (laughs)IwataIt holds differently than a tablet, and the screen size isn't like that of an iPad or smartphone. When Nintendo changed the design along the way12, I bet you thought "What are you doing?!" (laughs)
+12. "Nintendo changed the design along the way": For more info regarding the design of the Wii U GamePad, check out  Iwata Asks: Wii U GamePad.
+MotoyamaWell, it didn't make that much of a difference. (laughs)KurisuYeah. (laughs) But having a mockup like this that you could hold helped us get a better idea of what was being made.YuzawaThere was a team that helped us customize the browser specifically for Miiverse, and thanks to them, we now have a browser that's distinctively made for a gaming console. You can post screenshots, handwritten illustrations and text messages. In the end I think it turned into a browser that can do things that ordinary browsers would have a hard time doing.
+Iwata Asks HomeNext
+interviewWii U: Miiverse: The Producers00
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Wii U
+- **URL:** https://iwataasks.nintendo.com/interviews/wiiu/miiverse2/0/0/
+- **Downloaded:** 2026-03-02 12:32:20
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

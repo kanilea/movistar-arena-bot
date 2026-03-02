@@ -1,0 +1,40 @@
+# Wii U
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeWii U
+Iwata Asks: Super Mario 3D World
+1. "Let's Put Everything In!"2. "Function First"3. "An Instinctively Good Feeling"4. Time Solves All Things5. The Origin of Multiplayer Gameplay6. It Had to Be Super Mario 3D World7. A Culmination of 3D Super Mario
+"Let's Put Everything In!"IwataToday, I have gathered the staff who worked on Super Mario 3D World for Wii U. It's been a fast two years since we released Super Mario 3D Land1 for the Nintendo 3DS. At that time, the Tokyo Software Development Department that has worked on 3D Super Mario games for many years,  said they had created a new form of 3D Super Mario. This time, I would like to ask about how they began and how it came together. Please, introduce yourselves, starting with Koizumi-san.
+1. Super Mario 3D Land: A 3D action game released for the Nintendo 3DS system in November 2011.KoizumiI'm Koizumi, the producer. I know I said something similar when we talked about Super Mario 3D Land, but this time, Hayashida-san and Motokura-san participated as directors while the staff numbers grew, and it became more like managing a large battalion. So I took on the role of bringing up the rear.
+IwataYou were at the end and picked up what they dropped.KoizumiYes. When we started, I participated in figuring out what the fundamental structure should be. Then, in the latter stages, I made sure no one collapsed, while reinforcing personnel to make sure we met the deadline.IwataAll right. Hayashida-san?HayashidaThis time, along with Motokura-san I was in the position of director, but I suppose Motokura-san was more of the team leader, with me taking more of a consulting role. Actually, it was a relatively carefree position for me, so I was able to voice my opinions freely while being able to try new things.
+IwataMotokura-san, you had two bosses in Tokyo and one in Kyoto. You continued your role as director while being surrounded by these incredible people.MotokuraI did! (laughs) Last time,  for Super Mario 3D Land, I was design leader, but this time, I had free rein as director.
+MiyamotoAre they making you say that?Everyone(laughs)MotokuraNot at all! We were able to have you, Miyamoto-san, take a look at builds of the game from very early on, and Hayashida-san was right next to me, so I was able to get lots of input during the process of making it. With regard to my task as director, I think we were able to proceed without any big problems.IwataNo upending of the tea table?MotokuraUh, no...right?MiyamotoNo, no "upending the tea table" this time. Which is unusual.IwataHow were you involved this time, Miyamoto-san?MiyamotoIt felt like a little bit at a time, but at great length. Ever since the Tokyo Software Development Department was established, (Takashi) Tezuka-san2 and I have kept an eye on them. But ever since about the time of  Super Mario Galaxy 23, they've been able to fully function, even on their own.
+2. Takashi Tezuka: Executive Officer, Software Development Department, Entertainment Analysis & Development Division. He has been involved in the development of many series such as Super Mario, Yoshi and Animal Crossing. He has appeared in sessions of "Iwata Asks" over the  New Super Luigi U,  the original Super Mario developers for the 25th anniversary of Super Mario,  the history of handheld Legend of Zelda games for The Legend of Zelda: Spirit Tracks,  New Super Mario Bros. Wii (Volume 2), and  the producers of Super Mario 3D Land, as well as in the special edition sessions of "Iwata Asks" for E3 2012 covering New Super Mario Bros. U and New Super Mario Bros. 2 .
+3. Super Mario Galaxy 2: An action game in which Mario adventures through 3D space. It was released for the Wii console in May 2010. Its predecessor, Super Mario Galaxy, was released in November 2007.IwataSometimes when you went to Tokyo, you would visit the development office and check on how they were doing.MiyamotoI did. When we were making Galaxy, even if it were things like adjusting the maps I would stay a few nights in Tokyo to help them out, but from around the time between 3D Land to 3D World, I only needed to be involved with occasional spot-checks in areas where I wanted to take a closer look. My role now mainly centers on verifying whether the game still follows the overarching concept. When we made Super Mario 3D Land, we thoroughly discussed what the definitive difference was with the 2D New Super Mario series4, and what they shared in common. This time, we pushed ahead further with that concept-the concept of making a 3D home console Super Mario game that people who like the New Super Mario games can also enjoy. It was an ambition of mine! (laughs)
+4. New Super Mario series: A series of 2D side-scrolling action games represented in 3D polygons. The first game was released for the Nintendo DS system in May 2006. Later, new installments were released for the Nintendo 3DS, Wii and Wii U systems.IwataWith regard to that, when we discussed Super Mario 3D Land in "Iwata Asks," the topic of  the estrangement between fans of 2D Super Mario and fans of 3D Super Mario came up.HayashidaTo be upfront about it, ever since we started developing Super Mario 3D Land, we thought about making Super Mario 3D World in continuation afterward.IwataEven when making Super Mario 3D Land, you decided that you would make a multiplayer home console game next?HayashidaNot exactly-we also wanted a multiplayer mode for Super Mario 3D Land as well! (laughs)IwataThe other day, a new trailer was released, and my impression was that the amount of content, the density the game had was incredible. I suppose when it comes out of my mouth it may seem like I'm blowing my own trumpet, but I just can't keep myself from talking about it. How were you able to fit all those things in the game?
+HayashidaTo be honest, around the time before this year's E35, Motokura-san and I had been talking about how it was overflowing with content.
+5. E3 (Electronic Entertainment Expo): A video game trade show held once a year in Los Angeles. In 2013, E3 was held for three days from June 11 to June 13.IwataOh, is that so?HayashidaI've always worked on course design, so I think about games from the perspective of how you organize and construct the courses. But no matter how you looked at it, we had more stuff than would usually ever fit in.IwataYou appeared to have too much? How did that happen?HayashidaSimply put, it was because of Motokura-san's policy of "Let's put everything in!" (laughs)KoizumiYeah. The schedule didn't change. But up until the end, neither did his desire to put it all in!HayashidaAs a result, it feels condensed and packed solid.MotokuraAs a policy, I'd had everyone throw out ideas several times. For example, we had people come up with ideas for fun gameplay on an ice course.IwataAbout how many people were on the team?HayashidaAt first, about 40 to 50, but there were about 100 in the end. When that many people threw out ideas, there was about three times more than ever before. In any case, there was a ton.IwataOh, so that's why. When I played Animal Crossing: New Leaf6, I was overwhelmed with the total amount of ideas that were packed in, like, "They've really gone all-out!" By simply watching that video that's only a few minutes long, I could tell that the same thing had happened with this action game. It shows so many surprising things, and there must be so much more you haven't shown yet!
+6. Animal Crossing: New Leaf: A communication game released for the Nintendo 3DS system in November 2012.
+Iwata Asks HomeNext
+interviewSuper Mario 3D World00
+eMild Cartoon Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Wii U
+- **URL:** https://iwataasks.nintendo.com/interviews/wiiu/super-mario-3d-world/0/0/
+- **Downloaded:** 2026-03-02 12:32:14
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

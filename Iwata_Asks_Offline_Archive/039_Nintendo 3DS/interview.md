@@ -1,0 +1,38 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+Iwata Asks: The Legend of Zelda: A Link Between Worlds
+1. "Sounds Like an Idea That's 20 Years Old"2. "Don't Forget Us!"3. Direct Top-down View4. Beautiful Teamwork5. "We can do that?!"6. "Rethinking the Unquestioned"7. A Challenge from the Developers
+"Sounds Like an Idea That's 20 Years Old"IwataThe Legend of Zelda: A Link Between Worlds is finally finished. From what I've heard, development was quite a challenge.Everyone(laughs wryly)IwataPartway through development, your staff was taken away by other projects so for a while this project was at a standstill. While it wasn't the smoothest game to complete, I heard from various sources internally that the game turned out really well. Even (Shigeru) Miyamoto-san whispered, "This Zelda game is good!"AonumaWhat? Why doesn't he tell us these things directly?! (laughs)Everyone(laughs)IwataFirst, let's have everyone introduce what they were in charge of, starting with Aonuma-san.AonumaAs usual, I was producer. The Legend of Zelda: A Link to the Past1 was the game that got me involved with the series. We're making a sequel 22 years later, and as producer, I was in the position of waiting around excitedly to see what it would be like.
+1. The Legend of Zelda: A Link to the Past: An action-adventure game released for the Super NES system in November 1991.ShikataI'm Shikata. I was director for the first time on this game. I've been involved with The Legend of Zelda series since The Legend of Zelda: Ocarina of Time2 15 years ago.
+2. The Legend of Zelda: Ocarina of Time: An action-adventure game released for the Nintendo 64 system in November 1998.IwataYou've worked on The Legend of Zelda for 15 years?ShikataFor not the entire 15 years, but I was involved in most Zelda games.MouriI'm Mouri, assistant director and lead programmer. This was my fourth game in the Zelda series. First, I was involved with The Legend of Zelda: Four Swords Adventures3, and then I was main programmer for The Legend of Zelda: Phantom Hourglass4 and The Legend of Zelda: Spirit Tracks.5
+3. The Legend of Zelda: Four Swords Adventures: An action-adventure game released for the Nintendo GameCube console in March 2004.
+4. The Legend of Zelda: Phantom Hourglass: A stylus controlled action-adventure game released for the Nintendo DS system in June 2007.
+5. The Legend of Zelda: Spirit Tracks: A stylus controlled action-adventure game released for the Nintendo DS system in December 2009.IwataYou were main programmer on the Zelda handheld games that came out in the last few years.MouriThat's right, I did that while getting the cooperation of all sorts of staff members.TominagaI'm Tominaga. As assistant director and plan leader, I performed tasks like coordinating the planners. In the Zelda series, I worked on The Legend of Zelda: The Wind Waker6 my first year at the company, and after that, I was a planner for The Legend of Zelda: Twilight Princess7 and The Legend of Zelda: Skyward Sword.8) And I helped with debugging of The Legend of Zelda: Four Swords Adventures, so ever since I joined the company, I've been involved with The Legend of Zelda for home consoles. This was my first time for a handheld.
+6. The Legend of Zelda: The Wind Waker: An action-adventure game released for the Nintendo GameCube console in December 2002.
+7. The Legend of Zelda: Twilight Princess: An action-adventure game released for the Wii and Nintendo GameCube consoles in December 2006.
+8. The Legend of Zelda: Skyward Sword: An action-adventure game released for the Wii console in November 2011.TakahashiI'm Takahashi. As design leader, I coordinated the design.
+IwataYou were also design leader for Animal Crossing: New Leaf.9 When that was over, you jumped right into The Legend of Zelda?
+9. Animal Crossing: New Leaf: A communication game released for the Nintendo 3DS system in November 2012.TakahashiYes. As soon as it was over. In The Legend of Zelda series, I was also a designer for Phantom Hourglass and Spirit Tracks.IwataWhen did the idea come up of making a new Zelda game for the Nintendo 3DS?AonumaWell, as director, Shikata-san should talk about that.ShikataSure. It first came up right after we finished Spirit Tracks.IwataOh, it was right after Spirit Tracks was finished? It took quite a long time then.ShikataSpirit Tracks came around at the end of 2009, so...AonumaIt's already been four years.ShikataWhen The Legend of Zelda: Spirit Tracks was over, much of the staff went to develop Sword.AonumaWe had to begin working on Skyward Sword immediately.ShikataThe only ones left were Mouri-san, another programmer and I. The Nintendo 3DS wasn't out yet, but our goals was to make a Zelda game for the handheld that would follow the Nintendo DS, so for about the first year, we thought a lot about what to do.IwataJust the three of you for a whole year? Wasn't that hard?ShikataYeah. We anguished over it every day, wondering what we should do.AonumaTo add to that, it didn't mean that nothing came of it that one year. As we were testing things, that was a period when we hit upon the most distinctive feature of this game, the system of Link becoming a mural.ShikataThat's right.AonumaIt took quite some time to reach that point.IwataIt was really difficult.ShikataYeah. At first, just the three of us were steeped in it, looking around in all directions. After about half a year, just to get the project through, we decided to give a presentation to Miyamoto-san and have him say yay or nay.IwataDid you have the idea then of making a sequel to A Link to the Past?ShikataNo, A Link to the Past wasn't on our minds at all. We didn't even have the idea of Link entering walls. We were thinking about a Zelda game with the theme of communication. When we presented it, Miyamoto-san said, "This sounds like an idea that's 20 years old." (laughs)IwataFrom 20 years ago? (laughs) Did the air get chilly?
+ShikataNo, it was cold from the start! (laughs)Everyone(laughs)MouriAs soon as we started the presentation, I could clearly see Miyamoto-san's facial expression rapidly darkening. I thought, "This is bad..." And then at the end he said, "This sounds like an idea that's 20 years old," that was the killing blow. We were down on the floor.IwataWhat did you do once you were beaten down?ShikataHe had ripped it apart so badly that I was distraught.IwataI suppose so. (laughs)ShikataWe decided to rethink it from the start, and one day when the three of us were having a meeting, I suddenly said, "What about having Link enter into walls?" Mouri-san and the other programmer were like "That's great!" and got into it. But even though I had brought it up, it didn't quite make sense to me.IwataYou weren't certain it would be fun, but you blurted it out anyways?ShikataRight. So I asked them what was so good about it.IwataEven though it was your idea? (laughs)MouriUsually, it would be the other way around! (laughs)IwataIt often happens that you have a great idea but can't get anyone to understand, but this time it was the other way around. (laughs)ShikataYeah. The exact opposite! (laughs)
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/a-link-between-worlds/0/0/
+- **Downloaded:** 2026-03-02 12:30:41
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

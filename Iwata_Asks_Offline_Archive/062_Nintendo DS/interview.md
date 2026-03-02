@@ -1,0 +1,57 @@
+# Nintendo DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo DS
+See All VolumesSelect the volume you would like to read:Volume 1 : HardwareVolume 2 : Internal SoftwareVolume 3 : Nintendo DSi BrowserVolume 4 : Asking IwataVolume 5 : WarioWare: Snapped!Volume 6 : Brain Age ExpressVolume 7 : Flipnote StudioVolume 8 : Yoichi Kotabe
+Volume 3 : Nintendo DSi Browser
+1. Make It Snappy!2. A Browser with the Nintendo Touch
+Make It Snappy!IwataThe Nintendo DSi system has an internal memory, so you can download games and applications. This time I'd like to talk about the Nintendo DSi Browser, which will be available for use immediately after the release of Nintendo DSi. Let's start with self-introductions.TakahashiI'm Shinya Takahashi from the Software Development & Design Department. I mainly oversee teams making software development environments and teams making such software as Brain Age, English Training, and Daigasso! Band Brothers. (English Training and Daigasso! Band Brothers were DS games released only in the Japanese market) This time, I served a relatively broad-ranging function overseeing aspects of projects such as the Nintendo DSi Menu and Nintendo DSi Camera, as well as the Nintendo DSi Browser, which we'll introduce here, and the software for download later on.
+IwataShirakawa-san?ShirakawaI'm Eiichi Shirakawa. I was in charge of the Nintendo DSi Browser. I was mainly our liaison with Opera1. Also, I assessed any technological problems that arose during development and worked toward solving them. 1. Opera Software: A Norwegian software development company that has been developing web browsers for a long time.IwataAll right. Furukawa-san?FurukawaI'm Satoshi Furukawa. I usually work on game user interfaces. I've specialized in trying to make them as easy to use as possible. This time I was in charge of making the Nintendo DSi system's Internet browser, the Nintendo DSi Browser, as easy to understand and use as possible.IwataShirakawa-san and Furukawa-san have worked on browsers since the Wii console's Internet Channel. Early on while making the Nintendo DSi hardware, having the browser run smoothly became a priority. Could you tell me what you were thinking at that time?
+TakahashiMy top goal was to make a browser that I myself would find satisfying to use. Simply put, in order to make it smoother, we needed to increase the response speed. We wanted to do that to the greatest extent possible. If an Internet browser doesn't run quickly and smoothly, it isn't worth much. I thought, if we don't clear that hurdle, we can't even release it, and relatively early on I encouraged the others to tackle the project in that spirit.
+IwataI see. When it came to this injunction to make it "smooth," what did you think, Shirakawa-san and Furukawa-san?
+ShirakawaHmm... The Nintendo DSi is a handheld game system, so compared to personal computers and the Wii console, there are hardware constraints.
+IwataYes, the CPU and memory are comparatively meager, and the resolution is limited. It comes down to how much you can do within those conditions.
+ShirakawaRight. So the first thing we had to do was clear. With the original Nintendo DS Browser, whenever an action was performed, some time would pass before the program processed it and then reflected it on the screen. This time we decided to make that response time almost instantaneous at the rate of 1/60 of a second. Even if a webpage was going to be a little slow appearing, we wanted to at least show something moving. This had already been done for the Wii Internet Channel, so we decided to take that route with the Nintendo DSi Browser as well. We asked Opera, and the people in charge there agreed, so under that policy, we made is so that users could scroll a page in real time.
+FurukawaThose of us working on the Nintendo DSi Browser came up with a slogan to describe how we wanted to make it. That slogan was "Make it Snappy!" When we were drawing up the specifications and plans, there were a lot we wanted to do to make it fun or convenient, but for a while we dropped them all and focused on making it snappy! If we tried to make something convenient and enjoyable, but it didn't run smoothly, it would defeat the whole purpose.
+TakahashiAt first everyone is always bursting with ideas about this, that and everything, and response speed tends to get neglected. We wanted to avoid that, so we set that goal early during development.
+FurukawaI consulted with those who had been in charge of the DS Browser and decided to temporarily remove even user-friendly features, such as functions for advanced users, in order to focus development on response speed and ease of operation.
+IwataHowever, you were working together with Opera. While Nintendo may have had a clear policy in one direction, Opera, who has been developing browsers for personal computers for years, may have had a different set of priorities. Did they agree with you?
+FurukawaYes. I think our experience with the Wii console laid a foundation for that. When we were making the Wii Internet Channel with Opera, we repeatedly expressed to them the areas Nintendo was particular about and our philosophy regarding the Internet in a context different from that of personal computers.
+IwataSo you were able to proceed with development in an environment of increased mutual understanding more so than had been the case with Wii.
+FurukawaYes, it went smoother this time. We especially fell into sync after our trip to Norway.
+IwataOh, that's right. You went to Norway. To digress a little, what was Norway like?
+FurukawaOpera's head office is in Oslo. It was an incredibly colorful and beautiful city, exactly as one might expect from northern Europe. I could feel the history everywhere we went. In that respect, it was like Kyoto.
+Something else I noticed was the prices. They were about twice what they are in Japan. At first I was surprised. I would pick something up and think, "This costs...how much?!" (laughs)
+Also, the hours of daylight vary drastically between winter and summer. When we went for development of the Wii Internet Channel, it was dark all day, but this time it was light all day. It was the top season for sight-seeing.
+And that affected the hotel prices...IwataOh...the hotel prices. (laughs) That surprised me. It seems that they're always high, but on top of that, it was the high season.
+TakahashiI'll just come out and say it. Rooms were 70,000 yen per night.
+IwataI asked if it was some sort of mistake. (laughs)
+FurukawaWith that hanging over us, we worked feverishly to produce results!
+Everyone(laughs)IwataWhat was Opera like?
+ShirakawaExcellent. Many of Opera's staff had very distinct personalities, so depending on who was in charge of something, the work would proceed quite differently. For that reason, we drew up strategies within the team for each individual, assigning work to people based on their character. (laughs) It's a company that provides fresh discoveries every time we communicate with them.
+IwataHow would you describe them, Furukawa-san?FurukawaMy first impression was how different the atmosphere was compared to Nintendo in Japan. People of varying ethnicities and nationalities were all working together-which struck me as very fitting an Internet company. There was table tennis in the cafeteria and they often hold parties in the building. The corporate culture was rather free. Because of that, our work paces didn't always match, but I was impressed by their open-mindedness. They didn't flatly turn down our proposals or reject the video game culture we come from. They listened attentively and accepted our suggestions.
+Also, their ability to concentrate was outstanding. We often worked until late in their office, and seeing that, they would stay and lend a hand. It was a fulfilling time. I think working together with them for such an extended time had a positive effect on our work after we got back to Japan as well.IwataSo your hotel expenses didn't go to waste.
+FurukawaNot at all! (laughs)
+Iwata Asks HomePreviousÂ Â Next
+interviewNintendo DSi20
+eComic Mischief
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo DS
+- **URL:** https://iwataasks.nintendo.com/interviews/ds/dsi/2/0/
+- **Downloaded:** 2026-03-02 12:31:09
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

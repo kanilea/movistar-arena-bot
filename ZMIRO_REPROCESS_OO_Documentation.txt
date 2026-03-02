@@ -1,0 +1,564 @@
+================================================================================
+                    DOCUMENTACIÓN TÉCNICA Y FUNCIONAL
+                         Programa: ZMIRO_REPROCESS_OO
+                  Reprocesamiento de Facturas MIRO con OO
+================================================================================
+
+Versión: 1.0
+Fecha: 27 de Febrero de 2026
+Autor: Equipo de Desarrollo ABAP
+
+================================================================================
+                            TABLA DE CONTENIDOS
+================================================================================
+
+1. ESPECIFICACIÓN FUNCIONAL
+   1.1 Propósito
+   1.2 Requisitos del Negocio
+   1.3 Alcance
+   1.4 Flujo del Proceso
+
+2. ESPECIFICACIÓN TÉCNICA
+   2.1 Arquitectura del Programa
+   2.2 Clases y Objetos
+   2.3 Métodos Principales
+   2.4 Estructura de Datos
+   2.5 Componentes de Pantalla
+
+3. GUÍA DE IMPLEMENTACIÓN
+   3.1 Prerrequisitos
+   3.2 Pasos de Instalación
+   3.3 Configuración Necesaria
+   3.4 Autorizaciones
+
+4. MANUAL DE USUARIO
+   4.1 Ejecución del Programa
+   4.2 Pantalla de Selección
+   4.3 Reprocesamiento de Facturas
+   4.4 Visualización de Log
+
+5. MANTENIMIENTO Y SOPORTE
+   5.1 Manejo de Errores
+   5.2 Posibles Mejoras
+   5.3 Consideraciones de Rendimiento
+
+================================================================================
+1. ESPECIFICACIÓN FUNCIONAL
+================================================================================
+
+1.1 PROPÓSITO
+-------------
+El programa ZMIRO_REPROCESS_OO está diseñado para reprocesar facturas
+de proveedores que generaron errores durante su contabilización en la
+transacción MIRO. Utiliza un enfoque completamente orientado a objetos
+para garantizar mantenibilidad y escalabilidad.
+
+1.2 REQUISITOS DEL NEGRO
+-------------------------
+- Identificar facturas con errores de contabilización
+- Permitir selección masiva de facturas para reprocesamiento
+- Ejecutar reprocesamiento usando BAPIs estándar de SAP
+- Generar log detallado del proceso
+- Mantener integridad de datos durante el proceso
+
+1.3 ALCANCE
+----------
+INCLUIDO:
+- Reprocesamiento de facturas con estado de error
+- Selección múltiple de facturas
+- Use de BAPI_INCOMINGINVOICE_CREATE
+- Generación automática de log de procesamiento
+- Interfaz gráfica con ALV interactivo
+
+NO INCLUIDO:
+- Creación de nuevas facturas (solo reprocesamiento)
+- Modificación manual de montos
+- Integración con workflows
+-Exportación de resultados
+- Autorización por materia
+
+1.4 FLUJO DEL PROCESO
+--------------------
+1. usuario selecciona criterios de búsqueda
+2. programa obtiene facturas con errores pendientes
+3. sistema muestra facturas en ALV interactivo
+4. usuario selecciona facturas a reprocesar
+5. programa ejecuta reprocesamiento vía BAPI
+6. sistema muestra log de resultados
+7. datos actualizados exitosamente
+
+================================================================================
+2. ESPECIFICACIÓN TÉCNICA
+================================================================================
+
+2.1 ARQUITECTURA DEL PROGRAMA
+------------------------------
+Patrón: Orientado a Objetos
+Lenguaje: ABAP Objects
+Framework: ALV Grid (CL_GUI_ALV_GRID)
+Capas:
+   - Capa de Presentación: Screen 100 con ALV
+   - Capa de Negocio: Clase LCL_MIRO_REPROCESS
+   - Capa de Persistencia: BAPIs estándar
+
+2.2 CLASES Y OBJETOS
+--------------------
+
+CLASE LCL_MIRO_REPROCESS:
+---------------------------
+Definición: Clase local para manejar reprocesamiento de facturas
+Características: FINAL, Pública, name="lcl_miro_reprocess"
+
+TIPOS DEFINIDOS:
+--------------
+TY_INVOICE_DATA: Estructura para datos de factura
+   - BELNR: Documento de item (RSEG)
+   - GJAHR: Año fiscal (RSEG)
+   - BUKRS: Empresa (RBP)
+   - BELNR_I: Documento de factura (RBP)
+   - SAPNR: Referencia (RBP)
+   - XBLNR: Número de referencia (RBP)
+   - LIFNR: Proveedor (RBP)
+   - WRBTR: Monto (RBP)
+
+TT_INVOICE_DATA: Tabla de TY_INVOICE_DATA
+
+MÉTODOS PÚBLICOS:
+-----------------
+CONSTRUCTOR():
+   Propósito: Inicialización de instancia
+   Parámetros: Ninguno
+   Lógica: Setup inicial (vacío para futuras implementaciones)
+
+GET_INVOICE_DATA():
+   Propósito: Obtener facturas con errores del sistema
+   Retorno: TT_INVOICE_DATA
+   Lógica:
+     - Selecciona facturas no contabilizadas o mayores a 30 días
+     - JOINS RSEG y RBP (hasta 100 registros)
+     - Filtra por provedor no contabilizado (XRECH = '')
+
+PROCESS_INVOICE():
+   Propósito: Reprocesar factura individual
+   Importa: IS_KEY type TY_INVOICE_DATA
+   Retorna: RV_SUCCESS type ABAP_BOOL
+   Lógica:
+     1. Obtiene items de factura de tabla RSEG
+     2. Construye header para BAPI_INCOMINGINVOICE_CREATE
+     3. Construye items de la factura
+     4. Llama BAPI para crear/reprocesar
+     5. Chequea errores en RETURN
+     6. COMMIT o ROLLBACK según resultado
+
+PROCESS_SELECTED_INVOICES():
+   Propósito: Procesar múltiples facturas seleccionadas
+   Importa: IT_DATA type TT_INVOICE_DATA
+   Exporta: ET_LOG type STRING_TABLE
+   Lógica:
+     - Loop por cada factura seleccionada
+     - Llama PROCESS_INVOICE() para cada una
+     - Construye mensaje de éxito/error
+     - Agrega mensaje a tabla de log
+
+DISPLAY_INVOICES():
+   Propósito: Mostrar facturas en ALV grid
+   Importa: IT_DATA type TT_INVOICE_DATA
+   Lógica:
+     - Crea container si no existe
+     - Crea ALV grid si no existe
+     - Construye field catalogue
+     - Construye layout
+     - Muestra datos en grid
+
+SHOW_LOG():
+   Propósito: Mostrar log de procesamiento en pantalla
+   Importa: ET_LOG type STRING_TABLE
+   Lógica: Loop y WRITE de cada mensaje
+
+MÉTODOS PRIVADOS:
+----------------
+BUILD_FIELDCAT():
+   Propósito: Construir catálogo campos para ALV
+   Campos mapeados:
+     - BELNR, GJAHR, BUKRS, BELNR_I, LIFNR, WRBTR
+   Configuración: Referencias estádard a tablas DDIC
+
+BUILD_LAYOUT():
+   Propósito: Configurar diseño de ALV
+   Configuración:
+     - ZEBRA = 'X' (líneas alternadas)
+     - CWIDTH_OPT = 'X' (ancho óptimo)
+     - SEL_MODE = 'A' (selección múltiple)
+
+DATOS PRIVADOS:
+--------------
+GT_INVOICE_DATA: TT_INVOICE_DATA
+GO_CONTAINER: Ref to CL_GUI_CUSTOM_CONTAINER
+GO_ALV: Ref to CL_GUI_ALV_GRID
+GT_FIELDCAT: LVC_T_FCAT
+GS_LAYOUT: LVC_S_LAYO
+
+2.3 MÉTODOS PRINCIPALES EN DETALLE
+----------------------------------
+
+PROCESS_INVOICE() - Implementación Técnica:
+   Variables:
+     LS_HEADER: BAPI_INCINV_CREATE_HEADER
+     LT_ITEM: TABLE OF BAPI_INCINV_CREATE_ITEM
+     LS_ITEM: BAPI_INCINV_CREATE_ITEM
+     LT_RETURN: TABLE OF BAPIRET2
+     LS_RETURN: BAPIRET2
+     LV_INVOICE: BAPI_INCINV_FLD-INV_DOC_NO
+     LV_FISCAL: BAPI_INCINV_FLD-FISC_YEAR
+     LT_RSEG: TABLE OF RSEG
+     LS_RSEG: RSEG
+
+   Lógica de Header:
+     - INVOICE_IND = 'X' (indicador factura)
+     - Pasar número de documento y año fiscal existente
+     - Fechas actuales para contabilización
+     - Datos de empresa y proveedor
+
+   Lógica de Items:
+     - Por cada item en RSEG:
+       * Pasar número de pedido (PO_NUMBER)
+       * Item de pedido (PO_ITEM)
+       * Cantidad y unidad
+       * Impuesto y monto
+
+   Llamada al BAPI:
+     FUNCTION MODULE: BAPI_INCOMINGINVOICE_CREATE
+     Success: BAPI_TRANSACTION_COMMIT WAIT
+     Error: BAPI_TRANSACTION_ROLLBACK
+
+2.4 ESTRUCTURA DE DATOS
+---------------------
+
+TABLAS USADAS:
+- RSEG: Documento de factura de proveedor (items)
+- RBP: Cabezera de factura de proveedor
+- BAPI_RETURN: Tabla de mensajes de error/success
+
+ESTRUCTURAS USADAS:
+- TY_INVOICE_DATA: Estructura local para datos unificados
+- BAPI_*: Estructuras estándar para BAPIs
+
+OBJETOS GLOBALES:
+- GO_MIRO_HANDLER: Instancia de clase LCL_MIRO_REPROCESS
+- GT_INVOICES: Lista de facturas a procesar
+- GT_LOG: Tabla de mensajes de procesamiento
+
+2.5 COMPONENTES DE PANTALLA
+---------------------------
+
+SELECTION SCREEN:
+----------------
+SELECTION-SCREEN BLOCK B1:
+SELECT-OPTIONS:
+   - S_BELNR (RSEG-BELNR): Rango de documentos
+   - S_GJAHR (RBP-GJAHR): Rango de año fiscal
+
+SCREEN 100:
+----------
+Tipo Normal Screen
+Elementos:
+   - Custom Container con nombre: CONTAINER
+   - Área completa para ALV Grid
+
+Flow Logic:
+   PROCESS BEFORE OUTPUT:
+      MODULE STATUS_0100
+   PROCESS AFTER INPUT:
+      MODULE USER_COMMAND_0100
+
+MODULES DE SCREEN:
+-----------------
+STATUS_0100 (PBO):
+   - Sets GUI STATUS_100
+   - Sets TITLEBAR_TITLE_100
+   - Llama DISPLAY_INVOICES() con GT_INVOICES
+
+USER_COMMAND_0100 (PAI):
+   - CASE SY-UCOMM
+     WHEN REPROCESS: Llama FORM REPROCESS_SELECTED
+     WHEN BACK/EXIT/CANCEL: LEAVE TO SCREEN 0
+
+GUI STATUS: STATUS_100
+---------------------
+Códigos de función necesarios:
+   - REPROCESS: Botón de reprocesamiento
+   - BACK (F3): Standard
+   - EXIT (F15): Standard
+   - CANCEL (F12): Standard
+
+TITLEBAR: TITLE_100
+-------------------
+Texto: 'Invoice Reprocessing - OO'
+
+================================================================================
+3. GUÍA DE IMPLEMENTACIÓN
+================================================================================
+
+3.1 PRERREQUISITOS
+------------------
+- Sistema SAP con módulo MM/FI activo
+- Acceso a transacciones SE38/SE80
+- Permisos para crear programas y pantallas
+- Acceso a tablas RSEG y RBP
+- Autorización para usar BAPI_INCOMINGINVOICE_CREATE
+
+Bibliotecas necesarias:
+- BAPIs estándar de SAP
+- CL_GUI_ALV_GRID framework
+- Clases de controles OO
+
+3.2 PASOS DE INSTALACIÓN
+------------------------
+
+PASO 1: CREAR PROGRAMA
+- Transacción: SE38
+- Nombre: ZMIRO_REPROCESS_OO
+- Tipo: Programa ejecutable
+- Copiar código fuente del archivo delivery
+
+PASO 2: CREAR SCREEN 100
+- Transacción: SE51 o SE80
+- Screen Number: 100
+- Screen Type: Normal Screen
+
+Layout:
+   - Insertar Custom Control
+   - Name: CONTAINER
+   - Posición/Size: Full screen
+
+Flow Logic:
+   PROCESS BEFORE OUTPUT.
+      MODULE status_0100.
+   
+   PROCESS AFTER INPUT.
+      MODULE user_command_0100.
+
+PASO 3: CREAR GUI STATUS
+- Transacción: SE41 o desde programa en SE80
+- Status Name: STATUS_100
+- Type: Dialog Status
+
+Function Codes:
+   - REPROCESS: Botón en toolbar (icono refresh)
+   - BACK: Estándar
+   - EXIT: Estándar
+   - CANCEL: Estándar
+
+PASO 4: CREAR TITLEBAR
+- Title: TITLE_100
+- Text: 'Invoice Reprocessing - OO'
+
+PASO 5: CREAR TEXT ELEMENTS
+- TEXT-001: 'Selection Criteria'
+
+PASO 6: ACTIVAR TODOS LOS OBJETOS
+- Activar programa
+- Activar screen
+- Activar GUI status y text elements
+
+3.3 CONFIGURACIÓN NECESARIA
+----------------------------
+El programa utiliza configuración estándar SAP. No requiere customizing adicional.
+
+Parámetros adicionales opcionales:
+- Límite de registros: 100 (modificable en SELECT UP TO)
+- Días de antigüedad: 30 (modificable en WHERE)
+
+3.4 AUTORIZACIONES
+-------------------
+AUTORIZACIONES ESTÁNDAR REQUERIDAS:
+- S_TCODE: Ejecutar programa personalizado
+- S_TABU_DIS: Acceso lectura a RSEG, RBP
+- M_BEK_WFW: Display facturas proveedor
+- M_MM_INF_PR: Acceso přes Mitarbeiter
+
+AUTORIZACIONES BAPI:
+- B_API_AUTH: Acceso a BAPIs de FI/MM
+- S_RFC: Ejecución de RFCs
+
+Recomendación: Crear rol específico con:
+- Actividad 03 (Display) para selecciones
+- Actividad 01 (Create/Change) para reprocesamiento
+
+================================================================================
+4. MANUAL DE USUARIO
+================================================================================
+
+4.1 EJECUCIÓN DEL PROGRAMA
+---------------------------
+1. Ejecutar transacción SE38 o código de transacción personalizado
+2. Ingresar nombre: ZMIRO_REPROCESS_OO
+3. Presionar Ejecutar (F8)
+
+4.2 PANTALLA DE SELECCIÓN
+-------------------------
+
+Document Number (BELNR):
+   - Ingresar documento específico o rango
+   - Rango ejemplo: 5100000000..5100009999
+   - Múltiple selección con botón de flecha grande
+
+Fiscal Year (GJAHR):
+   - Ingresar año específico (ej: 2026)
+   - Rango para múltiples años
+   - Default: año fiscal actual
+
+Tips de uso:
+   - Use selection criteria específicas para mejor rendimiento
+   - EVITE seleccionar too many records
+   - Use ranges para búsquedas masivas eficientes
+
+4.3 REPROCESAMIENTO DE FACTURAS
+--------------------------------
+
+DESPUÉS DE EJECUTAR:
+1. Sistema busca facturas con errores pendientes
+2. ALV grid muestra lista de facturas encontradas
+3. Screen muestra hasta 100 registros máximos
+
+SELECCIÓN:
+   - Click en fila completa para seleccionar
+   - Ctrl+Click para selección múltiple
+   - Shift+Click para selección de rango
+   - Click en column header para sort
+
+REPROCESAMIENTO:
+   1. Seleccionar facturas a procesar (mínimo 1)
+   2. Click botón REPROCESS (o F8 si lo asigna)
+   3. Sistema muestra popup de confirmación si se configura
+   4. Procesamiento ocurre en background
+   5. Sistema muestra log de resultados en pantalla
+
+ESTADOS DE PROCESAMIENTO:
+   - Success: "Invoice XXX processed successfully"
+   - Error: "Failed to process invoice XXX"
+   - Log completo: pantalla con todos los mensajes
+
+4.4 VISUALIZACIÓN DE LOG
+-------------------------
+El log se presenta en formato simple:
+
+Ejemplo de log exitoso:
+Invoice 5100001234 processed successfully
+Invoice 5100001235 processed successfully
+Invoice 5100001236 processed successfully
+
+Ejemplo con errores:
+Failed to process invoice 5100001234
+Invoice 5100001235 processed successfully
+Failed to process invoice 5100001236
+
+Para análisis detallado de errores:
+1. Verificar logs de FI
+2. Revisar BAPIRETURN2 messages
+3. Verificar datos de factura originales
+
+================================================================================
+5. MANTENIMIENTO Y SOPORTE
+================================================================================
+
+5.1 MANEJO DE ERRORES
+---------------------
+
+ERROR COMÚN: "No invoices found for reprocessing"
+Causa: Sin facturas cumpliendo criterios
+Solución:
+   - Ajustar selection criteria
+   - Verificar existe invoices en RBP con XRECH blank
+   - Revisar fechas si filtering por antigüedad
+
+ERROR: "Please select invoices for reprocessing"
+Causa: Sin filas seleccionadas en ALV
+Solución: Seleccionar al menos una fila antes de REPROCESS
+
+ERROR BAPI: Business partner locked
+Causa: Factura siendo procesada por otro usuario
+Solución: Esperar y reintentar más tarde
+
+ERROR BAPI: Invalid document number
+Causa: Factura no existe o cancelada
+Solución: Verificar RSEG/RBP tables para documento
+
+5.2 POSIBLES MEJORAS
+---------------------
+
+MEJORAS TÉCNICAS:
+1. Paginación para más de 100 registros
+2. Background processing para large batches
+3. Integración con SAP Workflow
+4. Agregar file interface
+5. Enhanced error handling con logs específicos
+
+MEJORAS FUNCIONALES:
+1. Filter by error type/status
+2. Parallel processing
+3. Undo functionality
+4. Export to Excel
+5. Variant management
+6. Email notifications
+
+MEJORAS DE PERFORMANCE:
+1. String buffer optimization
+2. Table partitioning awareness
+3. Database index optimization
+4. Package size tuning
+
+5.3 CONSIDERACIONES DE RENDIMIENTO
+-----------------------------------
+OPTIMIZACIÓN DE DATABASE:
+- SELECTs con UP TO clause limit rows
+- Proper indexing on BELNR/GJAHR in RSEG/RBP
+- Avoid SELECT * en llamadas de performance
+
+LIMITES RECOMENDADOS:
+- Máximo facturas: 100 por ejecución
+- Timeout: 60 segundos para normal processing
+- Users concurrentes: Limitar a 5 simultáneos
+
+MONITORING:
+- Use ST05 SQL Trace para análisis de DB performance
+- SAT runtime analysis para bottlenecks
+- SM13 para RFC/BAPI timeout logs
+- Monitor de buffer para ALV grid issues
+
+MEMORY MANAGEMENT:
+- REFRESH de tablas internas después de uso
+- Garbage collection de objetos OO
+- Limit cache de field catalog/data
+
+SEGURIDAD:
+- Verificar authorization checks por pilar
+- Log de access para auditoría
+- Revisar BAPI authorización settings
+
+================================================================================
+                              FIN DEL DOCUMENTO
+================================================================================
+
+Para preguntas o soporte técnico, contactar al equipo de desarrollo ABAP.
+
+Control de Documentos:
+- Última Actualización: 27 de Febrero de 2026
+- Ciclo de Revisión: Trimestral
+- Propietario: Equipo Desarrollo ABAP
+- Status: Aprobado para Producción
+
+Notas de Implementación:
+- Requiere Screen 100 con container
+- Requiere GUI status con botón REPROCESS
+- Test en desarrollo mandatory antes de producción
+- Backup de data recommended antes de reprocesamiento
+
+Mejores Prácticas:
+1. Testar con data limitada primero
+2. Monitorar logs de BAPI errors
+3. Documentar cambios custom
+4. Keep program version control
+5. Regular performance reviews
+
+================================================================================

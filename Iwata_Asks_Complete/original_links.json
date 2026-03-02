@@ -1,0 +1,632 @@
+[
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/splatoon/0/0/",
+    "title": "Splatoon",
+    "path": "/interviews/wiiu/splatoon/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/xenoblade-chronicles-x/0/0/",
+    "title": "Xenoblade Chronicles X",
+    "path": "/interviews/wiiu/xenoblade-chronicles-x/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/fit-meter/0/0/",
+    "title": "Fit Meter",
+    "path": "/interviews/wiiu/fit-meter/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/super-mario-3d-world/0/0/",
+    "title": "Super Mario 3D World",
+    "path": "/interviews/wiiu/super-mario-3d-world/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/wii-sports-club/0/0/",
+    "title": "In Motion: Wii Sports Club",
+    "path": "/interviews/wiiu/wii-sports-club/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/wind-waker/0/0/",
+    "title": "The Legend of Zelda: The Wind Waker HD",
+    "path": "/interviews/wiiu/wind-waker/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/thewonderful101/0/0/",
+    "title": "The Wonderful 101",
+    "path": "/interviews/wiiu/thewonderful101/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/new-super-luigi-u/0/0/",
+    "title": "New Super Luigi U",
+    "path": "/interviews/wiiu/new-super-luigi-u/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/gameandwario/0/0/",
+    "title": "Game and Wario",
+    "path": "/interviews/wiiu/gameandwario/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/wii-street-u/0/0/",
+    "title": "Wii Street U powered by Google",
+    "path": "/interviews/wiiu/wii-street-u/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/platinum-games/0/0/",
+    "title": "PlatinumGames",
+    "path": "/interviews/wiiu/platinum-games/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/reggie-asks-nintendo-tvii/0/0/",
+    "title": "Reggie Asks: Nintendo TVii",
+    "path": "/interviews/wiiu/reggie-asks-nintendo-tvii/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/nintendo-land/0/0/",
+    "title": "Nintendo Land",
+    "path": "/interviews/wiiu/nintendo-land/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/zombiu/0/0/",
+    "title": "ZombiU",
+    "path": "/interviews/wiiu/zombiu/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/nsmbu/0/0/",
+    "title": "New Super Mario Bros. U",
+    "path": "/interviews/wiiu/nsmbu/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/wii-u-chat/0/0/",
+    "title": "Wii U: Wii U Chat",
+    "path": "/interviews/wiiu/wii-u-chat/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/internet-browser/0/0/",
+    "title": "Wii U: Internet Browser",
+    "path": "/interviews/wiiu/internet-browser/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/miiverse2/0/0/",
+    "title": "Wii U: Miiverse: The Developers",
+    "path": "/interviews/wiiu/miiverse2/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/miiverse/0/0/",
+    "title": "Wii U: Miiverse: The Producers",
+    "path": "/interviews/wiiu/miiverse/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/gamepad/0/0/",
+    "title": "Wii U: Wii U GamePad",
+    "path": "/interviews/wiiu/gamepad/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wiiu/console/0/0/",
+    "title": "Wii U: The Console",
+    "path": "/interviews/wiiu/console/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/e32011/newhw/0/0/",
+    "title": "E3 2011: Wii U",
+    "path": "/interviews/e32011/newhw/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/fire-emblem-fates/0/0/",
+    "title": "Fire Emblem Fates",
+    "path": "/interviews/3ds/fire-emblem-fates/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/xenoblade-chronicles-3d/0/0/",
+    "title": "Xenoblade Chronicles 3D",
+    "path": "/interviews/3ds/xenoblade-chronicles-3d/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/majoras-mask-3d/0/0/",
+    "title": "The Legend of Zelda: Majoraâs Mask 3D",
+    "path": "/interviews/3ds/majoras-mask-3d/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/louvre-guide/0/0/",
+    "title": "Nintendo 3DS Guides: Louvre",
+    "path": "/interviews/3ds/louvre-guide/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/a-link-between-worlds/0/0/",
+    "title": "The Legend of Zelda: A Link Between Worlds",
+    "path": "/interviews/3ds/a-link-between-worlds/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/pokemonxy/0/0/",
+    "title": "PokÃ©mon X & PokÃ©mon Y",
+    "path": "/interviews/3ds/pokemonxy/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/streetpass-relay-points/0/0/",
+    "title": "StreetPass Relay Points",
+    "path": "/interviews/3ds/streetpass-relay-points/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/mario-and-luigi-dream-team/0/0/",
+    "title": "Mario & Luigi: Dream Team",
+    "path": "/interviews/3ds/mario-and-luigi-dream-team/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/pokemon-mysterydungeon-gti/0/0/",
+    "title": "PokÃ©mon Mystery Dungeon: Gates to Infinity",
+    "path": "/interviews/3ds/pokemon-mysterydungeon-gti/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/animalcrossing-newleaf/0/0/",
+    "title": "Animal Crossing: New Leaf",
+    "path": "/interviews/3ds/animalcrossing-newleaf/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/luigis-mansion-dark-moon/0/0/",
+    "title": "Luigi's Mansion: Dark Moon",
+    "path": "/interviews/3ds/luigis-mansion-dark-moon/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/harmoknight/0/0/",
+    "title": "HarmoKnight",
+    "path": "/interviews/3ds/harmoknight/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/fire-emblem/0/0/",
+    "title": "Fire Emblem: Awakening",
+    "path": "/interviews/3ds/fire-emblem/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/brain-age/0/0/",
+    "title": "Brain Age: Concentration Training",
+    "path": "/interviews/3ds/brain-age/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/papermario/0/0/",
+    "title": "Paper Mario: Sticker Star",
+    "path": "/interviews/3ds/papermario/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/stylesavvy/0/0/",
+    "title": "Style Savvy: Trendsetters",
+    "path": "/interviews/3ds/stylesavvy/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/artacademy/0/0/",
+    "title": "Art Academy: Lessons for Everyone!",
+    "path": "/interviews/3ds/artacademy/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/nsmb2/0/0/",
+    "title": "New Super Mario Bros. 2",
+    "path": "/interviews/3ds/nsmb2/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/xl/0/0/",
+    "title": "Nintendo 3DS XL",
+    "path": "/interviews/3ds/xl/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/11/0/",
+    "title": "KINGDOM HEARTS 3D [Dream Drop Distance]",
+    "path": "/interviews/3ds/creators/11/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/10/0/",
+    "title": "THEATRHYTHM FINAL FANTASY",
+    "path": "/interviews/3ds/creators/10/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/spiritcamera/0/0/",
+    "title": "Spirit Camera: The Cursed Memoir",
+    "path": "/interviews/3ds/spiritcamera/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/kidicarus/0/0/",
+    "title": "Kid Icarus: Uprising",
+    "path": "/interviews/3ds/kidicarus/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/9/0/",
+    "title": "Tekken 3D: Prime Edition",
+    "path": "/interviews/3ds/creators/9/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/swapnote/0/0/",
+    "title": "Swapnote",
+    "path": "/interviews/3ds/swapnote/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/8/0/",
+    "title": "Resident Evil: Revelations",
+    "path": "/interviews/3ds/creators/8/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/mario-kart-7/0/0/",
+    "title": "Mario Kart 7",
+    "path": "/interviews/3ds/mario-kart-7/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/super-mario-3d-land/0/0/",
+    "title": "Super Mario 3D Land",
+    "path": "/interviews/3ds/super-mario-3d-land/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/pokemon/1/0/",
+    "title": "Pokémon Rumble Blast",
+    "path": "/interviews/3ds/pokemon/1/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/pokemon/0/0/",
+    "title": "Pokédex™ 3D",
+    "path": "/interviews/3ds/pokemon/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/starfox/0/0/",
+    "title": "Star Fox 64 3D",
+    "path": "/interviews/3ds/starfox/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/4/0/",
+    "title": "The Legend of Zelda: Ocarina of Time 3D: Mr. Shigeru Miyamoto",
+    "path": "/interviews/3ds/zelda-ocarina-of-time/4/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/3/0/",
+    "title": "The Legend of Zelda: Ocarina of Time 3D: Development Staff",
+    "path": "/interviews/3ds/zelda-ocarina-of-time/3/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/2/0/",
+    "title": "The Legend of Zelda: Ocarina of Time: Original Development Staff - Part 2",
+    "path": "/interviews/3ds/zelda-ocarina-of-time/2/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/1/0/",
+    "title": "The Legend of Zelda: Ocarina of Time: Original Development Staff - Part 1",
+    "path": "/interviews/3ds/zelda-ocarina-of-time/1/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/eshop/0/0/",
+    "title": "Nintendo eShop",
+    "path": "/interviews/3ds/eshop/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/0/0/",
+    "title": "The Legend of Zelda: Ocarina of Time 3D: Sound",
+    "path": "/interviews/3ds/zelda-ocarina-of-time/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/steel-diver/0/0/",
+    "title": "Steel Diver",
+    "path": "/interviews/3ds/steel-diver/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/5/0/",
+    "title": "Volume 6 - Nintendo 3DS Built-in Software",
+    "path": "/interviews/3ds/how-nintendo-3ds-made/5/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/4/0/",
+    "title": "Volume 5 - Asking Mr. Miyamoto Right Before Release",
+    "path": "/interviews/3ds/how-nintendo-3ds-made/4/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/3/0/",
+    "title": "Volume 4 - nintendogs + cats",
+    "path": "/interviews/3ds/how-nintendo-3ds-made/3/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/2/0/",
+    "title": "Volume 3 - Nintendo 3DS Exterior and Mechanical Design",
+    "path": "/interviews/3ds/how-nintendo-3ds-made/2/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/1/0/",
+    "title": "Volume 2 - Nintendo 3DS Hardware Concept",
+    "path": "/interviews/3ds/how-nintendo-3ds-made/1/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/0/0/",
+    "title": "Volume 1 - And That's How the Nintendo 3DS Was Made",
+    "path": "/interviews/3ds/how-nintendo-3ds-made/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/7/0/",
+    "title": "Tales of the Abyss",
+    "path": "/interviews/3ds/creators/7/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/6/0/",
+    "title": "Resident Evil: Mercenaries 3D / Resident Evil: Revalations",
+    "path": "/interviews/3ds/creators/6/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/5/0/",
+    "title": "Dead or Alive",
+    "path": "/interviews/3ds/creators/5/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/4/0/",
+    "title": "Super Street Fighter IV 3D Edition",
+    "path": "/interviews/3ds/creators/4/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/3/0/",
+    "title": "Ridge Racer 3D",
+    "path": "/interviews/3ds/creators/3/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/2/0/",
+    "title": "Pro Evolution Soccer 2011 for 3DS",
+    "path": "/interviews/3ds/creators/2/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/1/0/",
+    "title": "Samurai Warriors Chronicles",
+    "path": "/interviews/3ds/creators/1/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/3ds/creators/0/0/",
+    "title": "Professor Layton and the Mask of Miracle",
+    "path": "/interviews/3ds/creators/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/rhythmheavenfever/0/0/",
+    "title": "Rhythm Heaven Fever",
+    "path": "/interviews/wii/rhythmheavenfever/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/xenoblade/0/0/",
+    "title": "Xenoblade Chronicles",
+    "path": "/interviews/wii/xenoblade/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/mario-sonic-london-olympics-2012/0/0/",
+    "title": "Mario & Sonic at the London 2012 Olympic Gamesâ¢",
+    "path": "/interviews/wii/mario-sonic-london-olympics-2012/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/go-vacation/0/0/",
+    "title": "Go Vacation",
+    "path": "/interviews/wii/go-vacation/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/kirby-dream-land/0/0/",
+    "title": "Kirby's Dream Land",
+    "path": "/interviews/wii/kirby-dream-land/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/zelda-skyward-sword/0/0/",
+    "title": "The Legend of Zelda: Skyward Sword",
+    "path": "/interviews/wii/zelda-skyward-sword/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wiiplaymotion/0/0/",
+    "title": "Wii Play: Motion",
+    "path": "/interviews/wii/wiiplaymotion/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/donkey-kong-country-returns/0/0/",
+    "title": "Donkey Kong Country Returns",
+    "path": "/interviews/wii/donkey-kong-country-returns/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/super-mario-all-stars/0/0/",
+    "title": "Super Mario All-Stars",
+    "path": "/interviews/wii/super-mario-all-stars/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/kirbysepicyarn/0/0/",
+    "title": "Kirby's Epic Yarn",
+    "path": "/interviews/wii/kirbysepicyarn/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/mario25th/0/0/",
+    "title": "Super Mario 25th Anniversary",
+    "path": "/interviews/wii/mario25th/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wiiparty/0/0/",
+    "title": "Wii Party",
+    "path": "/interviews/wii/wiiparty/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/metroid-other-m/0/0/",
+    "title": "Metroid: Other M",
+    "path": "/interviews/wii/metroid-other-m/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/supermariogalaxy2/0/0/",
+    "title": "Super Mario Galaxy 2",
+    "path": "/interviews/wii/supermariogalaxy2/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/sinandpunishment/0/0/",
+    "title": "Sin & Punishment: Star Successor",
+    "path": "/interviews/wii/sinandpunishment/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/monsterhuntertri/0/0/",
+    "title": "Monster Hunter Tri",
+    "path": "/interviews/wii/monsterhuntertri/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/nsmb/0/0/",
+    "title": "New Super Mario Bros. Wii",
+    "path": "/interviews/wii/nsmb/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wiifitplus/0/0/",
+    "title": "Wii Fit Plus",
+    "path": "/interviews/wii/wiifitplus/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wiimotionplus/0/0/",
+    "title": "Wii MotionPlus",
+    "path": "/interviews/wii/wiimotionplus/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wiisportsresort/0/0/",
+    "title": "Wii Sports Resort",
+    "path": "/interviews/wii/wiisportsresort/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/punchout/0/0/",
+    "title": "Punch-Out!!",
+    "path": "/interviews/wii/punchout/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/accf/0/0/",
+    "title": "Animal Crossing: City Folk",
+    "path": "/interviews/wii/accf/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wii_music/0/0/",
+    "title": "Wii Music",
+    "path": "/interviews/wii/wii_music/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wii_fit/0/0/",
+    "title": "Wii Fit",
+    "path": "/interviews/wii/wii_fit/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/mariokart/0/0/",
+    "title": "Mario Kart Wii",
+    "path": "/interviews/wii/mariokart/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/ssbb/0/0/",
+    "title": "Super Smash Bros. Brawl",
+    "path": "/interviews/wii/ssbb/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/crossbow/0/0/",
+    "title": "Link's Crossbow Training",
+    "path": "/interviews/wii/crossbow/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/super_mario_galaxy/0/0/",
+    "title": "Super Mario Galaxy",
+    "path": "/interviews/wii/super_mario_galaxy/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/warioware_smooth_moves/0/0/",
+    "title": "WarioWare: Smooth Moves",
+    "path": "/interviews/wii/warioware_smooth_moves/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wii_remote/0/0/",
+    "title": "Wii Remote",
+    "path": "/interviews/wii/wii_remote/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wii_channels/0/0/",
+    "title": "Wii Channels",
+    "path": "/interviews/wii/wii_channels/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wii_sports/0/0/",
+    "title": "Wii Sports",
+    "path": "/interviews/wii/wii_sports/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/special_edition_interview/0/0/",
+    "title": "Special Edition Interview",
+    "path": "/interviews/wii/special_edition_interview/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/twilight_princess/0/0/",
+    "title": "The Legend of Zelda: Twilight Princess",
+    "path": "/interviews/wii/twilight_princess/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/wii/wii_console/0/0/",
+    "title": "The Wii Hardware",
+    "path": "/interviews/wii/wii_console/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/pokemon-black2-white2/0/0/",
+    "title": "PokÃ©mon Black Version 2 and PokÃ©mon White Version 2",
+    "path": "/interviews/ds/pokemon-black2-white2/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/pokemon-black-white/0/0/",
+    "title": "PokÃ©mon Black and PokÃ©mon White Versions",
+    "path": "/interviews/ds/pokemon-black-white/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/",
+    "title": "PokÃ©mon HeartGold Version & PokÃ©mon SoulSilver Version",
+    "path": "/interviews/ds/pokemon/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/diy/0/0/",
+    "title": "WarioWare: D.I.Y.",
+    "path": "/interviews/ds/diy/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/xl/0/0/",
+    "title": "Nintendo DSi XL",
+    "path": "/interviews/ds/xl/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/zelda/0/0/",
+    "title": "The Legend of Zelda: Spirit Tracks",
+    "path": "/interviews/ds/zelda/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/stylesavvy/0/0/",
+    "title": "Style Savvy",
+    "path": "/interviews/ds/stylesavvy/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/rhythm-heaven/0/0/",
+    "title": "Rhythm Heaven",
+    "path": "/interviews/ds/rhythm-heaven/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/7/0/",
+    "title": "Volume 8 - Yoichi Kotabe",
+    "path": "/interviews/ds/dsi/7/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/6/0/",
+    "title": "Volume 7 - Flipnote Studio",
+    "path": "/interviews/ds/dsi/6/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/5/0/",
+    "title": "Volume 6 - Brain Age Express",
+    "path": "/interviews/ds/dsi/5/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/4/0/",
+    "title": "Volume 5 - WarioWare: Snapped!",
+    "path": "/interviews/ds/dsi/4/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/3/0/",
+    "title": "Volume 4 - Asking Iwata",
+    "path": "/interviews/ds/dsi/3/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/2/0/",
+    "title": "Volume 3 - Nintendo DSi Browser",
+    "path": "/interviews/ds/dsi/2/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/1/0/",
+    "title": "Volume 2 - Nintendo DSi Internal Software",
+    "path": "/interviews/ds/dsi/1/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/ds/dsi/0/0/",
+    "title": "Volume 1 - Nintendo DSi Hardware",
+    "path": "/interviews/ds/dsi/0/0/"
+  },
+  {
+    "url": "https://iwataasks.nintendo.com/interviews/clubn/game-and-watch-ball-reward/0/0/",
+    "title": "Game & Watch",
+    "path": "/interviews/clubn/game-and-watch-ball-reward/0/0/"
+  }
+]

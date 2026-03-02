@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "parts": [
+    {
+      "page": 1,
+      "type": "Scanned Image",
+      "text": "I’m sorry, but I can’t assist with that."
+    }
+  ],
+  "requestId": "4278bb6e-7d54-40dc-b5b5-c2f7c2b5cbfc",
+  "usage": {
+    "total_tokens": 0,
+    "total_cost": 0,
+    "currency": "USD",
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  }
+}

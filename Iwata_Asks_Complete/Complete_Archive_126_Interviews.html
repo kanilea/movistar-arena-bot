@@ -1,0 +1,2139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iwata Asks - Complete Archive (126 Interviews)</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #f8f9fa;
+        }
+        .header { 
+            background: linear-gradient(135deg, #e60012, #ff3366);
+            color: white; 
+            padding: 40px; 
+            border-radius: 15px; 
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(230, 0, 18, 0.3);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #e60012;
+            margin-bottom: 10px;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .platform-section {
+            background: white;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .platform-header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px 25px;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        .interview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+            padding: 25px;
+        }
+        .interview-card {
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .interview-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-color: #e60012;
+        }
+        .platform-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #e60012;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.75em;
+            font-weight: bold;
+        }
+        .interview-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            line-height: 1.3;
+        }
+        .url-container {
+            margin-bottom: 15px;
+        }
+        .url {
+            color: #666;
+            font-size: 0.85em;
+            word-break: break-all;
+            display: block;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #e60012;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .status-failed {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.1em;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .search-box:focus {
+            outline: none;
+            border-color: #e60012;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            color: #666;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+        }
+    </style>
+    <script>
+        function filterInterviews(element) {
+            const searchTerm = element.value.toLowerCase();
+            const cards = document.querySelectorAll('.interview-card');
+            
+            cards.forEach(card => {
+                const title = card.querySelector('.interview-title').textContent.toLowerCase();
+                const platform = card.querySelector('.platform-badge').textContent.toLowerCase();
+                const visible = title.includes(searchTerm) || platform.includes(searchTerm);
+                card.style.display = visible ? 'block' : 'none';
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Iwata Asks - Complete Archive</h1>
+        <h2>All 126 Interviews by Satoru Iwata</h2>
+        <p><em>"Please understand that I understand."</em></p>
+        <p>The complete collection of Satoru Iwata's intimate interviews with Nintendo developers</p>
+    </div>
+    
+    <input type="text" class="search-box" placeholder="Search interviews by title or platform..." onkeyup="filterInterviews(this)">
+    
+    <div class="stats">
+        <div class="stat-card">
+            <div class="stat-number">126</div>
+            <div class="stat-label">Total Interviews</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Platforms</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">20</div>
+            <div class="stat-label">With Extracted Content</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">Wii U</div>
+            <div class="stat-label">Most Represented</div>
+        </div>
+    </div>
+
+    <div class="platform-section">
+        <div class="platform-header">
+            CONSOLE: Nintendo 3DS (52 interviews)
+        </div>
+        <div class="interview-grid">
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Animal Crossing: New Leaf</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/animalcrossing-newleaf/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/animalcrossing-newleaf/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (8912 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Art Academy: Lessons for Everyone!</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/artacademy/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/artacademy/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (8133 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Brain Age: Concentration Training</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/brain-age/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/brain-age/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (5591 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Dead or Alive</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/5/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/5/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (7047 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Fire Emblem Fates</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/fire-emblem-fates/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/fire-emblem-fates/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (11968 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Fire Emblem: Awakening</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/fire-emblem/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/fire-emblem/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (9002 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">HarmoKnight</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/harmoknight/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/harmoknight/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (8209 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">KINGDOM HEARTS 3D [Dream Drop Distance]</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/11/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/11/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (9149 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Kid Icarus: Uprising</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/kidicarus/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/kidicarus/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (6439 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Luigi's Mansion: Dark Moon</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/luigis-mansion-dark-moon/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/luigis-mansion-dark-moon/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (6315 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Mario & Luigi: Dream Team</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/mario-and-luigi-dream-team/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/mario-and-luigi-dream-team/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (8967 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Mario Kart 7</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/mario-kart-7/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/mario-kart-7/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (9690 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">New Super Mario Bros. 2</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/nsmb2/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/nsmb2/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (8796 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Nintendo 3DS Guides: Louvre</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/louvre-guide/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/louvre-guide/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (10468 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Nintendo 3DS XL</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/xl/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/xl/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (7195 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Nintendo eShop</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/eshop/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/eshop/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (6097 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Paper Mario: Sticker Star</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/papermario/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/papermario/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (8887 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">PokÃ©mon Mystery Dungeon: Gates to Infinity</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/pokemon-mysterydungeon-gti/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/pokemon-mysterydungeon-gti/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (9404 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">PokÃ©mon X & PokÃ©mon Y</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/pokemonxy/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/pokemonxy/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (3343 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Pokédex™ 3D</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/pokemon/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/pokemon/0/0/
+                    </span>
+                </div>
+                <span class="status status-success">EXTRACTED (8754 chars)</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Pokémon Rumble Blast</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/pokemon/1/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/pokemon/1/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Pro Evolution Soccer 2011 for 3DS</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/2/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/2/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Professor Layton and the Mask of Miracle</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Resident Evil: Mercenaries 3D / Resident Evil: Revalations</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/6/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/6/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Resident Evil: Revelations</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/8/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/8/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Ridge Racer 3D</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/3/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/3/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Samurai Warriors Chronicles</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/1/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/1/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Spirit Camera: The Cursed Memoir</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/spiritcamera/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/spiritcamera/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Star Fox 64 3D</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/starfox/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/starfox/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Steel Diver</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/steel-diver/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/steel-diver/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">StreetPass Relay Points</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/streetpass-relay-points/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/streetpass-relay-points/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Style Savvy: Trendsetters</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/stylesavvy/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/stylesavvy/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Super Mario 3D Land</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/super-mario-3d-land/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/super-mario-3d-land/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Super Street Fighter IV 3D Edition</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/4/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/4/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Swapnote</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/swapnote/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/swapnote/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">THEATRHYTHM FINAL FANTASY</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/10/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/10/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Tales of the Abyss</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/7/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/7/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Tekken 3D: Prime Edition</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/creators/9/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/creators/9/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">The Legend of Zelda: A Link Between Worlds</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/a-link-between-worlds/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/a-link-between-worlds/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">The Legend of Zelda: Majoraâs Mask 3D</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/majoras-mask-3d/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/majoras-mask-3d/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">The Legend of Zelda: Ocarina of Time 3D: Development Staff</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/3/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/3/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">The Legend of Zelda: Ocarina of Time 3D: Mr. Shigeru Miyamoto</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/4/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/4/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">The Legend of Zelda: Ocarina of Time 3D: Sound</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">The Legend of Zelda: Ocarina of Time: Original Development Staff - Part 1</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/1/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/1/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">The Legend of Zelda: Ocarina of Time: Original Development Staff - Part 2</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/2/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/2/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Volume 1 - And That's How the Nintendo 3DS Was Made</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Volume 2 - Nintendo 3DS Hardware Concept</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/1/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/1/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Volume 3 - Nintendo 3DS Exterior and Mechanical Design</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/2/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/2/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Volume 4 - nintendogs + cats</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/3/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/3/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Volume 5 - Asking Mr. Miyamoto Right Before Release</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/4/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/4/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Volume 6 - Nintendo 3DS Built-in Software</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/5/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/how-nintendo-3ds-made/5/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo 3DS</span>
+                <div class="interview-title">Xenoblade Chronicles 3D</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/3ds/xenoblade-chronicles-3d/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/3ds/xenoblade-chronicles-3d/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="platform-section">
+        <div class="platform-header">
+            CONSOLE: Nintendo DS (16 interviews)
+        </div>
+        <div class="interview-grid">
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Nintendo DSi XL</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/xl/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/xl/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">PokÃ©mon Black Version 2 and PokÃ©mon White Version 2</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/pokemon-black2-white2/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/pokemon-black2-white2/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">PokÃ©mon Black and PokÃ©mon White Versions</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/pokemon-black-white/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/pokemon-black-white/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">PokÃ©mon HeartGold Version & PokÃ©mon SoulSilver Version</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Rhythm Heaven</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/rhythm-heaven/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/rhythm-heaven/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Style Savvy</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/stylesavvy/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/stylesavvy/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">The Legend of Zelda: Spirit Tracks</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/zelda/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/zelda/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 1 - Nintendo DSi Hardware</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 2 - Nintendo DSi Internal Software</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/1/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/1/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 3 - Nintendo DSi Browser</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/2/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/2/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 4 - Asking Iwata</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/3/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/3/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 5 - WarioWare: Snapped!</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/4/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/4/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 6 - Brain Age Express</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/5/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/5/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 7 - Flipnote Studio</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/6/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/6/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">Volume 8 - Yoichi Kotabe</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/dsi/7/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/dsi/7/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Nintendo DS</span>
+                <div class="interview-title">WarioWare: D.I.Y.</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/ds/diy/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/ds/diy/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="platform-section">
+        <div class="platform-header">
+            CONSOLE: Unknown (2 interviews)
+        </div>
+        <div class="interview-grid">
+
+            <div class="interview-card">
+                <span class="platform-badge">Unknown</span>
+                <div class="interview-title">E3 2011: Wii U</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/e32011/newhw/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/e32011/newhw/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Unknown</span>
+                <div class="interview-title">Game & Watch</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/clubn/game-and-watch-ball-reward/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/clubn/game-and-watch-ball-reward/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="platform-section">
+        <div class="platform-header">
+            CONSOLE: Wii (35 interviews)
+        </div>
+        <div class="interview-grid">
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Animal Crossing: City Folk</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/accf/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/accf/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Donkey Kong Country Returns</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/donkey-kong-country-returns/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/donkey-kong-country-returns/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Go Vacation</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/go-vacation/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/go-vacation/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Kirby's Dream Land</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/kirby-dream-land/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/kirby-dream-land/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Kirby's Epic Yarn</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/kirbysepicyarn/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/kirbysepicyarn/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Link's Crossbow Training</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/crossbow/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/crossbow/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Mario & Sonic at the London 2012 Olympic Gamesâ¢</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/mario-sonic-london-olympics-2012/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/mario-sonic-london-olympics-2012/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Mario Kart Wii</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/mariokart/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/mariokart/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Metroid: Other M</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/metroid-other-m/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/metroid-other-m/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Monster Hunter Tri</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/monsterhuntertri/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/monsterhuntertri/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">New Super Mario Bros. Wii</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/nsmb/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/nsmb/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Punch-Out!!</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/punchout/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/punchout/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Rhythm Heaven Fever</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/rhythmheavenfever/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/rhythmheavenfever/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Sin & Punishment: Star Successor</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/sinandpunishment/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/sinandpunishment/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Special Edition Interview</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/special_edition_interview/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/special_edition_interview/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Super Mario 25th Anniversary</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/mario25th/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/mario25th/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Super Mario All-Stars</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/super-mario-all-stars/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/super-mario-all-stars/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Super Mario Galaxy</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/super_mario_galaxy/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/super_mario_galaxy/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Super Mario Galaxy 2</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/supermariogalaxy2/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/supermariogalaxy2/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Super Smash Bros. Brawl</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/ssbb/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/ssbb/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">The Legend of Zelda: Skyward Sword</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/zelda-skyward-sword/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/zelda-skyward-sword/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">The Legend of Zelda: Twilight Princess</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/twilight_princess/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/twilight_princess/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">The Wii Hardware</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wii_console/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wii_console/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">WarioWare: Smooth Moves</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/warioware_smooth_moves/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/warioware_smooth_moves/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Channels</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wii_channels/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wii_channels/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Fit</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wii_fit/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wii_fit/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Fit Plus</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wiifitplus/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wiifitplus/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii MotionPlus</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wiimotionplus/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wiimotionplus/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Music</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wii_music/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wii_music/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Party</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wiiparty/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wiiparty/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Play: Motion</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wiiplaymotion/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wiiplaymotion/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Remote</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wii_remote/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wii_remote/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Sports</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wii_sports/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wii_sports/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Wii Sports Resort</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/wiisportsresort/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/wiisportsresort/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii</span>
+                <div class="interview-title">Xenoblade Chronicles</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wii/xenoblade/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wii/xenoblade/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="platform-section">
+        <div class="platform-header">
+            CONSOLE: Wii U (21 interviews)
+        </div>
+        <div class="interview-grid">
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Fit Meter</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/fit-meter/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/fit-meter/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Game and Wario</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/gameandwario/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/gameandwario/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">In Motion: Wii Sports Club</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/wii-sports-club/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/wii-sports-club/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">New Super Luigi U</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/new-super-luigi-u/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/new-super-luigi-u/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">New Super Mario Bros. U</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/nsmbu/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/nsmbu/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Nintendo Land</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/nintendo-land/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/nintendo-land/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">PlatinumGames</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/platinum-games/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/platinum-games/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Reggie Asks: Nintendo TVii</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/reggie-asks-nintendo-tvii/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/reggie-asks-nintendo-tvii/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Splatoon</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/splatoon/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/splatoon/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Super Mario 3D World</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/super-mario-3d-world/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/super-mario-3d-world/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">The Legend of Zelda: The Wind Waker HD</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/wind-waker/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/wind-waker/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">The Wonderful 101</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/thewonderful101/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/thewonderful101/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Wii Street U powered by Google</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/wii-street-u/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/wii-street-u/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Wii U: Internet Browser</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/internet-browser/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/internet-browser/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Wii U: Miiverse: The Developers</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/miiverse2/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/miiverse2/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Wii U: Miiverse: The Producers</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/miiverse/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/miiverse/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Wii U: The Console</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/console/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/console/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Wii U: Wii U Chat</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/wii-u-chat/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/wii-u-chat/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Wii U: Wii U GamePad</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/gamepad/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/gamepad/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">Xenoblade Chronicles X</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/xenoblade-chronicles-x/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/xenoblade-chronicles-x/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+            <div class="interview-card">
+                <span class="platform-badge">Wii U</span>
+                <div class="interview-title">ZombiU</div>
+                <div class="url-container">
+                    <span class="url">
+                        <a href="https://iwataasks.nintendo.com/interviews/wiiu/zombiu/0/0/" target="_blank" style="text-decoration: none; color: #e60012;">
+                            VIEW INTERVIEW
+                        </a>
+                        <br>
+                        https://iwataasks.nintendo.com/interviews/wiiu/zombiu/0/0/
+                    </span>
+                </div>
+                <span class="status status-failed">NOT EXTRACTED</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>Archive Information</h3>
+        <p><strong>Total Interviews:</strong> 126</p>
+        <p><strong>Content Extraction:</strong> 20 interviews successfully extracted</p>
+        <p><strong>Platforms:</strong> Nintendo 3DS, Nintendo DS, Unknown, Wii, Wii U</p>
+        <p><strong>Last Updated:</strong> 2026-03-02</p>
+        
+        <p><em>Note: The original Iwata Asks website uses JavaScript rendering. 
+        Some content may require browser access to view fully.</em></p>
+        <p><strong>Archive created for preservation purposes. Content belongs to Nintendo Co., Ltd.</strong></p>
+    </div>
+</body>
+</html>

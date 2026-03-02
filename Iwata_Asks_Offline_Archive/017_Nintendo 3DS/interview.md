@@ -1,0 +1,57 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+Paper Mario: Sticker Star
+1. Talking Away at Iwata2. "Going All Out with Stickers"3. Abandoning the RPG Structure4. Store It or Use It5. Brainstorming Paper Ideas6. "Is Everyone Playing the Game?"
+Talking Away at IwataIwataToday I have gathered all of you who were involved with the Nintendo 3DS game Paper Mario: Sticker Star. First, I'd like to hear self-introductions, including how you first encountered and came to be involved with Super Mario, both as a player and a developer. We'll start with Kudo-san.KudoI'm Kudo from Vanpool.1 I was in charge of direction and the script for this game. My first involvement with Super Mario was at the time of the Super Mario RPG: Legend of the Seven Stars2 game for the Super NES as a member of the Square (now Square Enix) staff.
+1. Vanpool, Inc.: A video game developer based in Shibuya Ward, Tokyo. Vanpool works on titles for Nintendo such as the Freshly-Picked Tingle's Rosy Rupeeland game.
+2. Super Mario RPG: Legend of the Seven Stars: An action RPG released by Nintendo for the Super NES in March 1996. It was a collaboration with Square Co., Ltd. (now Square Enix Co., Ltd.).
+IwataThat project began with a desire to draw on Square's RPG knowhow in making a Super Mario game together with Nintendo. When did you first encounter Super Mario as a player?KudoAs a player, let's seeâ¦TanabeMaybe you didn't play Nintendo games much, huh?KudoNo, no! I played the Mario Bros.3 game on the NES like crazy! I loved it! (laughs)
+3. Mario Bros.: An action game released by Nintendo for the Famicom and as an arcade game in 1983.
+IwataRight! (laughs)NakajimaI'm Nakajima from Intelligent Systems (IS)4 I'm involved with project management at IS for the Paper Mario series. As a player, a place where I had a part-time job had the Mario Bros. arcade game, so I played that all the time. As a developer, the first time was when I got to help out a little with the NES game.
+4. Intelligent Systems Co., Ltd.: A game developer who has developed Nintendo software, including the Fire Emblem series and the Paper Mario series, and development support tools for successive hardware. Headquartered in Kyoto. Nickname: IS, pronounced liked the word "is".
+IwataDo you mean when you helped out part-time as a university student?NakajimaUm, when I entered the company, there was the Family Computer Disk System's5 Nagatanien Mario Bros.6 game.
+5. Family Computer Disk System: A peripheral product for the Famicom system released in February 1986 in Japan. For media, the system used floppy disks on which software could be rewritten. The Famicom system was released as the Nintendo Entertainment System (NES) in North America. However, the Disk System was not released stateside and many titles that came out for the Disk System in Japan were released overseas as NES games.
+6. Nagatanien Mario Bros. Game = "KaetteKita" Mario Bros. (Mario Bros. Returns): Released in November 1988 as a Disk Writer game for rewrite. The game contents were largely the same as Mario Bros., but during the game, advertisements would play for premixed and instant food manufacturer and distributor Nagatanien Co., Ltd., the game's sponsor.
+IwataThat's right, Nagatanien Mario Bros. It was 100 yen cheaper to rewrite the disk than the usual Disk Writer game.NakajimaThat was the first game I was involved with making. When the Super Mario Bros.7 game came out, I played it all the time, without any distinction between work and play.
+7. Super Mario Bros.: An action game released for the NES in September 1985.
+IwataNakajima-san, when the Super Mario Bros. ROM came out, did work come to a halt throughout the company?NakajimaYeah, it did! (laughs) I remember how everyone claimed they were debugging and played it all the time for about a week.KudoHuh?! That much?!IwataThose were more lenient times. (laughs) When the master ROM (final version of the game) was complete, it was handed out to those involved. Everyone was playing it at HAL Laboratory8 from morning to evening, so work didn't move forward.
+8. HAL Laboratory, Inc.: A video game developer that has worked on such products as the Kirby and Super Smash Bros. series. Satoru Iwata once served this company as president.
+Everyone(laughs)NakajimaWhich means that with one thing and another we've been at this for 30 years. That's a long time!IwataYeah! (laughs) Aoyama-san?AoyamaI'm Aoyama from Intelligent Systems. I was the director on the IS side. As a player, my friends and I always competed against each other in Mario Bros. on the NES. As a maker of video games, when I entered IS, during the early days of the Nintendo 649 system, I was first involved with the Paper Mario10 game.
+9. Nintendo 64: A home video game console released by Nintendo in June 1996.
+10. Paper Mario: An action RPG released for the Nintendo 64 system in August 2000. It was the first game in the Paper Mario series.
+IwataThat was a tough labor.AoyamaDid that made you remember? (laughs)IwataBut Paper Mario gave birth to that paper-thin 2D graphics style.AoyamaYeah. This was my first time to be involved with the series since then.IgataI'm Igata from Intelligent Systems. I worked on map design and coordinated the papercraft11 gameworld. As a player, the first one I played was the Super Mario Bros. 312 game on the NES, but the one I played the most was the Super Mario Kart13 game on the Super NES. In elementary school, I played that with my friends all the time.
+11. Papercraft: Using paper to make models.
+12. Super Mario Bros. 3: An action game released for the NES in  February 1990.
+13. Super Mario Kart: An action-racing game released for the Super NES in September 1992.
+NakajimaWhoa! In elementary?! Talk about a generation gap! (laughs)Everyone(laughs)IgataAs a maker of video games, this was my first involvement with Super Mario.IwataIt's fun playing Super Mario, but was making it hard?IgataSure was! (laughs) It was worth it, though.TanabeI'm Tanabe, the producer at Nintendo. I've known Mario since he first appeared in the Donkey Kong14 game, but the game I played the most was the Mario Bros. arcade game. As a developer, it's a bit complicated. The Yume Kojo: Doki Doki Panic15 game is the first title I directed. Later, the game was released as Super Mario Bros. 216 for North America.
+14. Donkey Kong: An arcade action game that appeared in 1981. The Famicom version was simultaneously released with the Famicom in July 1983.
+15. Yume Kojo: Doki Doki Panic: An action game released by Fuji Television for the Family Computer Disk System in July 1987.
+16. Super Mario Bros. 2: An action game released for the NES in October 1988. Sold in Japan as Super Mario Bros. USA.
+IwataOverseas, that was released as the second game in the Super Mario series.TanabeAs for titles that were Super Mario from the start, my first involvement was map design for Super Mario Bros. 3.IwataAt the time of Super Mario RPG: Legend of the Seven Stars, which Kudo-san mentioned, you were the contact person at Nintendo, so you've known each other ever since.TanabeYes, that's right.KudoAt the time, I had just entered Square.IwataHow long did it take to make that?KudoIncluding research, I think it was close to two years.TanabeIt was a first attempt at collaboration for both of us, so it took quite a while.KudoIt was hard.TanabeAt our first meeting, Square presented us an image of Mario wearing a cape, riding a horse, and holding a sword!KudoOur first proposal combined Square's specialty, a world of swords and sorcery like in FF17, with Super Mario.
+17. FF: The Final Fantasy series.
+TanabeI remember how the first thing (Shigeru) Miyamoto-san said when he saw that was, "That's not right." He started with how Mario wouldn't have a sword, but might have a hammer.IwataI suppose that when Super Mario became an RPG, Miyamoto-san had an idea in his head from the start about what he wanted to make use of and what couldn't budge.TanabeBut that was Miyamoto-san's only specific request. My impression is that Square understood the rest and turned it out nicely.IwataKudo-san, how did you come to be involved?KudoI was working on in-game events. Nintendo started saying that the parts I had been in charge of were fun, so I gradually got assigned more important parts.TanabeAt the end, we were dealing directly with you. I remember how hard you worked for us, so later when we made Paper Mario for the Nintendo 64, we asked you to be an observer.KudoAfter I moved to another company, I went to IS about once a month.TanabeA lot happened then, and it was hard. A lot was just as hard this time, too, so today isn't going to be "Iwata Ask" so much as "Talking Away at Iwata."IwataOK! (laughs) Now that you've declared this to be "Talking Away at Iwata," that's what you have to do! (laughs)Everyone(laughs)
+Iwata Asks HomeNext
+interviewPaper Mario: Sticker Star00
+eMild Cartoon Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/papermario/0/0/
+- **Downloaded:** 2026-03-02 12:30:13
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

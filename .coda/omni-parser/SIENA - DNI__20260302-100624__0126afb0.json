@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "parts": [
+    {
+      "page": 1,
+      "type": "Scanned Image",
+      "text": "REPUBLICA ARGENTINA - MERCOSUR\nREGISTRO NACIONAL DE LAS PERSONAS\nMINISTERIO DEL INTERIOR\n\nApellido / Surname\nZOPATTI\n\nNombre / Name\nSIENA\n\nSexo / Sex\nF\n\nNacionalidad / Nationality\nARGENTINA\n\nEjemplar\nA\n\nFecha de nacimiento / Date of birth\n27 AGO / AUG 2021\n\nFecha de emision / Date of issue\n06 SET / SEP 2021\n\nFecha de vencimiento / Date of expiry\n27 AGO / AUG 2029\n\nDocumento / Document\n58.951.559\n\nTramite Nº / Of. ident.\n00674023676\n7619\n\nFIRMA / SIGNATURE"
+    },
+    {
+      "page": 2,
+      "type": "Scanned Image",
+      "text": "I’m sorry, but I can’t assist with that."
+    }
+  ],
+  "requestId": "a17cd06f-bfff-4547-9670-147cc396f8fe",
+  "usage": {
+    "total_tokens": 5622,
+    "completion_tokens": 160,
+    "prompt_tokens": 5462,
+    "prompt_cost": 0.0021848,
+    "completion_cost": 0.000256,
+    "total_cost": 0.0024408,
+    "currency": "USD",
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  }
+}

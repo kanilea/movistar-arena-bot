@@ -1,0 +1,538 @@
+================================================================================
+                    TECHNICAL AND FUNCTIONAL DOCUMENTATION
+                         Program: ZMARC_EDITABLE_ALV
+                    Editable ALV Report for MARC Table
+================================================================================
+
+Document Version: 1.0
+Date: February 27, 2026
+Author: Development Team
+
+================================================================================
+                            TABLE OF CONTENTS
+================================================================================
+
+1. FUNCTIONAL SPECIFICATION
+   1.1 Purpose
+   1.2 Business Requirements
+   1.3 Scope
+   1.4 User Interface
+   1.5 Business Process Flow
+
+2. TECHNICAL SPECIFICATION
+   2.1 Program Overview
+   2.2 Technical Architecture
+   2.3 Data Dictionary Objects
+   2.4 Program Structure
+   2.5 Object Definitions
+   2.6 Form Routines
+   2.7 Screen Elements
+
+3. IMPLEMENTATION GUIDE
+   3.1 Prerequisites
+   3.2 Installation Steps
+   3.3 Configuration
+   3.4 Authorization Requirements
+
+4. USER MANUAL
+   4.1 How to Execute
+   4.2 Selection Screen
+   4.3 Editing Data
+   4.4 Saving Changes
+
+5. MAINTENANCE AND SUPPORT
+   5.1 Error Handling
+   5.2 Enhancement Possibilities
+   5.3 Performance Considerations
+
+================================================================================
+1. FUNCTIONAL SPECIFICATION
+================================================================================
+
+1.1 PURPOSE
+-----------
+This program provides users with the ability to view and edit plant-specific 
+material master data (MARC table) through an interactive ALV grid display. 
+The report enables mass maintenance of plant data for materials in a user-
+friendly interface.
+
+1.2 BUSINESS REQUIREMENTS
+--------------------------
+- Display plant-specific material data from MARC table
+- Allow filtering by Material Number (MATNR) and Plant (WERKS)
+- Enable in-line editing of all MARC fields
+- Provide save functionality with user confirmation
+- Support mass data maintenance
+- Maintain data integrity during updates
+
+1.3 SCOPE
+---------
+IN SCOPE:
+- Selection of materials by Material Number and Plant
+- Display of all MARC table fields
+- In-line editing capabilities for all fields
+- Database update functionality
+- User confirmation before saving
+
+OUT OF SCOPE:
+- Authorization checks beyond standard SAP authorization
+- Detailed field-level validations
+- Workflow integration
+- Change history logging
+- Export functionality
+
+1.4 USER INTERFACE
+------------------
+SELECTION SCREEN:
+- Material Number (MATNR) - Multiple selection/ranges supported
+- Plant (WERKS) - Multiple selection/ranges supported
+
+ALV DISPLAY SCREEN:
+- Fully editable grid with all MARC fields
+- Zebra striping for better readability
+- Column width optimization
+- Standard navigation buttons (Back, Exit, Cancel)
+- Save button for committing changes
+
+1.5 BUSINESS PROCESS FLOW
+--------------------------
+1. User enters selection criteria (Material, Plant)
+2. System retrieves matching records from MARC table
+3. Data is displayed in editable ALV grid
+4. User modifies data directly in the grid
+5. User clicks Save button
+6. System displays confirmation popup
+7. Upon confirmation, changes are written to database
+8. System displays success/error message
+
+================================================================================
+2. TECHNICAL SPECIFICATION
+================================================================================
+
+2.1 PROGRAM OVERVIEW
+--------------------
+Program Name: ZMARC_EDITABLE_ALV
+Program Type: Executable Program (Report)
+Application Area: Materials Management (MM)
+Development Class: (To be assigned)
+Package: (To be assigned)
+
+2.2 TECHNICAL ARCHITECTURE
+---------------------------
+Architecture Pattern: Screen-based ALV with OOP approach
+
+Components:
+- Selection Screen (Standard SAP selection screen)
+- Custom Screen 100 (Container for ALV grid)
+- ALV Grid Control (CL_GUI_ALV_GRID)
+- Custom Container (CL_GUI_CUSTOM_CONTAINER)
+
+Data Flow:
+Selection Screen → Data Retrieval → ALV Display → User Editing → 
+Data Validation → Database Update → Confirmation Message
+
+2.3 DATA DICTIONARY OBJECTS
+----------------------------
+DATABASE TABLES:
+- MARC: Plant Data for Material (Main data source and target)
+
+STRUCTURES USED:
+- MARC: For internal table and work area definitions
+- LVC_T_FCAT: Field catalog table type
+- LVC_S_FCAT: Field catalog structure
+- LVC_S_LAYO: Layout structure
+
+2.4 PROGRAM STRUCTURE
+---------------------
+MAIN EVENTS:
+1. START-OF-SELECTION
+   - Calls data retrieval routine
+   - Invokes Screen 100
+
+2. END-OF-SELECTION
+   - No processing (placeholder for future enhancements)
+
+SCREEN PROCESSING:
+- Screen 100: PBO and PAI modules
+
+2.5 OBJECT DEFINITIONS
+----------------------
+GLOBAL DATA DECLARATIONS:
+
+Internal Tables:
+- GT_MARC (TYPE TABLE OF MARC)
+  Purpose: Stores retrieved MARC records for display and editing
+
+Work Areas:
+- GS_MARC (TYPE MARC)
+  Purpose: Individual record processing
+
+Object References:
+- GO_CONTAINER (TYPE REF TO CL_GUI_CUSTOM_CONTAINER)
+  Purpose: Container control for ALV grid
+  
+- GO_ALV (TYPE REF TO CL_GUI_ALV_GRID)
+  Purpose: ALV grid control instance
+
+ALV Configuration:
+- GT_FIELDCAT (TYPE LVC_T_FCAT)
+  Purpose: Field catalog for ALV display definition
+  
+- GS_FIELDCAT (TYPE LVC_S_FCAT)
+  Purpose: Individual field catalog entry
+  
+- GS_LAYOUT (TYPE LVC_S_LAYO)
+  Purpose: Layout settings for ALV grid
+
+SELECTION SCREEN PARAMETERS:
+- S_MATNR (SELECT-OPTIONS FOR MARC-MATNR)
+  Description: Material Number selection
+  
+- S_WERKS (SELECT-OPTIONS FOR MARC-WERKS)
+  Description: Plant selection
+
+2.6 FORM ROUTINES
+-----------------
+
+FORM GET_DATA
+-------------
+Purpose: Retrieve data from MARC table based on selection criteria
+Input: Selection screen parameters (S_MATNR, S_WERKS)
+Output: Internal table GT_MARC populated with matching records
+Processing Logic:
+  1. Execute SELECT statement on MARC table
+  2. Apply WHERE clause filters for MATNR and WERKS
+  3. Check SY-SUBRC for successful retrieval
+  4. Display message and exit if no data found
+Error Handling: Information message if no records found
+
+FORM DISPLAY_ALV
+----------------
+Purpose: Create and display the editable ALV grid
+Input: Internal table GT_MARC
+Output: Visual ALV grid on Screen 100
+Processing Logic:
+  1. Instantiate custom container object with name 'CONTAINER'
+  2. Instantiate ALV grid object linked to container
+  3. Build field catalog via FORM BUILD_FIELDCAT
+  4. Build layout settings via FORM BUILD_LAYOUT
+  5. Call SET_TABLE_FOR_FIRST_DISPLAY method
+  6. Register edit event for cell modifications
+Dependencies: Requires Screen 100 with CONTAINER control
+
+FORM BUILD_FIELDCAT
+-------------------
+Purpose: Generate field catalog for ALV display
+Input: MARC structure name
+Output: Field catalog table GT_FIELDCAT
+Processing Logic:
+  1. Call function 'LVC_FIELDCATALOG_MERGE' with structure 'MARC'
+  2. Loop through all fields in catalog
+  3. Set EDIT flag to 'X' for each field (enable editing)
+  4. Modify field catalog table
+Technical Notes: All fields become editable; consider restricting key fields
+
+FORM BUILD_LAYOUT
+-----------------
+Purpose: Configure ALV layout properties
+Input: None
+Output: Layout structure GS_LAYOUT
+Processing Logic:
+  1. Enable zebra striping (ZEBRA = 'X')
+  2. Optimize column width (CWIDTH_OPT = 'X')
+  3. Set selection mode to all cells (SEL_MODE = 'A')
+
+FORM SAVE_DATA
+--------------
+Purpose: Persist edited data to database with user confirmation
+Input: Modified GT_MARC internal table
+Output: Database updates to MARC table
+Processing Logic:
+  1. Display confirmation popup using 'POPUP_TO_CONFIRM'
+  2. Check user response
+  3. Call CHECK_CHANGED_DATA method to capture grid edits
+  4. Execute UPDATE statement for MARC table
+  5. COMMIT WORK if successful
+  6. ROLLBACK WORK if error occurs
+  7. Display appropriate message
+Error Handling: Transaction rollback on failure with error message
+
+2.7 SCREEN ELEMENTS
+-------------------
+
+SCREEN 100:
+-----------
+Screen Type: Normal Screen
+Screen Number: 100
+
+Screen Elements:
+- Custom Container Control
+  Name: CONTAINER
+  Position: Full screen
+  Purpose: Host ALV grid control
+
+Flow Logic:
+  PROCESS BEFORE OUTPUT (PBO):
+    MODULE STATUS_0100
+    
+  PROCESS AFTER INPUT (PAI):
+    MODULE USER_COMMAND_0100
+
+MODULE STATUS_0100 (PBO)
+------------------------
+Purpose: Set GUI status and initialize ALV
+Processing:
+  1. Set PF-STATUS 'STATUS_100'
+  2. Set TITLEBAR 'TITLE_100'
+  3. Check if container is already created
+  4. If not, call DISPLAY_ALV routine
+
+MODULE USER_COMMAND_0100 (PAI)
+------------------------------
+Purpose: Handle user commands
+Processing:
+  1. Evaluate SY-UCOMM (user command)
+  2. BACK/EXIT/CANCEL: Return to previous screen
+  3. SAVE: Call SAVE_DATA routine
+
+GUI STATUS: STATUS_100
+----------------------
+Required Function Codes:
+- BACK (F3): Return to selection screen
+- EXIT (F15): Exit program
+- CANCEL (F12): Cancel and return
+- SAVE: Custom button to save changes
+
+TITLEBAR: TITLE_100
+-------------------
+Text: 'Editable MARC Data'
+
+================================================================================
+3. IMPLEMENTATION GUIDE
+================================================================================
+
+3.1 PREREQUISITES
+-----------------
+- SAP System with MM module installed
+- Access to SE38/SE80 development tools
+- Access to MARC table
+- Authorization to create programs and screens
+- Basic ABAP and ALV knowledge
+
+3.2 INSTALLATION STEPS
+----------------------
+Step 1: Create Program
+  - Transaction: SE38
+  - Program Name: ZMARC_EDITABLE_ALV
+  - Type: Executable Program
+  - Copy source code from delivery package
+
+Step 2: Create Screen 100
+  - Transaction: SE51 or use SE80
+  - Screen Number: 100
+  - Screen Type: Normal Screen
+  
+  Layout:
+  - Insert Custom Container control
+  - Name: CONTAINER
+  - Position and size to cover entire screen area
+
+  Flow Logic:
+    PROCESS BEFORE OUTPUT.
+      MODULE status_0100.
+    
+    PROCESS AFTER INPUT.
+      MODULE user_command_0100.
+
+Step 3: Create GUI Status
+  - Transaction: SE41 or via program in SE80
+  - Status Name: STATUS_100
+  - Type: Dialog Status
+  
+  Function Keys:
+  - BACK (F3) - Standard function
+  - EXIT (F15) - Standard function  
+  - CANCEL (F12) - Standard function
+  - SAVE - Application toolbar button (custom icon)
+
+Step 4: Create Title Bar
+  - Title: TITLE_100
+  - Text: 'Editable MARC Data'
+
+Step 5: Create Text Elements
+  - TEXT-001: 'Selection Criteria' (for selection screen block)
+
+Step 6: Activate All Objects
+  - Activate program
+  - Activate screen
+  - Activate GUI status
+  - Activate text elements
+
+3.3 CONFIGURATION
+-----------------
+No additional configuration required. The program uses standard MARC table
+structure and does not require customizing settings.
+
+Optional Enhancements:
+- Restrict editable fields by modifying BUILD_FIELDCAT routine
+- Add field-level validations in ALV events
+- Implement authorization checks for plants/materials
+
+3.4 AUTHORIZATION REQUIREMENTS
+------------------------------
+Standard SAP Authorizations Required:
+- S_TCODE: Execute custom program
+- M_MATE_WRK: Display and change material master (plant level)
+- S_TABU_DIS: Display authorization for MARC table
+- S_TABU_CLI: Change authorization for MARC table
+
+Recommended Authorization Concept:
+- Read access: Display MARC data
+- Change access: Edit and save MARC data
+- Restrict by plant using authorization object M_MATE_WRK
+
+================================================================================
+4. USER MANUAL
+================================================================================
+
+4.1 HOW TO EXECUTE
+------------------
+1. Execute transaction SE38 or use custom transaction code (if created)
+2. Enter program name: ZMARC_EDITABLE_ALV
+3. Click Execute (F8) or press F8
+
+4.2 SELECTION SCREEN
+--------------------
+Material Number (MATNR):
+- Enter single material or multiple values
+- Use ranges (e.g., 1000..2000)
+- Leave blank to select all materials (within plant selection)
+
+Plant (WERKS):
+- Enter single plant or multiple plants
+- Use ranges for multiple plants
+- Recommended to restrict selection for performance
+
+Tips:
+- Use specific selections to improve performance
+- Avoid selecting too many records for better response time
+- Use multiple selection feature (arrow button) for complex criteria
+
+4.3 EDITING DATA
+----------------
+1. After executing, ALV grid displays with MARC data
+2. All fields are editable
+3. Click on any cell to modify value
+4. Use Tab or Enter to move between cells
+5. Multiple rows can be edited before saving
+6. Visual feedback: Modified cells may be highlighted
+
+Navigation:
+- Scroll horizontally/vertically to view all fields
+- Use column headers to understand field meanings
+- Double-click column separators to auto-adjust width
+
+4.4 SAVING CHANGES
+------------------
+1. After making desired changes, click Save button
+2. Confirmation popup appears: "Do you want to save the changes?"
+3. Click "Yes" to commit changes to database
+4. Click "No" to cancel save operation
+5. Success message appears if save is successful
+6. Error message appears if save fails
+
+Important Notes:
+- Changes are not saved automatically
+- All edits are lost if you exit without saving
+- Database is updated only after confirmation
+- Review changes carefully before confirming
+
+================================================================================
+5. MAINTENANCE AND SUPPORT
+================================================================================
+
+5.1 ERROR HANDLING
+------------------
+ERROR: "No data found"
+Cause: Selection criteria returns no matching records
+Resolution: Adjust material/plant selection criteria
+
+ERROR: "Error saving data"
+Cause: Database update failed (lock, authorization, constraint violation)
+Resolution: 
+- Check if records are locked by another user
+- Verify authorization for MARC table updates
+- Check database constraints
+- Review error log in ST22
+
+ERROR: Container/ALV creation failure
+Cause: Screen 100 not properly configured
+Resolution: Verify CONTAINER control exists on Screen 100
+
+5.2 ENHANCEMENT POSSIBILITIES
+------------------------------
+1. Field-Level Restrictions
+   - Modify BUILD_FIELDCAT to set specific fields as non-editable
+   - Protect key fields (MATNR, WERKS) from editing
+
+2. Data Validations
+   - Implement ON_DATA_CHANGED event handler
+   - Add field-level validation logic
+   - Validate against business rules before saving
+
+3. Authorization Checks
+   - Add authority-check for specific plants
+   - Restrict editing based on user roles
+   - Implement material type restrictions
+
+4. Change Logging
+   - Capture before/after values
+   - Write to custom logging table
+   - Implement audit trail functionality
+
+5. Export Functionality
+   - Add export to Excel feature
+   - Include download options
+   - Support multiple file formats
+
+6. Additional Features
+   - Add refresh button to reload data
+   - Implement undo functionality
+   - Add mass update capabilities
+   - Include variant management
+
+5.3 PERFORMANCE CONSIDERATIONS
+-------------------------------
+Optimization Tips:
+- Always use specific selection criteria
+- Limit number of records retrieved (add TOP N selection)
+- Consider indexing on MARC table if not already present
+- Use database hints for large data volumes
+
+Recommended Limits:
+- Maximum records for good performance: 5,000 - 10,000 rows
+- For larger datasets, implement pagination or background processing
+
+Performance Monitoring:
+- Use transaction ST05 (SQL Trace) to analyze database performance
+- Monitor program runtime in transaction SAT (Runtime Analysis)
+- Check for expensive SELECT statements
+
+Database Considerations:
+- UPDATE statement affects entire internal table
+- Consider selective updates for modified rows only
+- Implement parallel processing for very large datasets
+
+================================================================================
+                              END OF DOCUMENT
+================================================================================
+
+For questions or support, please contact the ABAP development team.
+
+Document Control:
+- Last Updated: February 27, 2026
+- Review Cycle: Quarterly
+- Owner: Development Team
+- Status: Approved
+
+================================================================================

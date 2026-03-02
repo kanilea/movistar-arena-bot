@@ -1,0 +1,46 @@
+# Wii
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeWii
+Iwata Asks: Kirby's Epic Yarn
+1. Using Real Yarn and Cloth2. "Why Not Make It Kirby?"3. "I Want to Make a Fun Game!"4. Three Themes: Surprise, Fun and Warmth5. Surprising and Humorous Sound6. Three Months Designing Kirby
+Using Real Yarn and ClothIwataThank you for coming today, everyone.EveryoneIt's our pleasure.IwataI want to convey fully to the people of the world how the game Kirby's Epic Yarn was made, so I invited the developers to gather here today. During the first half of this session of "Iwata Asks," I will be speaking with developers from Good-Feel1 and Nintendo, and during the second half I'll move on to the developers from HAL Laboratory.2 Could everyone from Good-Feel please introduce themselves?
+1
+Good-Feel Co., Ltd.: A software developer whose key concept in development is making some things that "feel good." Good-Feel's main office is in Kobe, while their development activities are based in Tokyo.
+2
+HAL Laboratory, Inc.: A software developer that has worked on the Kirby and Super Smash Bros. series, among others. Nintendo president and CEO Satoru Iwata worked as president for HAL Laboratory. In 2010, HAL Laboratory celebrates the thirtieth year since its founding.
+EbisuI'm Ebisu from Good-Feel. As one of the producers of this game, I was in charge of management and administration at Good-Feel. I could say I also did a lot of random chores, but this time I went beyond that and did a number of things as a member of the staff actually making the game.IwataYou were a producer, but you also immersed yourself in actually making the game.EbisuYes. I was fully immersed in it.SeiI'm Sei from Good-Feel. I was director of this game. But for the most part, I too was just performing random chores. (laughs)IwataEveryone's making a lot of doing random chores. (laughs) That's a good thing.SeiYeah. (laughs) I did a lot in a variety of different areas.KonoI'm Kono from Good-Feel. I was chief planner during the planning phase, but early after the project had begun, I was in charge of designing the game world as chief designer. For the most part, this was my first time to be so broadly involved in game development, so this title came to mean a lot for me.IwataIn addition to design, you were also involved in planning.KonoYes. Until now, I've worked as a designer on aspects of video games that are visible to the eye, but this time I was thinking from start to finish about how I could make the game fun through the various mechanisms in it.IwataAnd now would the two of you from Nintendo also introduce yourselves?MatsumiyaI'm Matsumiya from the Software Planning & Development Department. I, too, was a producer. This is the second game, after Looksley's Line Up, that I have produced together with Good-Feel. This time, I offered my opinions over a wide variety of subjects, from broad areas like the general direction the product should take to adjusting the finer details of the levels—like raising platforms a little higher and so on.IwataYou have experience working in the Software Quality Assurance Department, the predecessor of the Mario Club4, and you've always been good at playing video games, so you're a producer with a solid perspective when it comes to adjusting difficulty levels and designing maps.MatsumiyaYeah. (laughs) In the past, I've been involved in activities like adjusting the maps for action games.
+3
+Looksley's Line Up: A puzzle-adventure game released for the DSiWare service in May 2010. Players turn their head or Nintendo DSi system to peer into 3D images on the screens in order to find hidden items or words. Nintendo DSi Points: 500. For more about this game, click here.
+4
+Mario Club Co., Ltd. is responsible for the debugging and test play of Nintendo software during its development.
+WatanabeI'm Watanabe from the Software Planning & Development Department. I helped coordinate the project. I'm not good at playing video games like Matsumiya-san is, and it was my first time to work on an action game. Even though I didn't have any particular knowledge to apply, I would say things like "This stage is sort of boring" and "It's kind of hard here."IwataYou were in charge of taking the place of beginning players and voicing your undefined feelings. (laughs) That's important for a Kirby game.WatanabeYeah. (laughs) Even if I just had a vague feeling, I tried to tell them what it was.IwataDid you perform random chores, too?WatanabeOh right, I was gonna say that. (laughs)Everyone(laughs)Watanabe
+I did, of course, do random chores too.IwataI like the way everyone on the team is bragging about doing random chores. (laughs) People tend to treat such tasks as something that you don't do unless you have to, but a team that has lots of members willing to perform such odd jobs will run smoothly. I think that may have something to do with how attractive this game has turned out to be.
+Ebisu-san, could you tell us a little bit about Good-Feel?
+EbisuSure. Good-Feel was established in 2005, so it's been around for about five years. It was formed by people who had built up experience in the gaming industry and wanted to make a go of it on their own. Kirby's Epic Yarn is our third game developed together with Nintendo, following Wario Land: Shake It!5 and Looksley's Line Up.
+5
+Wario Land: Shake It!: An action game released for the Wii console in July 2008.
+IwataHow many people do you have in the company?EbisuWe've gradually increased in number. Right now we have a little less than 70 people.IwataWhat are you guys good at?EbisuGood-Feel was formed by people who had worked on action games, so we're good at action games, but we've built up experience in a variety of genres, and we want to keep working in new areas. So this time, we wanted to do something new and developed the game with an attitude of starting from scratch.IwataI see. By the way, Kirby's Epic Yarn wasn't originally intended to be a Kirby game. You really did start from scratch and for a while were making a completely new title called Fluff's Epic Yarn. Fluff, the main character at that time, shows up in Kirby's Epic Yarn, too. A "world of yarn" has been the setting for this game from the very start. How did you come up with the idea of a world of yarn?EbisuThe person who came up with the original idea was Madoka Yamauchi, director of Wario Land: Shake It! He's Planning Section Manager of Good-Feel, and one day he came to me with that idea. When I asked him how he came up with it, he said it just sorta came to him.Iwata"Just sorta"?! (laughs)WatanabeHa ha ha. (laughs)EbisuRight then and there, I thought it was a good idea and decided to come up with the proposal for a video game incorporating specifications unique to yarn and a game world with certain warmth to it.IwataKono-san, you did the visuals for the proposal, didn't you?KonoYes. I worked on them together with Tsukawaki, head of our design department. The images in a proposal don't move, so we bought a bunch of cloth and took pictures of it to use. We actually used yarn and literally sat there trying different things out and tossing around ideas. Craft materials were spread all across the desk. It didn't look like we were working on a video game at all.IwataSei-san, you saw that, didn't you?SeiI did. But at that time I had no idea I would end up being the director. So when I first saw the proposal, I was like, "Huh?…Oh!"Everyone(laughs)IwataAt first you didn't quite get it, but then you were like, "Wow!"SeiRight. Then after making the proposal, we presented it to Nintendo.IwataMatsumiya-san, you were there that day. What did you think when you first saw it?MatsumiyaI was pretty shocked right from the very first page.IwataIt had visual impact. MatsumiyaYeah. I've encountered a lot of games, but the first thing I thought was that I'd never seen anything like it. Then when they showed me how we could play with the yarn, I thought, "This is amazing!"IwataYou could say that Kono-san's visuals inspired everyone to take up the project.KonoThat's why when the project later got approved, I was like (pumping his fist), "Yes! I did it!" (laughs)IwataAfter the project was officially approved, did you make a prototype?EbisuYes.IwataDid that go smoothly?EbisuYes. It took about three months to make it, but it went really smoothly. Up to that point, that is. (laughs)IwataAnd only until then?EbisuYeah. That far and no further.
+Iwata Asks HomeNext
+interviewKirby's Epic Yarn00
+eMild Cartoon Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Wii
+- **URL:** https://iwataasks.nintendo.com/interviews/wii/kirbysepicyarn/0/0/
+- **Downloaded:** 2026-03-02 12:31:25
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

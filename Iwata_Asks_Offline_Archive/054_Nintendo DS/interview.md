@@ -1,0 +1,86 @@
+# Nintendo DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo DS
+PokÃ©mon Black Version 2 and PokÃ©mon White Version 2
+1. Two Sequels Two Years Later2. One-Hundred-Player Multiplayer Gaming3. PokÃ©mon Space Fantasy4. A PokÃ©mon Center in the First City5. What PokÃ©mon Values6. Three Sacred Treasures
+Two Sequels Two Years LaterIwata
+I've gathered you all here before release of PokÃ©mon Black Version 2 and PokÃ©mon White Version 2 for the Nintendo DS system. Thank you for coming.
+Everyone
+Thank you for inviting us.
+Iwata
+I would like to jump right in by hearing how the idea for PokÃ©mon Black Version 2 and PokÃ©mon White Version 2 came about. Ishihara-san, if you would, please.
+Ishihara
+OK. I'm Ishihara from The PokÃ©mon Company1. PokÃ©mon Diamond Version and PokÃ©mon Pearl Version2 were followed by PokÃ©mon Platinum Version3, and PokÃ©mon Ruby Version and PokÃ©mon Sapphire Version4 were followed by PokÃ©mon Emerald Version5, so we discussed what kind of product would come together after PokÃ©mon Black Version and PokÃ©mon White Version6.
+1. The PokÃ©mon Company: In addition to brand management of everything related to PokÃ©mon, the company operates seven PokÃ©mon Centers around Japan. Founded in 2000. Headquarters: Tokyo.
+2. PokÃ©mon Diamond Version and PokÃ©mon Pearl Version: Video games released for the Nintendo DSâ¢ system in September 2006.
+3. PokÃ©mon Platinum Version: A game released for the Nintendo DS system in September 2008 as the new version of PokÃ©mon Diamond Version and PokÃ©mon Pearl Version.
+4. PokÃ©mon Ruby Version and PokÃ©mon Sapphire Version: Games released for the Nintendo Game Boy Advance system in November 2002.
+5. PokÃ©mon Emerald Version: A video game released for the Nintendo Game Boy Advance system in September 2004 as the new version of PokÃ©mon Ruby Version and PokÃ©mon Sapphire Version.
+6. PokÃ©mon Black Version and PokÃ©mon White Version: Games released for the Nintendo DS family of systems in September 2010.
+Iwata
+Like a difference in colorâfor example, "How about coming out with PokÃ©mon Gray Version?"
+Ishihara
+Yeah. But lots of players were expecting us to follow the same pattern, so for the first time we decided to try adding a "2" for a pleasant surprise.
+IwataSomething else that's different from the pattern so far is that you're releasing two games. When I first heard that, I couldn't help but say, "Huh? Two?!"Ishihara
+That sort of surprise is what gives this product its newness. I'd like to have Masuda-san and Unno-san talk about what we aimed for in sequels to PokÃ©mon Black Version and PokÃ©mon White Version.
+Iwata
+All right, Masuda-san?Masuda
+I'm Masuda from GAME FREAK7. As for why we're releasing two, we thought of a game mechanic to put in when we were developing PokÃ©mon Black Version and PokÃ©mon White Version, but we didn't have enough time to do it. We needed two games for that, so this time we decided to make two.
+7. GAME FREAK inc.: The video game developer responsible for the PokÃ©mon series and other titles. Founded in 1989.
+Iwata
+So that's why you made two.Masuda
+Yes. A little later, we thought of making them sequels. When you told me that if we were going to release something for the Nintendo DS system, we had to come up with something new, I was really worried. (laughs) Then I thought, "How about sequels?"
+Iwata
+For games to have sequels is nothing unusual, but we'd never taken that direction with PokÃ©mon, so it was new.Masuda
+Yeah. And as for why we made it for the Nintendo DS system instead of Nintendo 3DS system, we wanted to make the same gameworld. Both games are set two years later than the first two.
+Iwata
+It's also two years later in the real world since PokÃ©mon Black Version and PokÃ©mon White Version came out.Masuda
+Yes. Then I appointed Unno-san to be director and had him start the project.
+Iwata
+Unno-san, would you please introduce yourself?Unno
+Sure. I'm Unno from GAME FREAK. I was director of PokÃ©mon Black Version 2 and PokÃ©mon White Version 2. It's nice to meet you.
+Iwata
+It's nice to meet you, too. How long have you been involved with PokÃ©mon?Unno
+It's been exactly ten years. I first worked on PokÃ©mon Ruby Version and PokÃ©mon Sapphire Version. Since then, I've been involved with almost all of the main titles, like PokÃ©mon FireRed Version and PokÃ©mon LeafGreen Version8.
+8. PokÃ©mon FireRed Version and PokÃ©mon LeafGreen Version: Remakes of PokÃ©mon Red Version and PokÃ©mon Green Version with various new elements added. Released for the Nintendo Game Boy Advance system in January 2004.
+Iwata
+After ten years, a big role came your way. Has it changed a lot?Unno
+Yes, quite a lot. I had experience as art director, but this time I was in a position to offer instruction regarding the game's fundamentals, so while it was worthwhile, it was a struggle at first.
+Iwata
+Masuda-san, why did you have Unno-san be the director?Masuda
+I think highly of his ability as an art director, so I thought he would be able to further reinforce the visual sense of PokÃ©mon Black Version and PokÃ©mon White Version. I thought if someone lent support in planning, we could leave the directorial part to Unno-san. He was all for it, so I asked him to do it.
+Iwata
+So you pulled him out of his comfort zone to have him grow another step. Unno-san, when he first assigned you, what did you think?Unno
+I was surprised, of course, but I had told Masuda-san before that I wanted to be director. Every time we made a game, I thought, "Next, I want to develop this kind of gameplay!" Even when we made PokÃ©mon Black Version and PokÃ©mon White Version, which were supposed to be a grand culmination, I thought strongly, "There are still so many ways to expand this!"
+Iwata
+At the time of PokÃ©mon Black Version and PokÃ©mon White Version, I thought it was amazing how many elements you had packed into games for the Nintendo DS system, so this time, I couldn't imagine how you could ever develop it this much further. But this is how it turned out in response to the players two years later.Unno
+Yes. We put a number of new play ideas that use communication features into PokÃ©mon Black Version and PokÃ©mon White Version, but this time we also challenged ourselves to develop new gameplay that would have further evolved.Masuda
+And having the setting be two years later was just right. PokÃ©mon Black Version and PokÃ©mon White Version had a communication feature on the bottom screen called the C-Gear, and it was easy to imagine how that would evolve two years later.
+Iwata
+In other words, having those various elementsâa solid foundation, with a clear direction for expanding it, the idea of setting the games two years later, and the new style of making two sequelsâmay have made it easier to make progress.
+Unno
+Yes. The keyword this time for PokÃ©mon Black Version 2 and PokÃ©mon White Version 2 was "resonance." In PokÃ©mon Black Version and PokÃ©mon White Version, you communicated with each other in a kind of "interference," but this time it's resonance, so we adopted gameplay that broadens each other's worlds.
+Iwata Asks HomeNext
+interviewPokÃ©mon Black Version 2 and PokÃ©mon White Version 200
+eComic Mischief|Mild Cartoon Violence
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo DS
+- **URL:** https://iwataasks.nintendo.com/interviews/ds/pokemon-black2-white2/0/0/
+- **Downloaded:** 2026-03-02 12:30:59
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

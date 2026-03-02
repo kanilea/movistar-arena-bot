@@ -1,0 +1,53 @@
+# Nintendo 3DS
+
+**Iwata Asks Interview Series**
+
+---
+
+Iwata Asks HomeNintendo 3DS
+See All VolumesSelect the volume you would like to read:Volume 1 : Professor Layton and the Mask of MiracleVolume 2 : Samurai Warriors ChroniclesVolume 3 : Pro Evolution Soccer 2011 for Nintendo 3DSVolume 4 : Ridge Racer 3DVolume 5 : Super Street Fighter IV 3D EditionVolume 6 : Dead or AliveVolume 7 : Resident Evil: Mercenaries 3D / Resident Evil: RevalationsVolume 8 : Tales of the AbyssVolume 9 : Resident Evil: RevelationsVolume 10 : Tekken 3D: Prime EditionVolume 11 : THEATRHYTHM FINAL FANTASYVolume 12 : KINGDOM HEARTS 3D [Dream Drop Distance]
+Volume 2 : Samurai Warriors Chronicles
+1. Visiting the Video Arcade in the Second Grade2. Smiling over the Manual3. A Warriors Game on Two Screens4. Just Like on a Home Console5. Forty Warlords, All Heroes
+Visiting the Video Arcade in the Second GradeIwataToday I'm talking with Koinuma-san, who is in charge of the Warriors series1 at Tecmo Koei Games.2Thank you for coming today.KoinumaThank you for inviting me.
+1. Warriors series: A series of games with its roots from the game Dynasty Warriors 2. It consists of 3D action games in which players fight multiple opponents. The series has many games such as Samurai Warriors, Dynasty Warriors: Gundam and Fist of the North Star: Ken's Rage.
+2. Tecmo Koei Games Co., Ltd.: The company formed when Koei Co., Ltd. and Tecmo, Ltd. merged in 2010. Headquarters: Yokohama City, Kanagawa Prefecture.
+IwataBefore we talk about Samurai Warriors Chronicles, the new software for Nintendo 3DS Iâd like to ask about how you first got into video games. How long ago did you first encounter video games?KoinumaMy memory is a little foggy, but I was definitely interested in video games in the second grade of elementary school.IwataWhat kind of games were you interested in then?KoinumaI especially liked an arcade game called Head On.3IwataOh, Head On? There was a maze and you raced your car through it while picking up dots, right?KoinumaRight.
+3. Head On: An arcade game released by SEGA Corporation in 1979, widely recognized  as the first dot-eating game ever.
+IwataWhat made you interested in arcade games as early as the second grade?KoinumaI have a brother three years older than I am. He took me to a video arcade run by the family of one of his friends.IwataYou formed a connection with video arcades when you were still relatively little.KoinumaYes. Even before the Famicom system came out, I was playing Donkey Kong4 and Mario Bros.5 games at the video arcade.
+4. Donkey Kong™: An arcade action game that appeared in 1981. The Famicom version appeared in 1983.
+5. Mario Bros.™: An action game that appeared in arcades in 1983 and was also released the same year for the Famicom system.
+IwataI see. So that's when you became interested in playing video games. When did you start thinking about making them?KoinumaI started thinking about making video games in junior high. Do you know about the magazine "BA(bay)-Maga" that existed back then?IwataYes, I remember it. You mean My-Com BASIC Magazine.6KoinumaYeah. There was a page in it for submitting your own programs.IwataThe Internet didn't exist back then, so monthly magazines were the main source of information. You could try out the programs found in it or mail in programs you had made yourself.
+6. My-Com BASIC Magazine: A Japanese computing magazine published by Dempa Publications, Inc. from 1982 to 2003.
+KoinumaRight. Personal computers were really expensive back then, and I was just in junior high, so I couldn't get one. But I imagined programs and wrote them out by hand just for fun. Even though I didn't know if they would work! (laughs)IwataI think a lot of people who took an interest in video games back then approached them from the aspect of programming. I'm an example of that myself.KoinumaYes. I wanted a computer badly and pleaded with my parents to let me use some of my savings to buy one, but in the end they never let me.
+(Editorâs note: In Japan, children receive gift money called "Otoshidama" from their parents and relatives during the first few days of the New Year, but their parents often take a hold of it to control their savings.)IwataSo for quite a while you were a programmer in imagination only. (laughs)KoinumaYeah. (laughs) I would go to my friends' houses and have them let me use what we called hobby computersâlike Family BASIC7 and Pyuta.8 I think that continued up through about high school.
+7. Family BASIC: A peripheral product for the Famicom released in June 1984. It had a keyboard for users to create their own simple video game programs.
+8. Pyuta: A hobby computer released by Tomy Kogyo Co., Ltd. (now Tomy Co., Ltd. a.k.a. Takara Tomy). It allowed users to make their own video games.
+IwataSo you didn't get to use computers very much until you went to university?KoinumaRight. There weren't many universities or departments focusing on information technology back then, but I wanted to go somewhere with good computer facilities, so I entered the Department of Electronic and Computer Engineering at Tokyo Denki University. That's when I started using computers regularly.IwataDid you use the school's computers a lot even aside from class-related activities?KoinumaWell, to tell you the truth, I liked video games so much that I actually worked part-time at a video arcade from high school until graduating from university. So I was playing video games at the video arcade a lot. (laughs)Iwata(laughs) When it came time to choose a job, what did you think about as you decided on a company?KoinumaI had decided even before going to university that I wanted to work at a video game company.IwataOh? So that's why you chose the department?KoinumaYes. The only job hunting I did was to apply to about three video game companies. In 1994, I got into Koei9, or what's now Tecmo Koei Games.
+9. Koei Co., Ltd.: A video game developer and distributor founded in 1978. In 2010, it merged with Tecmo, Ltd.
+IwataKoei hadn't released the Warriors series yet.KoinumaNo.IwataOne of their representative games was Nobunaga's Ambition.10KoinumaBack then, they had Romance of the Three Kingdoms11 and a horse-racing game called Winning Post.12 People often ask me, "Why did you go to Koei?" In high school, I was in the astronomy club, and the clubroom had a computer and Romance of the Three Kingdoms.
+10. Nobunaga's Ambition: A history simulation game released by Koei Co., Ltd. in 1983.
+11. Romance of the Three Kingdoms: A history simulation game released by Koei Co., Ltd. in 1985.
+12. Winning Post: A horse-racing simulation game released by Koei Co., Ltd. in 1983.
+IwataWhy did the astronomy club's room have a copy of Romance of the Three Kingdoms?KoinumaThe computer was originally for simulating the heavenly bodies, but one of the older club members had brought in Romance of the Three Kingdoms.IwataAnd you played it. (laughs)KoinumaYeah. (laughs) That's how I learned that a company called Koei existed. And there was a "Dagashiya" (snack shop) that let me play its computer when I was in high school.
+(Editor's note: Around the time of Mr. Koinuma's childhood and adolescence, small mom-and-pop run snack shops called "Dagashiya" were commonly seen throughout Japan. These stores mainly catered to children and sold snacks, candies, toys and trinkets)
+IwataHuh? You played a computer at a snack shop?KoinumaYeah. (laughs) I think we could play for 30 minutes for something like 50 or 100 yen.IwataOh, you had to pay for the time you spent playing.KoinumaYeah. (laughs)IwataI have seen snack shops letting kids pay by the hour to play the Famicom system, butâ¦KoinumaSome did it for computers.IwataWow.KoinumaThat's how I first played Nobunaga's Ambition. So for me, Koei wasâ¦IwataIt's a company you were familiar with since high school.KoinumaYeah. Thatâs how I decided to be with this company.IwataI see. I think fate guides us to the people we meet, and helps decides where we are now.KoinumaIt sure does!
+Iwata Asks HomePreviousÂ Â Next
+interviewNintendo 3DS Third Party Game Developers10
+e-m
+
+---
+
+## Images
+
+
+---
+
+## Interview Info
+
+- **Title:** Nintendo 3DS
+- **URL:** https://iwataasks.nintendo.com/interviews/3ds/creators/1/0/
+- **Downloaded:** 2026-03-02 12:30:26
+
+---
+
+*Iwata Asks © Nintendo Co., Ltd. Archive created for preservation purposes.*

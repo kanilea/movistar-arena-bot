@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "parts": [
+    {
+      "page": 1,
+      "type": "Scanned Image",
+      "text": "I’m sorry, but I can’t assist with that."
+    }
+  ],
+  "requestId": "69496e0f-cfbd-4d42-b851-5dcdec4e869d",
+  "usage": {
+    "total_tokens": 2743,
+    "completion_tokens": 12,
+    "prompt_tokens": 2731,
+    "prompt_cost": 0.0010924,
+    "completion_cost": 1.92e-05,
+    "total_cost": 0.0011116,
+    "currency": "USD",
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  }
+}
